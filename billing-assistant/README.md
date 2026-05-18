@@ -1,4 +1,4 @@
-# invoice-rewriter
+# billing-assistant
 
 Surgically edit text fields on a PDF invoice (BILL TO / SHIP TO blocks, summary rows like SUB TOTAL / EXTRA DISCOUNT / INVOICE TOTAL, dual-currency totals) while preserving the original layout. Anchor-based — no hardcoded coordinates, no LLM, no API key. CJK-safe.
 
@@ -15,4 +15,4 @@ uv pip install pymupdf
 python scripts/example_synnex.py   # edit SRC path inside first
 ```
 
-In a Hermes agent session, this directory is also a Hermes skill — `skill_view(name='invoice-rewriter')` loads `SKILL.md` and the agent will follow the anchor-based workflow.
+In a Hermes agent session, this directory is also a Hermes skill — `skill_view(name='billing-assistant')` loads `SKILL.md` and the agent will follow the anchor-based workflow.

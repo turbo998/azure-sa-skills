@@ -1,5 +1,5 @@
 ---
-name: invoice-rewriter
+name: billing-assistant
 description: Rewrite specific fields in a text-based PDF invoice (BILL TO / SHIP TO, summary rows like SUB TOTAL / EXTRA DISCOUNT / INVOICE TOTAL, dual-currency totals) without re-laying-out the whole page. Anchor-based — no hardcoded coordinates, works across templates. Use when a partner gives you a source invoice PDF plus modification instructions (often as PDF annotations) and asks for a polished output PDF. CJK-safe, no LLM, no API key.
 version: 2.0.0
 author: fde
@@ -9,7 +9,7 @@ metadata:
     tags: [PDF, Invoice, Azure, CSP, PyMuPDF, Partner]
 ---
 
-# invoice-rewriter
+# billing-assistant
 
 Surgically edit text fields on a PDF invoice while preserving the original layout. Built for the SYNNEX-style CSP billing invoice but generalizes to any text-based PDF whose target fields can be located by nearby anchor text (e.g. "BILL TO", "SUB TOTAL").
 
@@ -45,7 +45,7 @@ uv pip install -q pymupdf
 Always start by extracting annotations so you know what the partner wants changed:
 
 ```python
-import sys; sys.path.insert(0, "/home/azureuser/.hermes/profiles/fde/skills/productivity/invoice-rewriter/scripts")
+import sys; sys.path.insert(0, "/home/azureuser/.hermes/profiles/fde/skills/productivity/billing-assistant/scripts")
 from invoice_edit import Invoice
 
 inv = Invoice("source.pdf")

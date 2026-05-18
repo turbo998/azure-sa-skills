@@ -6,7 +6,7 @@ Azure SA（Solution Architect）日常工作相关的 Hermes / GitHub Copilot sk
 
 ### 客户交付 / Partner-facing
 
-- [`invoice-rewriter/`](./invoice-rewriter/) — Anchor-based PyMuPDF 工具，把合作伙伴/CSP 寄来的原始账单 PDF（含批注修改要求）改写为客户成品账单，保留版式、支持双币种、自动剥除批注。无 LLM。
+- [`billing-assistant/`](./billing-assistant/) — Anchor-based PyMuPDF 工具，把合作伙伴/CSP 寄来的原始账单 PDF（含批注修改要求）改写为客户成品账单，保留版式、支持双币种、自动剥除批注。无 LLM。
 - [`openclaw-wechat-deployment/`](./openclaw-wechat-deployment/) — OpenClaw on Azure 部署 + 微信群分享脚本。
 - [`wechat-article/`](./wechat-article/) — 把技术内容转成微信公众号短文。
 
