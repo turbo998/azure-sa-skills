@@ -88,7 +88,7 @@ Pass a JSON file with this structure:
 ## Example command
 
 ```powershell
-python "C:\Users\YOUR_USER\.copilot\skills\ppt-template-strict-offering\replace_template_text.py" `
+python "C:\Users\user\.copilot\skills\ppt-template-strict-offering\replace_template_text.py" `
   --template "C:\path\to\reference.pptx" `
   --output "C:\path\to\output.pptx" `
   --replacements "C:\path\to\replacements.json" `
