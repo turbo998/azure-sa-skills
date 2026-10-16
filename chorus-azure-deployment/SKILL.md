@@ -379,4 +379,4 @@ The Bicep templates are linter-clean against `az bicep build` v0.42.1 and tagged
 
 ---
 
-**Last verified:** 2026-05-06, deployed successfully to `MCAPS-Hybrid-REQ-136326-2025-qichen2` / `southeastasia` with `volumeMode=emptyDir` after hitting the shared-key policy blocker. Health endpoint confirmed `database:connected`.
+**Last verified:** 2026-05-06, deployed successfully to `<your-azure-subscription>` / `southeastasia` with `volumeMode=emptyDir` after hitting the shared-key policy blocker. Health endpoint confirmed `database:connected`.
