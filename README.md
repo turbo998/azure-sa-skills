@@ -1,5 +1,7 @@
 # Azure SA Skills
 
+> [English Version (`README.en.md`)](./README.en.md)
+
 Azure SA（Solution Architect）日常工作相关的 Hermes / GitHub Copilot skills 集合。每个子目录是一个独立 skill，含 `SKILL.md` 与脚本/模板。
 
 ## Skills
@@ -16,10 +18,12 @@ Azure SA（Solution Architect）日常工作相关的 Hermes / GitHub Copilot sk
 - [`azure-foundry-quota-tier/`](./azure-foundry-quota-tier/) — Azure AI Foundry 配额 / tier 排查速查。
 - [`chorus-azure-deployment/`](./chorus-azure-deployment/) — [Chorus-AIDLC/Chorus](https://github.com/Chorus-AIDLC/Chorus) 部署到 Azure Container Apps（Bicep IaC、PGlite、emptyDir vs azureFile、MCAPS shared-key 绕过）。
 
-### Presentation / 模板
+### Presentation / 模板 & 知识动画
 
 - [`azure-style-presentation/`](./azure-style-presentation/) — Azure 风格 PPT。
 - [`ppt-template-strict-offering/`](./ppt-template-strict-offering/) — 严格遵循 offering 模板的 PPT 流程。
+- [`one-sentence-video/`](./one-sentence-video/) — 一句话生成 HyperFrames 程序化动画视频的自动驾驶 Skill（含 7 步流水线、23 套四轴风格账本、22 张测量级镜头卡、BGM/SFX 合成器与双层质量门禁，内置小哲讲 Agent/RAG 与第四种黑猩猩算力经济学 3 套知识讲解标杆模板）。
+  - 中文说明：[`one-sentence-video/README.md`](./one-sentence-video/README.md) | English: [`one-sentence-video/README.en.md`](./one-sentence-video/README.en.md)
 
 ---
 

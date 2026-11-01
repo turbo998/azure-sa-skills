@@ -1,0 +1,4510 @@
+{
+ "_note": "构图轴索引。由 layout-index.py --build 生成，不要手改。registry 自带 tags 是功能轴，这里是构图轴。",
+ "source_catalog": "output/catalog.json",
+ "total_blocks": 210,
+ "landscape_blocks": 196,
+ "classified": 56,
+ "layout_role_total": 83,
+ "coverage": 0.675,
+ "roles": {
+  "object": 18,
+  "layout": 83,
+  "background": 49,
+  "transition": 32,
+  "caption": 14
+ },
+ "by_layout": {
+  "hero-plus-grid": [
+   "carousel-circle-1",
+   "carousel-circle-2",
+   "carousel-circle-3",
+   "carousel-circle-4",
+   "carousel-circle-5",
+   "carousel-path-1",
+   "carousel-path-2",
+   "carousel-path-3",
+   "carousel-path-4",
+   "carousel-path-5"
+  ],
+  "numbered-sections": [],
+  "two-column-corridor": [],
+  "banded-three": [
+   "macos-notification",
+   "yt-lower-third"
+  ],
+  "one-shot-world": [
+   "starfield"
+  ],
+  "poster-full-bleed": [],
+  "editorial-grid": [
+   "north-korea-locked-down"
+  ],
+  "centered-hero": [
+   "canopy-part-title",
+   "carousel-text-circle-1",
+   "carousel-text-circle-2",
+   "carousel-text-circle-3",
+   "carousel-text-circle-4",
+   "carousel-text-circle-5",
+   "extruded-logo",
+   "hw-title",
+   "hw-write-title",
+   "wireframe-portal-title",
+   "yt-prism-title"
+  ],
+  "card-deck": [
+   "orbit-card",
+   "yt-comment-card"
+  ],
+  "data-dashboard": [
+   "bar-chart-race",
+   "cinemagraph",
+   "data-chart",
+   "flowchart",
+   "flowchart-vertical",
+   "hw-path-text",
+   "hw-pipeline",
+   "mk-line-graph",
+   "mk-progress-stat",
+   "spain-map",
+   "us-map",
+   "us-map-bubble",
+   "us-map-flow",
+   "us-map-hex",
+   "weight-wave",
+   "world-map"
+  ],
+  "timeline-rail": [
+   "camcorder-hud",
+   "freeze-frame-dressing"
+  ],
+  "split-compare": [],
+  "ui-stage": [
+   "vpn-youtube-spot"
+  ],
+  "code-panel": [
+   "code-diff",
+   "code-highlight",
+   "code-morph",
+   "code-particle-assemble",
+   "code-scroll",
+   "code-shader-dissolve",
+   "code-snippet-apple-terminal-pro",
+   "code-snippet-dark-2026",
+   "code-snippet-dark-modern",
+   "code-typing"
+  ],
+  "unclassified": [
+   "apple-money-count",
+   "blue-sweater-intro-video",
+   "cuboid-carousel",
+   "exploded-stack",
+   "gooey-split",
+   "hw-frame",
+   "hw-text-cloud",
+   "logo-outro",
+   "lottie-character-walk",
+   "mk-placeholder-grid",
+   "mk-specs-list",
+   "nyc-paris-flight",
+   "oscilloscope-trace",
+   "product-turntable",
+   "rack-focus",
+   "reddit-post",
+   "snow",
+   "split-flap-board",
+   "thread-message-stack",
+   "vfx-liquid-glass",
+   "vfx-magnetic",
+   "vfx-portal",
+   "vfx-shatter",
+   "vfx-text-cursor",
+   "x-post",
+   "yt-logo-intro",
+   "yt-vertical-fill"
+  ],
+  "role:object": [
+   "app-showcase",
+   "camera-dolly-zoom",
+   "carousel-orbit-1",
+   "carousel-orbit-2",
+   "carousel-orbit-3",
+   "carousel-orbit-4",
+   "carousel-orbit-5",
+   "carousel-vision-1",
+   "carousel-vision-2",
+   "carousel-vision-3",
+   "carousel-vision-4",
+   "carousel-vision-5",
+   "code-3d-extrude",
+   "glass-hero",
+   "glass-shard-title",
+   "macos-tahoe-liquid-glass",
+   "ui-3d-reveal",
+   "vfx-iphone-device"
+  ],
+  "role:background": [
+   "aurora",
+   "blob",
+   "chrome-orb",
+   "color-wheel",
+   "cosmic-orb",
+   "editorial-flash-overlay",
+   "falling-lines",
+   "flowing-gradient",
+   "fractal-noise",
+   "frost",
+   "frost-sequence-camera-orbit",
+   "gabor-noise",
+   "gallery-tunnel",
+   "godrays",
+   "goo",
+   "halftone-field",
+   "heatmap",
+   "hologram",
+   "holographic",
+   "ios26-liquid-glass",
+   "lens-flare",
+   "light-edge",
+   "liquid-glass-notification",
+   "liquid-glass-widgets",
+   "liquid-metal",
+   "marble",
+   "mesh-gradient",
+   "mk-background",
+   "nebula",
+   "obsidian",
+   "plasma",
+   "plastic",
+   "prism",
+   "ripples",
+   "sine-wave",
+   "spiral",
+   "spiral-galaxy",
+   "strands",
+   "stripes",
+   "sun-burst",
+   "swirl",
+   "thin-film",
+   "vfx-anamorphic-flare",
+   "vfx-liquid-background",
+   "voronoi",
+   "water",
+   "waveform",
+   "worley-noise",
+   "yt-lcd-background"
+  ],
+  "role:transition": [
+   "beat-freeze-cut",
+   "chromatic-radial-split",
+   "cinematic-zoom",
+   "code-slice-hero",
+   "cross-warp-morph",
+   "domain-warp-dissolve",
+   "flash-through-white",
+   "glitch",
+   "gravitational-lens",
+   "hw-scribble-transition",
+   "light-leak",
+   "mk-clone-wall-transition",
+   "organic-light-leak-overlay",
+   "ridged-burn",
+   "ripple-waves",
+   "sdf-iris",
+   "swirl-vortex",
+   "thermal-distortion",
+   "transitions-3d",
+   "transitions-blur",
+   "transitions-cover",
+   "transitions-destruction",
+   "transitions-dissolve",
+   "transitions-distortion",
+   "transitions-grid",
+   "transitions-light",
+   "transitions-mechanical",
+   "transitions-other",
+   "transitions-push",
+   "transitions-radial",
+   "transitions-scale",
+   "whip-pan"
+  ],
+  "role:caption": [
+   "lower-third-bild",
+   "lt-accent-underline",
+   "lt-bold-block",
+   "lt-clean-bar",
+   "lt-color-block",
+   "lt-dark-card",
+   "lt-kicker-name",
+   "lt-mask-reveal",
+   "lt-neon-border",
+   "lt-side-rule",
+   "lt-soft-pill",
+   "lt-stack-bars",
+   "mk-callout-highlight",
+   "news-ticker"
+  ]
+ },
+ "blocks": [
+  {
+   "name": "app-showcase",
+   "title": "App Showcase",
+   "duration": 5.5,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "showcase",
+    "app",
+    "3d"
+   ],
+   "role": "object",
+   "layouts": [],
+   "scores": {
+    "ui-stage": 4
+   }
+  },
+  {
+   "name": "apple-money-count",
+   "title": "Apple Money Count",
+   "duration": 5,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "showcase",
+    "finance",
+    "kinetic",
+    "youtube",
+    "sfx"
+   ],
+   "role": "layout",
+   "layouts": [
+    "unclassified"
+   ],
+   "scores": {
+    "data-dashboard": 1,
+    "ui-stage": 1
+   }
+  },
+  {
+   "name": "aurora",
+   "title": "Aurora",
+   "duration": 2,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgpu",
+    "webgpu-shader",
+    "background",
+    "light",
+    "aurora",
+    "sky"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "bar-chart-race",
+   "title": "Bar Chart Race",
+   "duration": 12,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "data",
+    "chart",
+    "statistics",
+    "ranking"
+   ],
+   "role": "layout",
+   "layouts": [
+    "data-dashboard"
+   ],
+   "scores": {
+    "data-dashboard": 5
+   }
+  },
+  {
+   "name": "beat-freeze-cut",
+   "title": "Beat Freeze Cut",
+   "duration": 6,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "transition",
+    "music",
+    "beat-driven",
+    "freeze-frame"
+   ],
+   "role": "transition",
+   "layouts": [],
+   "scores": {
+    "timeline-rail": 1
+   }
+  },
+  {
+   "name": "blob",
+   "title": "Blob",
+   "duration": 2,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgpu",
+    "webgpu-shader",
+    "background",
+    "abstract",
+    "organic",
+    "gradient"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "blue-sweater-intro-video",
+   "title": "Blue Sweater Intro Video",
+   "duration": 12,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "showcase",
+    "ai",
+    "creator",
+    "sfx"
+   ],
+   "role": "layout",
+   "layouts": [
+    "unclassified"
+   ],
+   "scores": {
+    "card-deck": 1,
+    "timeline-rail": 1,
+    "ui-stage": 1
+   }
+  },
+  {
+   "name": "camcorder-hud",
+   "title": "Camcorder HUD",
+   "duration": 4,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "camcorder",
+    "camera",
+    "recording",
+    "hud",
+    "overlay",
+    "creator",
+    "media-treatment-overlay"
+   ],
+   "role": "layout",
+   "layouts": [
+    "timeline-rail"
+   ],
+   "scores": {
+    "timeline-rail": 2,
+    "one-shot-world": 1,
+    "data-dashboard": 1
+   }
+  },
+  {
+   "name": "camera-dolly-zoom",
+   "title": "Dolly Zoom (Vertigo Shot)",
+   "duration": 4,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "camera",
+    "depth",
+    "3d",
+    "cinematic"
+   ],
+   "role": "object",
+   "layouts": [],
+   "scores": {
+    "one-shot-world": 2
+   }
+  },
+  {
+   "name": "canopy-part-title",
+   "title": "Canopy Part Title",
+   "duration": 12,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "3d-motion",
+    "title-card",
+    "leaves",
+    "organic",
+    "depth-of-field",
+    "two-headlines",
+    "sweep"
+   ],
+   "role": "layout",
+   "layouts": [
+    "centered-hero"
+   ],
+   "scores": {
+    "centered-hero": 2,
+    "poster-full-bleed": 1,
+    "card-deck": 1
+   }
+  },
+  {
+   "name": "carousel-circle-1",
+   "title": "Circle Carousel 1",
+   "duration": 6,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "carousel",
+    "gallery",
+    "images",
+    "showcase",
+    "circle"
+   ],
+   "role": "layout",
+   "layouts": [
+    "hero-plus-grid"
+   ],
+   "scores": {
+    "hero-plus-grid": 2,
+    "card-deck": 1,
+    "ui-stage": 1
+   }
+  },
+  {
+   "name": "carousel-circle-2",
+   "title": "Circle Carousel 2",
+   "duration": 6,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "carousel",
+    "gallery",
+    "images",
+    "showcase",
+    "circle"
+   ],
+   "role": "layout",
+   "layouts": [
+    "hero-plus-grid"
+   ],
+   "scores": {
+    "hero-plus-grid": 2,
+    "card-deck": 1,
+    "ui-stage": 1
+   }
+  },
+  {
+   "name": "carousel-circle-3",
+   "title": "Circle Carousel 3",
+   "duration": 6,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "carousel",
+    "gallery",
+    "images",
+    "showcase",
+    "circle"
+   ],
+   "role": "layout",
+   "layouts": [
+    "hero-plus-grid"
+   ],
+   "scores": {
+    "hero-plus-grid": 2,
+    "card-deck": 1,
+    "ui-stage": 1
+   }
+  },
+  {
+   "name": "carousel-circle-4",
+   "title": "Circle Carousel 4",
+   "duration": 6,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "carousel",
+    "gallery",
+    "images",
+    "showcase",
+    "circle"
+   ],
+   "role": "layout",
+   "layouts": [
+    "hero-plus-grid"
+   ],
+   "scores": {
+    "hero-plus-grid": 2,
+    "card-deck": 1,
+    "ui-stage": 1
+   }
+  },
+  {
+   "name": "carousel-circle-5",
+   "title": "Circle Carousel 5",
+   "duration": 6,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "carousel",
+    "gallery",
+    "images",
+    "showcase",
+    "circle"
+   ],
+   "role": "layout",
+   "layouts": [
+    "hero-plus-grid"
+   ],
+   "scores": {
+    "hero-plus-grid": 2,
+    "card-deck": 1,
+    "ui-stage": 1
+   }
+  },
+  {
+   "name": "carousel-orbit-1",
+   "title": "Orbit Carousel 1",
+   "duration": 6,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "carousel",
+    "gallery",
+    "images",
+    "showcase",
+    "orbit",
+    "3d"
+   ],
+   "role": "object",
+   "layouts": [],
+   "scores": {
+    "hero-plus-grid": 2,
+    "poster-full-bleed": 2,
+    "one-shot-world": 1
+   }
+  },
+  {
+   "name": "carousel-orbit-2",
+   "title": "Orbit Carousel 2",
+   "duration": 6,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "carousel",
+    "gallery",
+    "images",
+    "showcase",
+    "orbit",
+    "3d"
+   ],
+   "role": "object",
+   "layouts": [],
+   "scores": {
+    "hero-plus-grid": 2,
+    "poster-full-bleed": 2,
+    "one-shot-world": 1
+   }
+  },
+  {
+   "name": "carousel-orbit-3",
+   "title": "Orbit Carousel 3",
+   "duration": 6,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "carousel",
+    "gallery",
+    "images",
+    "showcase",
+    "orbit",
+    "3d"
+   ],
+   "role": "object",
+   "layouts": [],
+   "scores": {
+    "hero-plus-grid": 2,
+    "poster-full-bleed": 2,
+    "one-shot-world": 1
+   }
+  },
+  {
+   "name": "carousel-orbit-4",
+   "title": "Orbit Carousel 4",
+   "duration": 6,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "carousel",
+    "gallery",
+    "images",
+    "showcase",
+    "orbit",
+    "3d"
+   ],
+   "role": "object",
+   "layouts": [],
+   "scores": {
+    "hero-plus-grid": 2,
+    "poster-full-bleed": 2,
+    "one-shot-world": 1
+   }
+  },
+  {
+   "name": "carousel-orbit-5",
+   "title": "Orbit Carousel 5",
+   "duration": 6,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "carousel",
+    "gallery",
+    "images",
+    "showcase",
+    "orbit",
+    "3d"
+   ],
+   "role": "object",
+   "layouts": [],
+   "scores": {
+    "hero-plus-grid": 2,
+    "poster-full-bleed": 2,
+    "one-shot-world": 1
+   }
+  },
+  {
+   "name": "carousel-path-1",
+   "title": "Path Carousel 1",
+   "duration": 6,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "carousel",
+    "gallery",
+    "images",
+    "showcase",
+    "path"
+   ],
+   "role": "layout",
+   "layouts": [
+    "hero-plus-grid"
+   ],
+   "scores": {
+    "hero-plus-grid": 2,
+    "card-deck": 1,
+    "ui-stage": 1
+   }
+  },
+  {
+   "name": "carousel-path-2",
+   "title": "Path Carousel 2",
+   "duration": 6,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "carousel",
+    "gallery",
+    "images",
+    "showcase",
+    "path"
+   ],
+   "role": "layout",
+   "layouts": [
+    "hero-plus-grid"
+   ],
+   "scores": {
+    "hero-plus-grid": 2,
+    "card-deck": 1,
+    "ui-stage": 1
+   }
+  },
+  {
+   "name": "carousel-path-3",
+   "title": "Path Carousel 3",
+   "duration": 6,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "carousel",
+    "gallery",
+    "images",
+    "showcase",
+    "path"
+   ],
+   "role": "layout",
+   "layouts": [
+    "hero-plus-grid"
+   ],
+   "scores": {
+    "hero-plus-grid": 2,
+    "card-deck": 1,
+    "ui-stage": 1
+   }
+  },
+  {
+   "name": "carousel-path-4",
+   "title": "Path Carousel 4",
+   "duration": 6,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "carousel",
+    "gallery",
+    "images",
+    "showcase",
+    "path"
+   ],
+   "role": "layout",
+   "layouts": [
+    "hero-plus-grid"
+   ],
+   "scores": {
+    "hero-plus-grid": 2,
+    "card-deck": 1,
+    "ui-stage": 1
+   }
+  },
+  {
+   "name": "carousel-path-5",
+   "title": "Path Carousel 5",
+   "duration": 6,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "carousel",
+    "gallery",
+    "images",
+    "showcase",
+    "path"
+   ],
+   "role": "layout",
+   "layouts": [
+    "hero-plus-grid"
+   ],
+   "scores": {
+    "hero-plus-grid": 2,
+    "card-deck": 1,
+    "ui-stage": 1
+   }
+  },
+  {
+   "name": "carousel-text-circle-1",
+   "title": "Text + Circle Carousel 1",
+   "duration": 5,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "carousel",
+    "title-card",
+    "kinetic-text",
+    "images",
+    "showcase",
+    "circle"
+   ],
+   "role": "layout",
+   "layouts": [
+    "centered-hero"
+   ],
+   "scores": {
+    "centered-hero": 2,
+    "hero-plus-grid": 1,
+    "poster-full-bleed": 1
+   }
+  },
+  {
+   "name": "carousel-text-circle-2",
+   "title": "Text + Circle Carousel 2",
+   "duration": 5,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "carousel",
+    "title-card",
+    "kinetic-text",
+    "images",
+    "showcase",
+    "circle"
+   ],
+   "role": "layout",
+   "layouts": [
+    "centered-hero"
+   ],
+   "scores": {
+    "centered-hero": 2,
+    "hero-plus-grid": 1,
+    "poster-full-bleed": 1
+   }
+  },
+  {
+   "name": "carousel-text-circle-3",
+   "title": "Text + Circle Carousel 3",
+   "duration": 5,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "carousel",
+    "title-card",
+    "kinetic-text",
+    "images",
+    "showcase",
+    "circle"
+   ],
+   "role": "layout",
+   "layouts": [
+    "centered-hero"
+   ],
+   "scores": {
+    "centered-hero": 2,
+    "hero-plus-grid": 1,
+    "poster-full-bleed": 1
+   }
+  },
+  {
+   "name": "carousel-text-circle-4",
+   "title": "Text + Circle Carousel 4",
+   "duration": 5,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "carousel",
+    "title-card",
+    "kinetic-text",
+    "images",
+    "showcase",
+    "circle"
+   ],
+   "role": "layout",
+   "layouts": [
+    "centered-hero"
+   ],
+   "scores": {
+    "centered-hero": 2,
+    "hero-plus-grid": 1,
+    "poster-full-bleed": 1
+   }
+  },
+  {
+   "name": "carousel-text-circle-5",
+   "title": "Text + Circle Carousel 5",
+   "duration": 5,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "carousel",
+    "title-card",
+    "kinetic-text",
+    "images",
+    "showcase",
+    "circle"
+   ],
+   "role": "layout",
+   "layouts": [
+    "centered-hero"
+   ],
+   "scores": {
+    "centered-hero": 2,
+    "hero-plus-grid": 1,
+    "poster-full-bleed": 1
+   }
+  },
+  {
+   "name": "carousel-vision-1",
+   "title": "Vision Carousel 1",
+   "duration": 6,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "carousel",
+    "gallery",
+    "images",
+    "showcase",
+    "vision",
+    "3d"
+   ],
+   "role": "object",
+   "layouts": [],
+   "scores": {
+    "hero-plus-grid": 2,
+    "card-deck": 2,
+    "one-shot-world": 1
+   }
+  },
+  {
+   "name": "carousel-vision-2",
+   "title": "Vision Carousel 2",
+   "duration": 6,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "carousel",
+    "gallery",
+    "images",
+    "showcase",
+    "vision",
+    "3d"
+   ],
+   "role": "object",
+   "layouts": [],
+   "scores": {
+    "hero-plus-grid": 2,
+    "card-deck": 2,
+    "one-shot-world": 1
+   }
+  },
+  {
+   "name": "carousel-vision-3",
+   "title": "Vision Carousel 3",
+   "duration": 6,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "carousel",
+    "gallery",
+    "images",
+    "showcase",
+    "vision",
+    "3d"
+   ],
+   "role": "object",
+   "layouts": [],
+   "scores": {
+    "hero-plus-grid": 2,
+    "card-deck": 2,
+    "one-shot-world": 1
+   }
+  },
+  {
+   "name": "carousel-vision-4",
+   "title": "Vision Carousel 4",
+   "duration": 6,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "carousel",
+    "gallery",
+    "images",
+    "showcase",
+    "vision",
+    "3d"
+   ],
+   "role": "object",
+   "layouts": [],
+   "scores": {
+    "hero-plus-grid": 2,
+    "card-deck": 2,
+    "one-shot-world": 1
+   }
+  },
+  {
+   "name": "carousel-vision-5",
+   "title": "Vision Carousel 5",
+   "duration": 6,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "carousel",
+    "gallery",
+    "images",
+    "showcase",
+    "vision",
+    "3d"
+   ],
+   "role": "object",
+   "layouts": [],
+   "scores": {
+    "hero-plus-grid": 2,
+    "card-deck": 2,
+    "one-shot-world": 1
+   }
+  },
+  {
+   "name": "chromatic-radial-split",
+   "title": "Chromatic Radial Split",
+   "duration": 4,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "transition",
+    "shader"
+   ],
+   "role": "transition",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "chrome-orb",
+   "title": "Chrome Orb",
+   "duration": 2,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgpu",
+    "webgpu-shader",
+    "object",
+    "chrome",
+    "metal",
+    "material"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "cinemagraph",
+   "title": "Cinemagraph",
+   "duration": 10,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "effect",
+    "cinemagraph",
+    "photo",
+    "loop",
+    "freeze-frame"
+   ],
+   "role": "layout",
+   "layouts": [
+    "data-dashboard"
+   ],
+   "scores": {
+    "data-dashboard": 2
+   }
+  },
+  {
+   "name": "cinematic-zoom",
+   "title": "Cinematic Zoom",
+   "duration": 4,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "transition",
+    "shader"
+   ],
+   "role": "transition",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "code-3d-extrude",
+   "title": "Code 3D Extrude",
+   "duration": 8,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "code",
+    "code-animation",
+    "3d",
+    "webgl",
+    "developer"
+   ],
+   "role": "object",
+   "layouts": [],
+   "scores": {
+    "code-panel": 6
+   }
+  },
+  {
+   "name": "code-diff",
+   "title": "Code Diff",
+   "duration": 6,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "code",
+    "code-animation",
+    "diff",
+    "developer"
+   ],
+   "role": "layout",
+   "layouts": [
+    "code-panel"
+   ],
+   "scores": {
+    "code-panel": 6
+   }
+  },
+  {
+   "name": "code-highlight",
+   "title": "Code Highlight Sweep",
+   "duration": 5,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "code",
+    "code-animation",
+    "highlight",
+    "developer"
+   ],
+   "role": "layout",
+   "layouts": [
+    "code-panel",
+    "banded-three"
+   ],
+   "scores": {
+    "code-panel": 5,
+    "banded-three": 2
+   }
+  },
+  {
+   "name": "code-morph",
+   "title": "Code Morph",
+   "duration": 7,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "code",
+    "code-animation",
+    "morph",
+    "refactor",
+    "developer"
+   ],
+   "role": "layout",
+   "layouts": [
+    "code-panel",
+    "timeline-rail"
+   ],
+   "scores": {
+    "code-panel": 4,
+    "timeline-rail": 2
+   }
+  },
+  {
+   "name": "code-particle-assemble",
+   "title": "Code Particle Assemble",
+   "duration": 8,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "code",
+    "code-animation",
+    "particles",
+    "gpu",
+    "webgl",
+    "developer"
+   ],
+   "role": "layout",
+   "layouts": [
+    "code-panel"
+   ],
+   "scores": {
+    "code-panel": 6
+   }
+  },
+  {
+   "name": "code-scroll",
+   "title": "Code Scroll To Line",
+   "duration": 6,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "code",
+    "code-animation",
+    "scroll",
+    "developer"
+   ],
+   "role": "layout",
+   "layouts": [
+    "code-panel"
+   ],
+   "scores": {
+    "code-panel": 5,
+    "one-shot-world": 1
+   }
+  },
+  {
+   "name": "code-shader-dissolve",
+   "title": "Code Shader Dissolve",
+   "duration": 7,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "code",
+    "code-animation",
+    "shader",
+    "webgl",
+    "developer"
+   ],
+   "role": "layout",
+   "layouts": [
+    "code-panel"
+   ],
+   "scores": {
+    "code-panel": 4
+   }
+  },
+  {
+   "name": "code-slice-hero",
+   "title": "Code Slice Hero",
+   "duration": 8,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "3d-motion",
+    "transition",
+    "typography",
+    "tiles",
+    "flip",
+    "webgl2",
+    "shadows",
+    "two-headlines"
+   ],
+   "role": "transition",
+   "layouts": [],
+   "scores": {
+    "data-dashboard": 2,
+    "poster-full-bleed": 1,
+    "centered-hero": 1
+   }
+  },
+  {
+   "name": "code-snippet-apple-terminal-pro",
+   "title": "Code Snippet - Apple Terminal Pro",
+   "duration": 12,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "code",
+    "developer",
+    "showcase",
+    "terminal",
+    "apple",
+    "apple-terminal"
+   ],
+   "role": "layout",
+   "layouts": [
+    "code-panel"
+   ],
+   "scores": {
+    "code-panel": 4,
+    "ui-stage": 1
+   }
+  },
+  {
+   "name": "code-snippet-dark-2026",
+   "title": "Code Snippet - Dark 2026",
+   "duration": 11,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "code",
+    "developer",
+    "showcase",
+    "vscode"
+   ],
+   "role": "layout",
+   "layouts": [
+    "code-panel"
+   ],
+   "scores": {
+    "code-panel": 4,
+    "split-compare": 1,
+    "ui-stage": 1
+   }
+  },
+  {
+   "name": "code-snippet-dark-modern",
+   "title": "Code Snippet - Dark Modern",
+   "duration": 11,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "code",
+    "developer",
+    "showcase",
+    "vscode"
+   ],
+   "role": "layout",
+   "layouts": [
+    "code-panel"
+   ],
+   "scores": {
+    "code-panel": 4,
+    "split-compare": 1,
+    "ui-stage": 1
+   }
+  },
+  {
+   "name": "code-typing",
+   "title": "Code Typing",
+   "duration": 5,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "code",
+    "code-animation",
+    "typing",
+    "developer"
+   ],
+   "role": "layout",
+   "layouts": [
+    "code-panel"
+   ],
+   "scores": {
+    "code-panel": 4
+   }
+  },
+  {
+   "name": "color-wheel",
+   "title": "Color Wheel",
+   "duration": 2,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgpu",
+    "webgpu-shader",
+    "background",
+    "gradient",
+    "rainbow",
+    "color"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "cosmic-orb",
+   "title": "Cosmic Orb",
+   "duration": 10,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgl",
+    "shader",
+    "background",
+    "showcase",
+    "3d"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {
+    "banded-three": 2,
+    "ui-stage": 1
+   }
+  },
+  {
+   "name": "cross-warp-morph",
+   "title": "Cross Warp Morph",
+   "duration": 4,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "transition",
+    "shader"
+   ],
+   "role": "transition",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "cuboid-carousel",
+   "title": "Cuboid Carousel",
+   "duration": 6.67,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "3d-motion",
+    "carousel",
+    "cards",
+    "travelling-wave",
+    "pbr",
+    "shadows",
+    "room-environment"
+   ],
+   "role": "layout",
+   "layouts": [
+    "unclassified"
+   ],
+   "scores": {
+    "hero-plus-grid": 1,
+    "card-deck": 1
+   }
+  },
+  {
+   "name": "data-chart",
+   "title": "Data Chart",
+   "duration": 15,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "data",
+    "chart",
+    "statistics"
+   ],
+   "role": "layout",
+   "layouts": [
+    "data-dashboard"
+   ],
+   "scores": {
+    "data-dashboard": 5,
+    "code-panel": 1
+   }
+  },
+  {
+   "name": "domain-warp-dissolve",
+   "title": "Domain Warp Dissolve",
+   "duration": 4,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "transition",
+    "shader"
+   ],
+   "role": "transition",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "editorial-flash-overlay",
+   "title": "Editorial Flash Overlay",
+   "duration": 4,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "flash",
+    "editorial",
+    "social",
+    "light",
+    "transition",
+    "overlay",
+    "media-treatment-overlay"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {
+    "editorial-grid": 2,
+    "one-shot-world": 1
+   }
+  },
+  {
+   "name": "exploded-stack",
+   "title": "Exploded Stack",
+   "duration": 5,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "3d-object",
+    "three-js",
+    "webgl",
+    "isometric",
+    "exploded-view",
+    "layers",
+    "diagram",
+    "architecture"
+   ],
+   "role": "layout",
+   "layouts": [
+    "unclassified"
+   ],
+   "scores": {
+    "card-deck": 1
+   }
+  },
+  {
+   "name": "extruded-logo",
+   "title": "Extruded Logo",
+   "duration": 5,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "3d-object",
+    "three-js",
+    "webgl",
+    "logo",
+    "text",
+    "extruded",
+    "title-card"
+   ],
+   "role": "layout",
+   "layouts": [
+    "centered-hero"
+   ],
+   "scores": {
+    "centered-hero": 3,
+    "card-deck": 1
+   }
+  },
+  {
+   "name": "falling-lines",
+   "title": "Falling Lines",
+   "duration": 2,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgpu",
+    "webgpu-shader",
+    "background",
+    "texture",
+    "lines",
+    "rain",
+    "monochrome"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "flash-through-white",
+   "title": "Flash Through White",
+   "duration": 4,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "transition",
+    "shader"
+   ],
+   "role": "transition",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "flowchart",
+   "title": "Flowchart",
+   "duration": 12,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "diagram",
+    "flowchart",
+    "interactive"
+   ],
+   "role": "layout",
+   "layouts": [
+    "data-dashboard"
+   ],
+   "scores": {
+    "data-dashboard": 2
+   }
+  },
+  {
+   "name": "flowchart-vertical",
+   "title": "Flowchart Vertical",
+   "duration": 12,
+   "dims": {
+    "width": 1440,
+    "height": 2560
+   },
+   "tags": [
+    "diagram",
+    "flowchart",
+    "interactive",
+    "portrait"
+   ],
+   "role": "layout",
+   "layouts": [
+    "data-dashboard"
+   ],
+   "scores": {
+    "data-dashboard": 2
+   }
+  },
+  {
+   "name": "flowing-gradient",
+   "title": "Flowing Gradient",
+   "duration": 2,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgpu",
+    "webgpu-shader",
+    "background",
+    "gradient",
+    "color",
+    "flow"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {
+    "banded-three": 2
+   }
+  },
+  {
+   "name": "fractal-noise",
+   "title": "Fractal Noise",
+   "duration": 2,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgpu",
+    "webgpu-shader",
+    "background",
+    "noise",
+    "texture",
+    "clouds"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "freeze-frame-dressing",
+   "title": "Freeze-Frame Dressing",
+   "duration": 4,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "freeze-frame",
+    "cutout",
+    "scrapbook",
+    "paper",
+    "social",
+    "overlay",
+    "media-treatment-overlay"
+   ],
+   "role": "layout",
+   "layouts": [
+    "timeline-rail"
+   ],
+   "scores": {
+    "timeline-rail": 2
+   }
+  },
+  {
+   "name": "frost",
+   "title": "Frost",
+   "duration": 2,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgpu",
+    "webgpu-shader",
+    "orb",
+    "ice",
+    "frost",
+    "material"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "frost-sequence-camera-orbit",
+   "title": "Frost Sequence Camera Orbit",
+   "duration": 22.5,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "3d-motion",
+    "ice",
+    "frost",
+    "camera-orbit",
+    "logo",
+    "particles",
+    "webgpu",
+    "two-headlines"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {
+    "one-shot-world": 1,
+    "centered-hero": 1,
+    "timeline-rail": 1
+   }
+  },
+  {
+   "name": "gabor-noise",
+   "title": "Gabor Noise",
+   "duration": 2,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgpu",
+    "webgpu-shader",
+    "background",
+    "texture",
+    "noise",
+    "monochrome"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "gallery-tunnel",
+   "title": "Gallery Tunnel",
+   "duration": 12,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgl",
+    "3d",
+    "background",
+    "showcase",
+    "depth",
+    "loop"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {
+    "hero-plus-grid": 1,
+    "one-shot-world": 1,
+    "ui-stage": 1
+   }
+  },
+  {
+   "name": "glass-hero",
+   "title": "Glass Hero",
+   "duration": 5,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "3d-object",
+    "three-js",
+    "webgl",
+    "glass",
+    "refraction",
+    "hero",
+    "title-card"
+   ],
+   "role": "object",
+   "layouts": [],
+   "scores": {
+    "centered-hero": 3,
+    "poster-full-bleed": 1,
+    "card-deck": 1
+   }
+  },
+  {
+   "name": "glass-shard-title",
+   "title": "Glass Shard Title",
+   "duration": 12.16,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "3d-motion",
+    "title-card",
+    "glass",
+    "voronoi",
+    "shards",
+    "fog",
+    "hdr"
+   ],
+   "role": "object",
+   "layouts": [],
+   "scores": {
+    "centered-hero": 2,
+    "poster-full-bleed": 1,
+    "card-deck": 1
+   }
+  },
+  {
+   "name": "glitch",
+   "title": "Glitch",
+   "duration": 4,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "transition",
+    "shader"
+   ],
+   "role": "transition",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "godrays",
+   "title": "Godrays",
+   "duration": 2,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgpu",
+    "webgpu-shader",
+    "background",
+    "light",
+    "rays"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "goo",
+   "title": "Goo",
+   "duration": 2,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgpu",
+    "webgpu-shader",
+    "liquid",
+    "3d",
+    "organic",
+    "orb"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "gooey-split",
+   "title": "Gooey Split",
+   "duration": 4.7,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "effect",
+    "gooey",
+    "metaball",
+    "motion-blur",
+    "morph",
+    "logo",
+    "icon"
+   ],
+   "role": "layout",
+   "layouts": [
+    "unclassified"
+   ],
+   "scores": {
+    "centered-hero": 1
+   }
+  },
+  {
+   "name": "gravitational-lens",
+   "title": "Gravitational Lens",
+   "duration": 4,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "transition",
+    "shader"
+   ],
+   "role": "transition",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "halftone-field",
+   "title": "Halftone Field",
+   "duration": 10,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgl",
+    "shader",
+    "background",
+    "texture",
+    "halftone"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {
+    "banded-three": 2,
+    "poster-full-bleed": 2,
+    "hero-plus-grid": 1
+   }
+  },
+  {
+   "name": "heatmap",
+   "title": "Heatmap",
+   "duration": 2,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgpu",
+    "webgpu-shader",
+    "object",
+    "heat",
+    "thermal",
+    "glow"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "hologram",
+   "title": "Hologram",
+   "duration": 2,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgpu",
+    "webgpu-shader",
+    "object",
+    "hologram",
+    "sci-fi",
+    "blue"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {
+    "data-dashboard": 2
+   }
+  },
+  {
+   "name": "holographic",
+   "title": "Holographic",
+   "duration": 2,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgpu",
+    "webgpu-shader",
+    "holographic",
+    "iridescent",
+    "rainbow",
+    "orb"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {
+    "data-dashboard": 2
+   }
+  },
+  {
+   "name": "hw-frame",
+   "title": "Sketched Frame",
+   "duration": 8,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "handwritten",
+    "frame",
+    "media"
+   ],
+   "role": "layout",
+   "layouts": [
+    "unclassified"
+   ],
+   "scores": {
+    "banded-three": 1
+   }
+  },
+  {
+   "name": "hw-path-text",
+   "title": "Text Along a Path",
+   "duration": 6,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "handwritten",
+    "typography",
+    "path",
+    "overlay"
+   ],
+   "role": "layout",
+   "layouts": [
+    "data-dashboard"
+   ],
+   "scores": {
+    "data-dashboard": 2
+   }
+  },
+  {
+   "name": "hw-pipeline",
+   "title": "Hand-Drawn Flowchart",
+   "duration": 7,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "handwritten",
+    "diagram",
+    "data-viz",
+    "overlay"
+   ],
+   "role": "layout",
+   "layouts": [
+    "data-dashboard"
+   ],
+   "scores": {
+    "data-dashboard": 3,
+    "numbered-sections": 1,
+    "timeline-rail": 1
+   }
+  },
+  {
+   "name": "hw-scribble-transition",
+   "title": "Scribble Transition",
+   "duration": 2.2,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "handwritten",
+    "transition",
+    "wipe"
+   ],
+   "role": "transition",
+   "layouts": [],
+   "scores": {
+    "banded-three": 2
+   }
+  },
+  {
+   "name": "hw-text-cloud",
+   "title": "Speech Bubble",
+   "duration": 6,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "handwritten",
+    "speech-bubble",
+    "overlay"
+   ],
+   "role": "layout",
+   "layouts": [
+    "unclassified"
+   ],
+   "scores": {}
+  },
+  {
+   "name": "hw-title",
+   "title": "Handwritten Title",
+   "duration": 6,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "handwritten",
+    "typography",
+    "title-card",
+    "overlay"
+   ],
+   "role": "layout",
+   "layouts": [
+    "centered-hero",
+    "data-dashboard"
+   ],
+   "scores": {
+    "centered-hero": 2,
+    "data-dashboard": 2,
+    "card-deck": 1
+   }
+  },
+  {
+   "name": "hw-write-title",
+   "title": "Handwritten Write-On Title",
+   "duration": 6,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "handwritten",
+    "typography",
+    "title-card",
+    "write-on",
+    "overlay"
+   ],
+   "role": "layout",
+   "layouts": [
+    "centered-hero",
+    "data-dashboard"
+   ],
+   "scores": {
+    "centered-hero": 2,
+    "data-dashboard": 2,
+    "card-deck": 1
+   }
+  },
+  {
+   "name": "ios26-liquid-glass",
+   "title": "iOS 26 Liquid Glass Home Screen",
+   "duration": 15,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "liquid-glass-html-in-canvas",
+    "webgpu",
+    "3d",
+    "iphone",
+    "ios26",
+    "notifications",
+    "gltf",
+    "html-in-canvas"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {
+    "ui-stage": 3
+   }
+  },
+  {
+   "name": "lens-flare",
+   "title": "Lens Flare",
+   "duration": 2,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgpu",
+    "webgpu-shader",
+    "background",
+    "light",
+    "flare",
+    "glow"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {
+    "one-shot-world": 1
+   }
+  },
+  {
+   "name": "light-edge",
+   "title": "Light Edge",
+   "duration": 2,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgpu",
+    "webgpu-shader",
+    "object",
+    "light",
+    "glow",
+    "neon",
+    "edge"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "light-leak",
+   "title": "Light Leak",
+   "duration": 4,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "transition",
+    "shader"
+   ],
+   "role": "transition",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "liquid-glass-notification",
+   "title": "Liquid Glass Notification",
+   "duration": 8,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "html-in-canvas",
+    "liquid-glass-html-in-canvas",
+    "webgpu"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {
+    "card-deck": 1
+   }
+  },
+  {
+   "name": "liquid-glass-widgets",
+   "title": "Liquid Glass Widgets",
+   "duration": 8,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "html-in-canvas",
+    "liquid-glass-html-in-canvas",
+    "webgpu"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {
+    "card-deck": 1,
+    "data-dashboard": 1,
+    "ui-stage": 1
+   }
+  },
+  {
+   "name": "liquid-metal",
+   "title": "Liquid Metal",
+   "duration": 2,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgpu",
+    "webgpu-shader",
+    "object",
+    "metal",
+    "chrome",
+    "liquid",
+    "sphere"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "logo-outro",
+   "title": "Logo Outro",
+   "duration": 6,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "branding",
+    "outro",
+    "logo"
+   ],
+   "role": "layout",
+   "layouts": [
+    "unclassified"
+   ],
+   "scores": {
+    "centered-hero": 1
+   }
+  },
+  {
+   "name": "lottie-character-walk",
+   "title": "Lottie Character Walk",
+   "duration": 7.5,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "character",
+    "character-animation",
+    "mascot",
+    "walk-cycle",
+    "gesture",
+    "pointing",
+    "puppet",
+    "lottie",
+    "explainer"
+   ],
+   "role": "layout",
+   "layouts": [
+    "unclassified"
+   ],
+   "scores": {
+    "card-deck": 1
+   }
+  },
+  {
+   "name": "lower-third-bild",
+   "title": "Lower Third — BILD Style",
+   "duration": 8,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "broadcast",
+    "lower-third",
+    "news",
+    "overlay"
+   ],
+   "role": "caption",
+   "layouts": [],
+   "scores": {
+    "banded-three": 2,
+    "poster-full-bleed": 1,
+    "code-panel": 1
+   }
+  },
+  {
+   "name": "lt-accent-underline",
+   "title": "Lower Third — Accent Underline",
+   "duration": 4.8,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "lower-third",
+    "overlay",
+    "podcast",
+    "interview",
+    "minimal"
+   ],
+   "role": "caption",
+   "layouts": [],
+   "scores": {
+    "banded-three": 2
+   }
+  },
+  {
+   "name": "lt-bold-block",
+   "title": "Lower Third — Bold Block",
+   "duration": 4.8,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "lower-third",
+    "overlay",
+    "podcast",
+    "interview",
+    "bold"
+   ],
+   "role": "caption",
+   "layouts": [],
+   "scores": {
+    "banded-three": 2
+   }
+  },
+  {
+   "name": "lt-clean-bar",
+   "title": "Lower Third — Clean Bar",
+   "duration": 4.8,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "lower-third",
+    "overlay",
+    "podcast",
+    "interview"
+   ],
+   "role": "caption",
+   "layouts": [],
+   "scores": {
+    "banded-three": 2,
+    "card-deck": 1
+   }
+  },
+  {
+   "name": "lt-color-block",
+   "title": "Lower Third — Color Block",
+   "duration": 4.8,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "lower-third",
+    "overlay",
+    "podcast",
+    "interview",
+    "bold"
+   ],
+   "role": "caption",
+   "layouts": [],
+   "scores": {
+    "banded-three": 2
+   }
+  },
+  {
+   "name": "lt-dark-card",
+   "title": "Lower Third — Dark Card",
+   "duration": 4.8,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "lower-third",
+    "overlay",
+    "podcast",
+    "interview",
+    "dark"
+   ],
+   "role": "caption",
+   "layouts": [],
+   "scores": {
+    "banded-three": 2,
+    "card-deck": 1
+   }
+  },
+  {
+   "name": "lt-kicker-name",
+   "title": "Lower Third — Kicker Name",
+   "duration": 4.8,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "lower-third",
+    "overlay",
+    "podcast",
+    "interview",
+    "bold"
+   ],
+   "role": "caption",
+   "layouts": [],
+   "scores": {
+    "banded-three": 2
+   }
+  },
+  {
+   "name": "lt-mask-reveal",
+   "title": "Lower Third — Mask Reveal",
+   "duration": 4.8,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "lower-third",
+    "overlay",
+    "podcast",
+    "interview",
+    "bold"
+   ],
+   "role": "caption",
+   "layouts": [],
+   "scores": {
+    "banded-three": 2
+   }
+  },
+  {
+   "name": "lt-neon-border",
+   "title": "Neon Border",
+   "duration": 4.8,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "lower-third",
+    "glow",
+    "loop",
+    "video-primitive"
+   ],
+   "role": "caption",
+   "layouts": [],
+   "scores": {
+    "banded-three": 2
+   }
+  },
+  {
+   "name": "lt-side-rule",
+   "title": "Lower Third — Side Rule",
+   "duration": 4.8,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "lower-third",
+    "overlay",
+    "podcast",
+    "interview",
+    "minimal"
+   ],
+   "role": "caption",
+   "layouts": [],
+   "scores": {
+    "banded-three": 2
+   }
+  },
+  {
+   "name": "lt-soft-pill",
+   "title": "Lower Third — Soft Pill",
+   "duration": 4.8,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "lower-third",
+    "overlay",
+    "podcast",
+    "interview",
+    "minimal"
+   ],
+   "role": "caption",
+   "layouts": [],
+   "scores": {
+    "banded-three": 2
+   }
+  },
+  {
+   "name": "lt-stack-bars",
+   "title": "Lower Third — Stack Bars",
+   "duration": 4.8,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "lower-third",
+    "overlay",
+    "podcast",
+    "interview",
+    "bold"
+   ],
+   "role": "caption",
+   "layouts": [],
+   "scores": {
+    "banded-three": 2,
+    "card-deck": 1
+   }
+  },
+  {
+   "name": "macos-notification",
+   "title": "macOS Notification",
+   "duration": 5,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "social",
+    "overlay",
+    "notification"
+   ],
+   "role": "layout",
+   "layouts": [
+    "banded-three"
+   ],
+   "scores": {
+    "banded-three": 2,
+    "ui-stage": 1
+   }
+  },
+  {
+   "name": "macos-tahoe-liquid-glass",
+   "title": "macOS Tahoe Liquid Glass Desktop",
+   "duration": 15,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "html-in-canvas",
+    "3d",
+    "macos",
+    "tahoe",
+    "gltf"
+   ],
+   "role": "object",
+   "layouts": [],
+   "scores": {
+    "one-shot-world": 3,
+    "ui-stage": 1
+   }
+  },
+  {
+   "name": "marble",
+   "title": "Marble",
+   "duration": 2,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgpu",
+    "webgpu-shader",
+    "background",
+    "marble",
+    "texture"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "mesh-gradient",
+   "title": "Mesh Gradient",
+   "duration": 2,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgpu",
+    "webgpu-shader",
+    "background",
+    "gradient",
+    "color"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "mk-background",
+   "title": "Minimal Gradient Background",
+   "duration": 10,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "background",
+    "gradient",
+    "minimal",
+    "professional",
+    "presentation"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {
+    "card-deck": 1
+   }
+  },
+  {
+   "name": "mk-callout-highlight",
+   "title": "Word-Sweep Highlight",
+   "duration": 8,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "typography",
+    "karaoke",
+    "captions",
+    "minimal"
+   ],
+   "role": "caption",
+   "layouts": [],
+   "scores": {
+    "data-dashboard": 2
+   }
+  },
+  {
+   "name": "mk-clone-wall-transition",
+   "title": "Text Clone Wall Transition",
+   "duration": 2.4,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "transition",
+    "typography",
+    "wipe"
+   ],
+   "role": "transition",
+   "layouts": [],
+   "scores": {
+    "data-dashboard": 2,
+    "code-panel": 2
+   }
+  },
+  {
+   "name": "mk-line-graph",
+   "title": "Minimal Line Graph",
+   "duration": 7,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "data-viz",
+    "chart",
+    "graph",
+    "minimal"
+   ],
+   "role": "layout",
+   "layouts": [
+    "data-dashboard"
+   ],
+   "scores": {
+    "data-dashboard": 7,
+    "code-panel": 1
+   }
+  },
+  {
+   "name": "mk-placeholder-grid",
+   "title": "Rounded Media Grid",
+   "duration": 8,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "placeholder",
+    "media",
+    "grid",
+    "minimal"
+   ],
+   "role": "layout",
+   "layouts": [
+    "unclassified"
+   ],
+   "scores": {
+    "hero-plus-grid": 1,
+    "centered-hero": 1
+   }
+  },
+  {
+   "name": "mk-progress-stat",
+   "title": "Count-Up Stat Card",
+   "duration": 7,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "data-viz",
+    "stat",
+    "minimal"
+   ],
+   "role": "layout",
+   "layouts": [
+    "data-dashboard"
+   ],
+   "scores": {
+    "data-dashboard": 2,
+    "banded-three": 1,
+    "card-deck": 1
+   }
+  },
+  {
+   "name": "mk-specs-list",
+   "title": "Specs Checklist",
+   "duration": 8,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "data-viz",
+    "list",
+    "minimal",
+    "professional"
+   ],
+   "role": "layout",
+   "layouts": [
+    "unclassified"
+   ],
+   "scores": {
+    "numbered-sections": 1,
+    "data-dashboard": 1
+   }
+  },
+  {
+   "name": "nebula",
+   "title": "Nebula",
+   "duration": 2,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgpu",
+    "webgpu-shader",
+    "object",
+    "space",
+    "nebula",
+    "sphere"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {
+    "one-shot-world": 2
+   }
+  },
+  {
+   "name": "news-ticker",
+   "title": "News Ticker",
+   "duration": 7,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "lower-third",
+    "overlay",
+    "news",
+    "ticker"
+   ],
+   "role": "caption",
+   "layouts": [],
+   "scores": {
+    "banded-three": 4,
+    "poster-full-bleed": 1
+   }
+  },
+  {
+   "name": "north-korea-locked-down",
+   "title": "North Korea Locked Down",
+   "duration": 7,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "showcase",
+    "map",
+    "annotation",
+    "youtube",
+    "kinetic"
+   ],
+   "role": "layout",
+   "layouts": [
+    "editorial-grid"
+   ],
+   "scores": {
+    "editorial-grid": 2,
+    "ui-stage": 1
+   }
+  },
+  {
+   "name": "nyc-paris-flight",
+   "title": "NYC Paris Flight",
+   "duration": 6,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "showcase",
+    "travel",
+    "map",
+    "youtube",
+    "sfx"
+   ],
+   "role": "layout",
+   "layouts": [
+    "unclassified"
+   ],
+   "scores": {
+    "ui-stage": 1
+   }
+  },
+  {
+   "name": "obsidian",
+   "title": "Obsidian",
+   "duration": 2,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgpu",
+    "webgpu-shader",
+    "object",
+    "glass",
+    "iridescent",
+    "dark"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "orbit-card",
+   "title": "Orbit Card",
+   "duration": 10,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "3d-motion",
+    "cards",
+    "feature-reveal",
+    "dots",
+    "orbit",
+    "blender-motion",
+    "sphere"
+   ],
+   "role": "layout",
+   "layouts": [
+    "card-deck"
+   ],
+   "scores": {
+    "card-deck": 2,
+    "one-shot-world": 1
+   }
+  },
+  {
+   "name": "organic-light-leak-overlay",
+   "title": "Organic Light Leak Overlay",
+   "duration": 4,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "light-leak",
+    "film",
+    "memory",
+    "transition",
+    "overlay",
+    "media-treatment-overlay"
+   ],
+   "role": "transition",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "oscilloscope-trace",
+   "title": "Oscilloscope Trace",
+   "duration": 6,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "instrument",
+    "data",
+    "showcase",
+    "retro"
+   ],
+   "role": "layout",
+   "layouts": [
+    "unclassified"
+   ],
+   "scores": {
+    "data-dashboard": 1,
+    "ui-stage": 1
+   }
+  },
+  {
+   "name": "plasma",
+   "title": "Plasma",
+   "duration": 2,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgpu",
+    "webgpu-shader",
+    "background",
+    "texture",
+    "plasma",
+    "purple"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "plastic",
+   "title": "Plastic",
+   "duration": 2,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgpu",
+    "webgpu-shader",
+    "object",
+    "plastic",
+    "material",
+    "white"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "prism",
+   "title": "Prism",
+   "duration": 2,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgpu",
+    "webgpu-shader",
+    "background",
+    "light",
+    "prism",
+    "rainbow"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "product-turntable",
+   "title": "Product Turntable",
+   "duration": 6,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "3d-object",
+    "three-js",
+    "webgl",
+    "product",
+    "turntable",
+    "glb",
+    "loop"
+   ],
+   "role": "layout",
+   "layouts": [
+    "unclassified"
+   ],
+   "scores": {}
+  },
+  {
+   "name": "rack-focus",
+   "title": "Rack Focus",
+   "duration": 6,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgl",
+    "shader",
+    "camera",
+    "depth",
+    "cinematic",
+    "showcase"
+   ],
+   "role": "layout",
+   "layouts": [
+    "unclassified"
+   ],
+   "scores": {
+    "one-shot-world": 1,
+    "ui-stage": 1
+   }
+  },
+  {
+   "name": "reddit-post",
+   "title": "Reddit Post Card",
+   "duration": 5,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "social",
+    "overlay",
+    "reddit"
+   ],
+   "role": "layout",
+   "layouts": [
+    "unclassified"
+   ],
+   "scores": {
+    "card-deck": 1
+   }
+  },
+  {
+   "name": "ridged-burn",
+   "title": "Ridged Burn",
+   "duration": 4,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "transition",
+    "shader"
+   ],
+   "role": "transition",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "ripple-waves",
+   "title": "Ripple Waves",
+   "duration": 4,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "transition",
+    "shader"
+   ],
+   "role": "transition",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "ripples",
+   "title": "Ripples",
+   "duration": 2,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgpu",
+    "webgpu-shader",
+    "background",
+    "texture",
+    "rings",
+    "waves",
+    "monochrome"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "sdf-iris",
+   "title": "SDF Iris",
+   "duration": 4,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "transition",
+    "shader"
+   ],
+   "role": "transition",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "sine-wave",
+   "title": "Sine Wave",
+   "duration": 2,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgpu",
+    "webgpu-shader",
+    "background",
+    "wave",
+    "line",
+    "glow"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {
+    "code-panel": 1
+   }
+  },
+  {
+   "name": "snow",
+   "title": "Snow",
+   "duration": 6,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "snow",
+    "snowfall",
+    "winter",
+    "weather",
+    "overlay",
+    "ambient",
+    "particles",
+    "media-treatment-overlay",
+    "loopable"
+   ],
+   "role": "layout",
+   "layouts": [
+    "unclassified"
+   ],
+   "scores": {}
+  },
+  {
+   "name": "spain-map",
+   "title": "Spain Map",
+   "duration": 12,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "data",
+    "map",
+    "geography",
+    "spain",
+    "europe",
+    "choropleth"
+   ],
+   "role": "layout",
+   "layouts": [
+    "data-dashboard"
+   ],
+   "scores": {
+    "data-dashboard": 3
+   }
+  },
+  {
+   "name": "spiral",
+   "title": "Spiral",
+   "duration": 2,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgpu",
+    "webgpu-shader",
+    "background",
+    "pattern",
+    "spiral",
+    "monochrome"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "spiral-galaxy",
+   "title": "Spiral Galaxy",
+   "duration": 10,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "hero",
+    "space",
+    "particles",
+    "webgl",
+    "background"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {
+    "code-panel": 2,
+    "centered-hero": 1
+   }
+  },
+  {
+   "name": "split-flap-board",
+   "title": "Split-Flap Board",
+   "duration": 3.5,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "text",
+    "kinetic",
+    "mechanical",
+    "split-flap",
+    "solari",
+    "departure-board",
+    "reveal"
+   ],
+   "role": "layout",
+   "layouts": [
+    "unclassified"
+   ],
+   "scores": {}
+  },
+  {
+   "name": "starfield",
+   "title": "Starfield",
+   "duration": 6,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "starfield",
+    "night-sky",
+    "stars",
+    "twinkle",
+    "sky",
+    "weather",
+    "overlay",
+    "ambient",
+    "particles",
+    "media-treatment-overlay",
+    "loopable"
+   ],
+   "role": "layout",
+   "layouts": [
+    "one-shot-world"
+   ],
+   "scores": {
+    "one-shot-world": 2
+   }
+  },
+  {
+   "name": "strands",
+   "title": "Strands",
+   "duration": 2,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgpu",
+    "webgpu-shader",
+    "background",
+    "light",
+    "lines",
+    "ribbons"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "stripes",
+   "title": "Stripes",
+   "duration": 2,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgpu",
+    "webgpu-shader",
+    "background",
+    "pattern",
+    "stripes",
+    "monochrome"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "sun-burst",
+   "title": "Sun Burst",
+   "duration": 2,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgpu",
+    "webgpu-shader",
+    "background",
+    "light",
+    "rays",
+    "radial"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "swirl",
+   "title": "Swirl",
+   "duration": 2,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgpu",
+    "webgpu-shader",
+    "background",
+    "gradient",
+    "flow",
+    "abstract"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "swirl-vortex",
+   "title": "Swirl Vortex",
+   "duration": 4,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "transition",
+    "shader"
+   ],
+   "role": "transition",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "thermal-distortion",
+   "title": "Thermal Distortion",
+   "duration": 4,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "transition",
+    "shader"
+   ],
+   "role": "transition",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "thin-film",
+   "title": "Thin Film",
+   "duration": 2,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgpu",
+    "webgpu-shader",
+    "object",
+    "iridescent",
+    "bubble",
+    "rainbow"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "thread-message-stack",
+   "title": "Thread Message Stack",
+   "duration": 8,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "social",
+    "conversation",
+    "messages"
+   ],
+   "role": "layout",
+   "layouts": [
+    "unclassified"
+   ],
+   "scores": {
+    "card-deck": 1
+   }
+  },
+  {
+   "name": "transitions-3d",
+   "title": "3D Transitions",
+   "duration": 11,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "transition",
+    "showcase"
+   ],
+   "role": "transition",
+   "layouts": [],
+   "scores": {
+    "ui-stage": 1
+   }
+  },
+  {
+   "name": "transitions-blur",
+   "title": "Blur Transitions",
+   "duration": 20,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "transition",
+    "showcase"
+   ],
+   "role": "transition",
+   "layouts": [],
+   "scores": {
+    "ui-stage": 1
+   }
+  },
+  {
+   "name": "transitions-cover",
+   "title": "Cover Transitions",
+   "duration": 21,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "transition",
+    "showcase"
+   ],
+   "role": "transition",
+   "layouts": [],
+   "scores": {
+    "ui-stage": 1
+   }
+  },
+  {
+   "name": "transitions-destruction",
+   "title": "Destruction Transitions",
+   "duration": 14,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "transition",
+    "showcase"
+   ],
+   "role": "transition",
+   "layouts": [],
+   "scores": {
+    "ui-stage": 1
+   }
+  },
+  {
+   "name": "transitions-dissolve",
+   "title": "Dissolve Transitions",
+   "duration": 24,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "transition",
+    "showcase",
+    "crossfade"
+   ],
+   "role": "transition",
+   "layouts": [],
+   "scores": {
+    "ui-stage": 1
+   }
+  },
+  {
+   "name": "transitions-distortion",
+   "title": "Distortion Transitions",
+   "duration": 21,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "transition",
+    "showcase"
+   ],
+   "role": "transition",
+   "layouts": [],
+   "scores": {
+    "ui-stage": 1
+   }
+  },
+  {
+   "name": "transitions-grid",
+   "title": "Grid Transitions",
+   "duration": 11,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "transition",
+    "showcase"
+   ],
+   "role": "transition",
+   "layouts": [],
+   "scores": {
+    "hero-plus-grid": 1,
+    "ui-stage": 1
+   }
+  },
+  {
+   "name": "transitions-light",
+   "title": "Light Transitions",
+   "duration": 21,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "transition",
+    "showcase"
+   ],
+   "role": "transition",
+   "layouts": [],
+   "scores": {
+    "ui-stage": 1
+   }
+  },
+  {
+   "name": "transitions-mechanical",
+   "title": "Mechanical Transitions",
+   "duration": 15,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "transition",
+    "showcase"
+   ],
+   "role": "transition",
+   "layouts": [],
+   "scores": {
+    "ui-stage": 1
+   }
+  },
+  {
+   "name": "transitions-other",
+   "title": "Other Transitions",
+   "duration": 20,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "transition",
+    "showcase"
+   ],
+   "role": "transition",
+   "layouts": [],
+   "scores": {
+    "ui-stage": 1
+   }
+  },
+  {
+   "name": "transitions-push",
+   "title": "Push Transitions",
+   "duration": 24,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "transition",
+    "showcase"
+   ],
+   "role": "transition",
+   "layouts": [],
+   "scores": {
+    "ui-stage": 1
+   }
+  },
+  {
+   "name": "transitions-radial",
+   "title": "Radial Transitions",
+   "duration": 20,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "transition",
+    "showcase"
+   ],
+   "role": "transition",
+   "layouts": [],
+   "scores": {
+    "ui-stage": 1
+   }
+  },
+  {
+   "name": "transitions-scale",
+   "title": "Scale Transitions",
+   "duration": 15,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "transition",
+    "showcase"
+   ],
+   "role": "transition",
+   "layouts": [],
+   "scores": {
+    "ui-stage": 1
+   }
+  },
+  {
+   "name": "ui-3d-reveal",
+   "title": "3D UI Reveal",
+   "duration": 13,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "showcase",
+    "3d",
+    "reveal"
+   ],
+   "role": "object",
+   "layouts": [],
+   "scores": {
+    "ui-stage": 2
+   }
+  },
+  {
+   "name": "us-map",
+   "title": "US Map",
+   "duration": 12,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "data",
+    "map",
+    "geography",
+    "usa",
+    "choropleth"
+   ],
+   "role": "layout",
+   "layouts": [
+    "data-dashboard"
+   ],
+   "scores": {
+    "data-dashboard": 3
+   }
+  },
+  {
+   "name": "us-map-bubble",
+   "title": "US Bubble Map",
+   "duration": 12,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "data",
+    "map",
+    "geography",
+    "usa",
+    "bubble",
+    "cities"
+   ],
+   "role": "layout",
+   "layouts": [
+    "data-dashboard"
+   ],
+   "scores": {
+    "data-dashboard": 3
+   }
+  },
+  {
+   "name": "us-map-flow",
+   "title": "US Flow Map",
+   "duration": 12,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "data",
+    "map",
+    "geography",
+    "usa",
+    "flow",
+    "connections",
+    "arcs"
+   ],
+   "role": "layout",
+   "layouts": [
+    "data-dashboard"
+   ],
+   "scores": {
+    "data-dashboard": 3
+   }
+  },
+  {
+   "name": "us-map-hex",
+   "title": "US Hex Grid Map",
+   "duration": 10,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "data",
+    "map",
+    "geography",
+    "usa",
+    "hexgrid",
+    "tilegrid"
+   ],
+   "role": "layout",
+   "layouts": [
+    "data-dashboard"
+   ],
+   "scores": {
+    "data-dashboard": 3,
+    "hero-plus-grid": 1
+   }
+  },
+  {
+   "name": "vfx-anamorphic-flare",
+   "title": "Anamorphic Streak Flare",
+   "duration": 10,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "vfx",
+    "background",
+    "showcase",
+    "optical",
+    "canvas"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {
+    "ui-stage": 1
+   }
+  },
+  {
+   "name": "vfx-iphone-device",
+   "title": "iPhone & MacBook 3D Showcase",
+   "duration": 15,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "html-in-canvas",
+    "3d",
+    "device",
+    "iphone",
+    "macbook",
+    "gltf"
+   ],
+   "role": "object",
+   "layouts": [],
+   "scores": {
+    "ui-stage": 3,
+    "data-dashboard": 2,
+    "one-shot-world": 1
+   }
+  },
+  {
+   "name": "vfx-liquid-background",
+   "title": "Liquid Background",
+   "duration": 12,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "html-in-canvas",
+    "liquid",
+    "webgl",
+    "displacement",
+    "background"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "vfx-liquid-glass",
+   "title": "Liquid Glass",
+   "duration": 20,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "html-in-canvas",
+    "webgl"
+   ],
+   "role": "layout",
+   "layouts": [
+    "unclassified"
+   ],
+   "scores": {}
+  },
+  {
+   "name": "vfx-magnetic",
+   "title": "Magnetic",
+   "duration": 15,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "html-in-canvas",
+    "webgl"
+   ],
+   "role": "layout",
+   "layouts": [
+    "unclassified"
+   ],
+   "scores": {}
+  },
+  {
+   "name": "vfx-portal",
+   "title": "Portal",
+   "duration": 10,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "html-in-canvas",
+    "webgl"
+   ],
+   "role": "layout",
+   "layouts": [
+    "unclassified"
+   ],
+   "scores": {}
+  },
+  {
+   "name": "vfx-shatter",
+   "title": "Shatter",
+   "duration": 12,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "html-in-canvas",
+    "webgl"
+   ],
+   "role": "layout",
+   "layouts": [
+    "unclassified"
+   ],
+   "scores": {}
+  },
+  {
+   "name": "vfx-text-cursor",
+   "title": "VFX Text Cursor",
+   "duration": 8,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "html-in-canvas",
+    "text",
+    "shader",
+    "cursor",
+    "chromatic"
+   ],
+   "role": "layout",
+   "layouts": [
+    "unclassified"
+   ],
+   "scores": {}
+  },
+  {
+   "name": "voronoi",
+   "title": "Voronoi",
+   "duration": 2,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgpu",
+    "webgpu-shader",
+    "background",
+    "pattern",
+    "cells",
+    "voronoi"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "vpn-youtube-spot",
+   "title": "VPN YouTube Spot",
+   "duration": 7,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "app",
+    "showcase",
+    "youtube",
+    "sfx"
+   ],
+   "role": "layout",
+   "layouts": [
+    "ui-stage"
+   ],
+   "scores": {
+    "ui-stage": 4
+   }
+  },
+  {
+   "name": "water",
+   "title": "Water",
+   "duration": 2,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgpu",
+    "webgpu-shader",
+    "orb",
+    "water",
+    "material",
+    "blue"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "waveform",
+   "title": "Waveform",
+   "duration": 2,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgpu",
+    "webgpu-shader",
+    "audio",
+    "music",
+    "visualizer",
+    "bars"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "weight-wave",
+   "title": "Weight Wave",
+   "duration": 6,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "typography",
+    "kinetic-type",
+    "title",
+    "variable-font",
+    "text"
+   ],
+   "role": "layout",
+   "layouts": [
+    "data-dashboard"
+   ],
+   "scores": {
+    "data-dashboard": 2,
+    "poster-full-bleed": 1
+   }
+  },
+  {
+   "name": "whip-pan",
+   "title": "Whip Pan",
+   "duration": 4,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "transition",
+    "shader"
+   ],
+   "role": "transition",
+   "layouts": [],
+   "scores": {
+    "one-shot-world": 1
+   }
+  },
+  {
+   "name": "wireframe-portal-title",
+   "title": "Wireframe Portal Title",
+   "duration": 8,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "3d-motion",
+    "title-card",
+    "wireframe",
+    "portal",
+    "burst",
+    "typography",
+    "post-processing",
+    "phrase-swap"
+   ],
+   "role": "layout",
+   "layouts": [
+    "centered-hero",
+    "data-dashboard"
+   ],
+   "scores": {
+    "centered-hero": 2,
+    "data-dashboard": 2,
+    "card-deck": 1
+   }
+  },
+  {
+   "name": "world-map",
+   "title": "World Map",
+   "duration": 14,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "data",
+    "map",
+    "geography",
+    "world",
+    "choropleth"
+   ],
+   "role": "layout",
+   "layouts": [
+    "data-dashboard",
+    "one-shot-world"
+   ],
+   "scores": {
+    "data-dashboard": 3,
+    "one-shot-world": 2
+   }
+  },
+  {
+   "name": "worley-noise",
+   "title": "Worley Noise",
+   "duration": 2,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "webgpu",
+    "webgpu-shader",
+    "background",
+    "texture",
+    "noise",
+    "cells",
+    "monochrome"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {}
+  },
+  {
+   "name": "x-post",
+   "title": "X Post Card",
+   "duration": 5,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "social",
+    "overlay",
+    "twitter"
+   ],
+   "role": "layout",
+   "layouts": [
+    "unclassified"
+   ],
+   "scores": {
+    "card-deck": 1
+   }
+  },
+  {
+   "name": "yt-comment-card",
+   "title": "Comment Cards",
+   "duration": 8,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "social",
+    "comments",
+    "creator",
+    "overlay"
+   ],
+   "role": "layout",
+   "layouts": [
+    "card-deck"
+   ],
+   "scores": {
+    "card-deck": 2
+   }
+  },
+  {
+   "name": "yt-lcd-background",
+   "title": "Scanline Board Background",
+   "duration": 10,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "background",
+    "texture",
+    "creator"
+   ],
+   "role": "background",
+   "layouts": [],
+   "scores": {
+    "hero-plus-grid": 1
+   }
+  },
+  {
+   "name": "yt-logo-intro",
+   "title": "Logo Intro Sequence",
+   "duration": 6,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "logo",
+    "intro",
+    "creator"
+   ],
+   "role": "layout",
+   "layouts": [
+    "unclassified"
+   ],
+   "scores": {
+    "centered-hero": 1,
+    "timeline-rail": 1,
+    "code-panel": 1
+   }
+  },
+  {
+   "name": "yt-lower-third",
+   "title": "YouTube Lower Third",
+   "duration": 4.5,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "social",
+    "overlay",
+    "youtube"
+   ],
+   "role": "layout",
+   "layouts": [
+    "banded-three"
+   ],
+   "scores": {
+    "banded-three": 2
+   }
+  },
+  {
+   "name": "yt-prism-title",
+   "title": "Chromatic Fringe Title",
+   "duration": 6,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "typography",
+    "title-card",
+    "creator"
+   ],
+   "role": "layout",
+   "layouts": [
+    "centered-hero",
+    "data-dashboard"
+   ],
+   "scores": {
+    "centered-hero": 2,
+    "data-dashboard": 2,
+    "card-deck": 1
+   }
+  },
+  {
+   "name": "yt-vertical-fill",
+   "title": "Vertical Media Filler",
+   "duration": 8,
+   "dims": {
+    "width": 1920,
+    "height": 1080
+   },
+   "tags": [
+    "placeholder",
+    "vertical",
+    "media"
+   ],
+   "role": "layout",
+   "layouts": [
+    "unclassified"
+   ],
+   "scores": {
+    "hero-plus-grid": 1
+   }
+  }
+ ]
+}

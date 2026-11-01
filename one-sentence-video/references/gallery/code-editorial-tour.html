@@ -1,0 +1,69 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+:root{--bg:#FAF9F5;--ink:#141413;--acc:#CC785C;--aux:#CC785C;
+ --display:"PingFang SC 600",Songti SC,PingFang SC,serif;
+ --body:"PingFang SC",PingFang SC,sans-serif;
+ --mono:"JetBrains Mono",Menlo,monospace}
+
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1920px;height:1080px;overflow:hidden}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);position:relative}
+.safe{position:absolute;left:96px;top:72px;width:1728px;height:936px}
+.chrome{font-family:var(--mono);font-size:19px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--ink);opacity:.55}
+.hair{height:1px;background:currentColor;opacity:.22;width:100%}
+/* 左：名称区 */
+.title{font-family:var(--display);font-size:112px;line-height:.98;letter-spacing:-.02em;margin-top:18px}
+.sub{font-family:var(--mono);font-size:23px;letter-spacing:.1em;opacity:.6;margin-top:16px}
+.mood{font-size:27px;line-height:1.6;margin-top:34px;max-width:660px;opacity:.86}
+.cost{font-size:21px;line-height:1.55;margin-top:22px;max-width:660px;opacity:.5}
+.acc-bar{width:96px;height:7px;background:var(--acc);margin-top:30px}
+/* 右：调色板 */
+.sw{display:flex;gap:0;margin-top:12px}
+.sw>div{height:104px;flex:1;position:relative}
+.sw .hex{position:absolute;left:14px;bottom:12px;font-family:var(--mono);font-size:15px;opacity:.55;letter-spacing:.04em}
+/* 线框 */
+.wire{position:relative;border:1.5px solid currentColor;opacity:.5}
+.wire i{position:absolute;display:block}
+.wire .solid{background:var(--acc);opacity:.55}
+.wire .soft{background:var(--ink);opacity:.16}
+.tags{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+.tag{font-family:var(--mono);font-size:16px;letter-spacing:.1em;text-transform:uppercase;
+  border:1px solid currentColor;padding:7px 13px;opacity:.7}
+.tag.acc{border-color:var(--acc);color:var(--acc);opacity:1}
+</style></head><body>
+<div class="safe">
+  <div style="display:flex;gap:56px;height:100%">
+    <div style="width:760px;display:flex;flex-direction:column">
+      <div class="chrome">style-ledger · code-editorial-tour</div>
+      <div class="title">代码编辑导览</div>
+      <div class="sub">Code Editorial</div>
+      <div class="acc-bar"></div>
+      <div class="mood">近黑墨 + 奶油纸 + 陶土珊瑚，代码/产品界面导览</div>
+      <div class="cost">代价 · 容易变成「截图平铺」，必须有镜头在走</div>
+      <div style="margin-top:46px">
+        <div class="hair" style="margin-bottom:16px"></div>
+        <div class="chrome" style="margin-bottom:14px">type specimen</div>
+        <div style="font-family:var(--display);font-size:58px;line-height:1.05;letter-spacing:-.01em">标题四到八字</div>
+        <div style="font-size:26px;line-height:1.5;margin-top:14px;opacity:.85">副句不超过十个字，一眼读完</div>
+        <div style="font-family:var(--mono);font-size:17px;letter-spacing:.14em;margin-top:14px;color:var(--acc)">标签 · 六字内 · LABEL</div>
+      </div>
+      <div style="margin-top:auto">
+        <div class="tags"><span class="tag acc">one-shot-world</span><span class="tag">editorial-grid</span><span class="tag">zoom-through</span><span class="tag">swipe</span><span class="tag">tick</span></div>
+      </div>
+    </div>
+    <div style="width:912px;display:flex;flex-direction:column">
+      <div class="chrome" style="margin-bottom:14px">layout · one-shot-world</div>
+      <div style="opacity:0.7;transform-origin:left top;transform:scale(1.2)">
+        <div class="wire" style="width:760px;height:420px"><i class="soft" style="left:0px;top:40px;width:170px;height:340px"></i><i class="soft" style="left:190px;top:40px;width:170px;height:340px"></i><i class="soft" style="left:380px;top:40px;width:170px;height:340px"></i><i class="soft" style="left:570px;top:40px;width:170px;height:340px"></i><i class="solid" style="left:560px;top:40px;width:200px;height:340px"></i></div>
+      </div>
+      <div style="margin-top:56px">
+        <div class="hair" style="margin-bottom:16px"></div>
+        <div class="chrome" style="margin-bottom:12px">palette</div>
+        <div class="sw"><div style="background:#FAF9F5;border:1px solid rgba(0,0,0,.14)"><span class="hex" style="color:#111111">#FAF9F5 · BG</span></div><div style="background:#141413;border:1px solid rgba(0,0,0,.14)"><span class="hex" style="color:#FFFFFF">#141413 · INK</span></div><div style="background:#CC785C;border:1px solid rgba(0,0,0,.14)"><span class="hex" style="color:#FFFFFF">#CC785C · ACC</span></div></div>
+      </div>
+      <div style="margin-top:auto" class="chrome">
+        motion zoom-through · route 有意图的镜头 · sound swipe+tick · bgm dry-tech @ 104bpm
+      </div>
+    </div>
+  </div>
+</div></body></html>

@@ -1,0 +1,901 @@
+{
+ "_note": "卡片索引。由 card-index.py --rebuild 生成，不要手改。",
+ "total": 22,
+ "by_category": {
+  "catalog": [
+   "caption-bar-close",
+   "cast-list-poster",
+   "cta-pill-close",
+   "funnel-stage-filter",
+   "gpu-matrix-ledger",
+   "hero-plus-thumbnail-wall",
+   "numbered-section-open",
+   "orbit-ring-title",
+   "progressive-node-tree",
+   "repeated-text-texture",
+   "stat-pills-row",
+   "three-way-bakeoff-row",
+   "two-column-corridor"
+  ],
+  "motion": [
+   "counter-seek-safe",
+   "easing-family",
+   "notch-rail-progress",
+   "packet-hop-break",
+   "scene-handoff-overlap",
+   "seam-cut-the-curve",
+   "section-beat-density",
+   "world-pan-parallax"
+  ],
+  "sound": [
+   "beat-grid-snap"
+  ]
+ },
+ "cards": [
+  {
+   "id": "caption-bar-close",
+   "name_zh": "底部一句话条",
+   "category": "catalog",
+   "role": "layout",
+   "energy": 1,
+   "duration": 1.6,
+   "layouts": [
+    "banded-three"
+   ],
+   "seams": [
+    "cut-the-curve"
+   ],
+   "sound": [
+    "thud"
+   ],
+   "genres": [
+    "tech-deep",
+    "neutral",
+    "news",
+    "career"
+   ],
+   "source": "逆向自 ScreenRecording_10-26-2026 11-11-20 全片复现（每章结尾一句）",
+   "verified": "measured",
+   "path": "catalog/caption-bar-close.md",
+   "has_when_not": true,
+   "sections": [
+    "意图",
+    "适用",
+    "构图",
+    "时间表",
+    "缓动",
+    "参数表",
+    "HyperFrames 要点",
+    "声音",
+    "何时不用"
+   ],
+   "lines": 56
+  },
+  {
+   "id": "cast-list-poster",
+   "name_zh": "海报大字 + 名单",
+   "category": "catalog",
+   "role": "typography",
+   "energy": 4,
+   "duration": 3.0,
+   "layouts": [
+    "poster-full-bleed"
+   ],
+   "seams": [
+    "waterfall cut"
+   ],
+   "sound": [
+    "thud",
+    "tick"
+   ],
+   "genres": [
+    "movie",
+    "gaming",
+    "sports",
+    "news"
+   ],
+   "source": "逆向本地 minimax-h3 scene-02（MIDNIGHT LINE + 演员表 MAYA CROSS / JUNO PARK / KATO / LENA WARD）",
+   "verified": "measured",
+   "path": "catalog/cast-list-poster.md",
+   "has_when_not": true,
+   "sections": [
+    "意图",
+    "适用",
+    "构图",
+    "时间表",
+    "参数表",
+    "HyperFrames 要点",
+    "声音",
+    "何时不用"
+   ],
+   "lines": 56
+  },
+  {
+   "id": "cta-pill-close",
+   "name_zh": "结尾 CTA 胶囊",
+   "category": "catalog",
+   "role": "layout",
+   "energy": 3,
+   "duration": 2.0,
+   "layouts": [
+    "centered-hero"
+   ],
+   "seams": [
+    "zoom-through"
+   ],
+   "sound": [
+    "chime",
+    "thud"
+   ],
+   "genres": [
+    "tech-deep",
+    "career",
+    "gaming",
+    "auto"
+   ],
+   "source": "逆向本地 minimax-h3 scene-06（\"都AI剪辑，不用再等人工了\" 胶囊 + 下箭头）",
+   "verified": "measured",
+   "path": "catalog/cta-pill-close.md",
+   "has_when_not": true,
+   "sections": [
+    "意图",
+    "适用",
+    "构图",
+    "时间表",
+    "参数表",
+    "HyperFrames 要点",
+    "声音",
+    "何时不用"
+   ],
+   "lines": 53
+  },
+  {
+   "id": "funnel-stage-filter",
+   "name_zh": "四阶漏斗过滤流水线",
+   "category": "catalog",
+   "role": "layout",
+   "energy": 4,
+   "duration": 4.8,
+   "layouts": [
+    "funnel-stage-filter",
+    "two-column-corridor",
+    "timeline-rail"
+   ],
+   "seams": [
+    "cut-the-curve",
+    "waterfall cut"
+   ],
+   "sound": [
+    "tick",
+    "thud",
+    "swipe"
+   ],
+   "genres": [
+    "tech-deep",
+    "career",
+    "neutral"
+   ],
+   "source": "小哲讲大模型 · 一条视频彻底吃透RAG四层漏斗视频实测拆帧（暖白编辑室底 + 四阶色义漏斗 + 错切碎裂对比）",
+   "verified": "measured",
+   "path": "catalog/funnel-stage-filter.md",
+   "has_when_not": true,
+   "sections": [
+    "意图",
+    "适用",
+    "构图",
+    "时间表",
+    "参数表",
+    "HyperFrames 要点",
+    "声音",
+    "何时不用"
+   ],
+   "lines": 64
+  },
+  {
+   "id": "gpu-matrix-ledger",
+   "name_zh": "GPU算力矩阵与单位经济学账本",
+   "category": "catalog",
+   "role": "data",
+   "energy": 4,
+   "duration": 4.2,
+   "layouts": [
+    "gpu-matrix-ledger",
+    "data-dashboard",
+    "split-compare"
+   ],
+   "seams": [
+    "whip-x",
+    "cut-the-curve"
+   ],
+   "sound": [
+    "tick",
+    "thud",
+    "whoosh"
+   ],
+   "genres": [
+    "tech-deep",
+    "finance",
+    "career"
+   ],
+   "source": "第四种黑猩猩 · DeepSeek 单卡 $38 算力经济学视频实测拆帧（#FAF9F6 纸面底 + 砖块矩阵 + 巨型倍率算式）",
+   "verified": "measured",
+   "path": "catalog/gpu-matrix-ledger.md",
+   "has_when_not": true,
+   "sections": [
+    "意图",
+    "适用",
+    "构图",
+    "时间表",
+    "参数表",
+    "HyperFrames 要点",
+    "声音",
+    "何时不用"
+   ],
+   "lines": 62
+  },
+  {
+   "id": "hero-plus-thumbnail-wall",
+   "name_zh": "主图加缩略图墙",
+   "category": "catalog",
+   "role": "layout",
+   "energy": 3,
+   "duration": 5.0,
+   "layouts": [
+    "hero-plus-grid"
+   ],
+   "seams": [
+    "cut-the-curve"
+   ],
+   "sound": [
+    "flap",
+    "tick"
+   ],
+   "genres": [
+    "tech-deep",
+    "neutral",
+    "career"
+   ],
+   "source": "逆向自 ScreenRecording_10-26-2026 11-11-20 @ 22.8–26.8s（43 格缩略图 + 当前项橙框）",
+   "verified": "measured",
+   "path": "catalog/hero-plus-thumbnail-wall.md",
+   "has_when_not": true,
+   "sections": [
+    "意图",
+    "适用",
+    "构图",
+    "时间表",
+    "缓动",
+    "参数表",
+    "HyperFrames 要点",
+    "声音",
+    "何时不用"
+   ],
+   "lines": 61
+  },
+  {
+   "id": "numbered-section-open",
+   "name_zh": "大序号章节开场",
+   "category": "catalog",
+   "role": "layout",
+   "energy": 2,
+   "duration": 3.5,
+   "layouts": [
+    "numbered-sections"
+   ],
+   "seams": [
+    "cut-the-curve"
+   ],
+   "sound": [
+    "tick",
+    "flap"
+   ],
+   "genres": [
+    "tech-deep",
+    "career",
+    "neutral",
+    "news"
+   ],
+   "source": "逆向自 ScreenRecording_10-26-2026 11-11-20 @ 14.7–22.8s（\"02 / 43 种影片风格\"）",
+   "verified": "measured",
+   "path": "catalog/numbered-section-open.md",
+   "has_when_not": true,
+   "sections": [
+    "意图",
+    "适用",
+    "构图（1920×1080，横屏）",
+    "时间表（拍点 → 动作）",
+    "缓动",
+    "参数表",
+    "HyperFrames 要点",
+    "声音",
+    "何时不用"
+   ],
+   "lines": 68
+  },
+  {
+   "id": "orbit-ring-title",
+   "name_zh": "环形巡回标题",
+   "category": "catalog",
+   "role": "layout",
+   "energy": 3,
+   "duration": 5.0,
+   "layouts": [
+    "centered-hero",
+    "card-deck"
+   ],
+   "seams": [
+    "cut-the-curve"
+   ],
+   "sound": [
+    "whoosh",
+    "chime"
+   ],
+   "genres": [
+    "tech-deep",
+    "gaming",
+    "movie",
+    "auto"
+   ],
+   "source": "逆向本地 minimax-h3 scene-01（5s，环形徽章 + 逐字标题 + glitch）",
+   "verified": "measured",
+   "path": "catalog/orbit-ring-title.md",
+   "has_when_not": true,
+   "sections": [
+    "意图",
+    "适用",
+    "构图",
+    "时间表",
+    "纵深（关键）",
+    "参数表",
+    "HyperFrames 要点",
+    "声音",
+    "何时不用"
+   ],
+   "lines": 64
+  },
+  {
+   "id": "progressive-node-tree",
+   "name_zh": "渐进式贝塞尔节点树",
+   "category": "catalog",
+   "role": "layout",
+   "energy": 3,
+   "duration": 4.5,
+   "layouts": [
+    "progressive-node-tree",
+    "numbered-sections"
+   ],
+   "seams": [
+    "scale-through",
+    "whip-x"
+   ],
+   "sound": [
+    "tick",
+    "whoosh",
+    "chime"
+   ],
+   "genres": [
+    "tech-deep",
+    "career",
+    "neutral"
+   ],
+   "source": "小哲讲agent · MCP/Skill/本地Tools分层拓扑视频实测拆帧（#050C0A 深黑曜石底 + 三层色彩语义树）",
+   "verified": "measured",
+   "path": "catalog/progressive-node-tree.md",
+   "has_when_not": true,
+   "sections": [
+    "意图",
+    "适用",
+    "构图",
+    "时间表",
+    "参数表",
+    "HyperFrames 要点",
+    "声音",
+    "何时不用"
+   ],
+   "lines": 63
+  },
+  {
+   "id": "repeated-text-texture",
+   "name_zh": "重复文字底纹",
+   "category": "catalog",
+   "role": "background",
+   "energy": 2,
+   "duration": 4.0,
+   "layouts": [
+    "poster-full-bleed",
+    "banded-three"
+   ],
+   "seams": [
+    "cut-the-curve"
+   ],
+   "sound": [
+    "whoosh"
+   ],
+   "genres": [
+    "gaming",
+    "sports",
+    "movie",
+    "news",
+    "tech-deep"
+   ],
+   "source": "逆向本地 minimax-h3（\"MINIMAX MINIMAX…\" 满幅重复字作背景，压暗后成为质感）",
+   "verified": "measured",
+   "path": "catalog/repeated-text-texture.md",
+   "has_when_not": true,
+   "sections": [
+    "意图",
+    "适用",
+    "构图",
+    "时间表",
+    "参数表",
+    "HyperFrames 要点",
+    "声音",
+    "何时不用"
+   ],
+   "lines": 54
+  },
+  {
+   "id": "stat-pills-row",
+   "name_zh": "统计胶囊",
+   "category": "catalog",
+   "role": "data",
+   "energy": 3,
+   "duration": 2.5,
+   "layouts": [
+    "data-dashboard",
+    "banded-three"
+   ],
+   "seams": [
+    "waterfall entry"
+   ],
+   "sound": [
+    "tick",
+    "chime"
+   ],
+   "genres": [
+    "tech-deep",
+    "finance",
+    "sports",
+    "auto",
+    "career"
+   ],
+   "source": "逆向本地 minimax-h3（2K / 15s / 2 三枚胶囊，等距横排，带描边与数值）",
+   "verified": "measured",
+   "path": "catalog/stat-pills-row.md",
+   "has_when_not": true,
+   "sections": [
+    "意图",
+    "适用",
+    "构图",
+    "时间表",
+    "参数表",
+    "HyperFrames 要点",
+    "声音",
+    "何时不用"
+   ],
+   "lines": 54
+  },
+  {
+   "id": "three-way-bakeoff-row",
+   "name_zh": "三案并排比选",
+   "category": "catalog",
+   "role": "layout",
+   "energy": 2,
+   "duration": 4.0,
+   "layouts": [
+    "split-compare"
+   ],
+   "seams": [
+    "waterfall cut"
+   ],
+   "sound": [
+    "flap",
+    "chime"
+   ],
+   "genres": [
+    "tech-deep",
+    "neutral",
+    "movie"
+   ],
+   "source": "逆向自 ScreenRecording_10-26-2026 11-11-20 @ 7.5–14.7s（方案 A 散席 / B 同路一段 / C 最后一盏灯）",
+   "verified": "measured",
+   "path": "catalog/three-way-bakeoff-row.md",
+   "has_when_not": true,
+   "sections": [
+    "意图",
+    "适用",
+    "构图",
+    "时间表",
+    "缓动",
+    "参数表",
+    "HyperFrames 要点",
+    "声音",
+    "何时不用"
+   ],
+   "lines": 57
+  },
+  {
+   "id": "two-column-corridor",
+   "name_zh": "双栏收敛走廊",
+   "category": "catalog",
+   "role": "layout",
+   "energy": 2,
+   "duration": 4.0,
+   "layouts": [
+    "two-column-corridor"
+   ],
+   "seams": [
+    "cut-the-curve"
+   ],
+   "sound": [
+    "swipe",
+    "chime"
+   ],
+   "genres": [
+    "finance",
+    "tech-deep",
+    "neutral",
+    "career"
+   ],
+   "source": "eccom METHOD §5①（走廊宽度决定\"并成一条\"这个动作能不能被看见）",
+   "verified": "measured",
+   "path": "catalog/two-column-corridor.md",
+   "has_when_not": true,
+   "sections": [
+    "意图",
+    "适用",
+    "构图",
+    "时间表",
+    "位先立、答案后落",
+    "参数表",
+    "HyperFrames 要点",
+    "声音",
+    "何时不用"
+   ],
+   "lines": 63
+  },
+  {
+   "id": "counter-seek-safe",
+   "name_zh": "seek 安全计数器",
+   "category": "motion",
+   "role": "data",
+   "energy": 2,
+   "duration": 1.3,
+   "layouts": [
+    "data-dashboard"
+   ],
+   "seams": [
+    "waterfall entry"
+   ],
+   "sound": [
+    "tick"
+   ],
+   "genres": [
+    "finance",
+    "sports",
+    "news",
+    "tech-deep"
+   ],
+   "source": "eccom METHOD §4.1（赋值而非累加）",
+   "verified": "measured",
+   "path": "motion/counter-seek-safe.md",
+   "has_when_not": true,
+   "sections": [
+    "意图",
+    "适用",
+    "写法（唯一正确形态）",
+    "三条铁律",
+    "构图",
+    "时间表",
+    "参数表",
+    "HyperFrames 要点",
+    "声音",
+    "何时不用"
+   ],
+   "lines": 71
+  },
+  {
+   "id": "easing-family",
+   "name_zh": "缓动家族分工",
+   "category": "motion",
+   "role": "rhythm",
+   "energy": 3,
+   "duration": 0.0,
+   "layouts": [],
+   "seams": [
+    "cut-the-curve",
+    "zoom-through",
+    "waterfall cut"
+   ],
+   "sound": [
+    "whoosh",
+    "thud"
+   ],
+   "genres": [
+    "tech-deep",
+    "career",
+    "neutral",
+    "gaming",
+    "finance"
+   ],
+   "source": "逆向本地 minimax-h3（6 镜全部 back.out(1.7)）+ eccom METHOD §6 实测",
+   "verified": "measured",
+   "path": "motion/easing-family.md",
+   "has_when_not": true,
+   "sections": [
+    "意图",
+    "适用",
+    "分工表",
+    "反例（本地实测）",
+    "自检",
+    "参数表",
+    "何时不用"
+   ],
+   "lines": 63
+  },
+  {
+   "id": "notch-rail-progress",
+   "name_zh": "累积刻痕（竖起来的进度）",
+   "category": "motion",
+   "role": "data",
+   "energy": 2,
+   "duration": 2.4,
+   "layouts": [
+    "timeline-rail"
+   ],
+   "seams": [
+    "nudge curve"
+   ],
+   "sound": [
+    "tick"
+   ],
+   "genres": [
+    "tech-deep",
+    "career",
+    "finance",
+    "neutral"
+   ],
+   "source": "eccom METHOD §4.3（底部进度条是设计禁忌，竖起来挂在内容旁就合法）",
+   "verified": "derived",
+   "path": "motion/notch-rail-progress.md",
+   "has_when_not": true,
+   "sections": [
+    "意图",
+    "适用",
+    "构图",
+    "时间表",
+    "缓动",
+    "参数表",
+    "HyperFrames 要点",
+    "声音",
+    "何时不用"
+   ],
+   "lines": 53
+  },
+  {
+   "id": "packet-hop-break",
+   "name_zh": "逐跳撞断点",
+   "category": "motion",
+   "role": "sequence",
+   "energy": 4,
+   "duration": 2.2,
+   "layouts": [
+    "banded-three"
+   ],
+   "seams": [
+    "waterfall cut"
+   ],
+   "sound": [
+    "tick",
+    "thud"
+   ],
+   "genres": [
+    "tech-deep",
+    "finance",
+    "neutral"
+   ],
+   "source": "eccom METHOD §4.2（因果同帧：撞击与变色必须同一时间点）",
+   "verified": "measured",
+   "path": "motion/packet-hop-break.md",
+   "has_when_not": true,
+   "sections": [
+    "意图",
+    "适用",
+    "时间表",
+    "因果同帧",
+    "参数表",
+    "HyperFrames 要点",
+    "声音",
+    "何时不用"
+   ],
+   "lines": 53
+  },
+  {
+   "id": "scene-handoff-overlap",
+   "name_zh": "场景重叠交接",
+   "category": "motion",
+   "role": "transition",
+   "energy": 3,
+   "duration": 0.5,
+   "layouts": [],
+   "seams": [
+    "cut-the-curve",
+    "waterfall cut",
+    "zoom-through"
+   ],
+   "sound": [
+    "whoosh"
+   ],
+   "genres": [
+    "tech-deep",
+    "movie",
+    "gaming",
+    "auto",
+    "neutral"
+   ],
+   "source": "逆向本地 minimax-h3（6 场景，相邻重叠 0.4–0.6s）+ 参考片实测",
+   "verified": "measured",
+   "path": "motion/scene-handoff-overlap.md",
+   "has_when_not": true,
+   "sections": [
+    "意图",
+    "适用",
+    "实测数据（minimax-h3）",
+    "写法",
+    "交接期两边各做什么",
+    "参数表",
+    "HyperFrames 要点",
+    "声音",
+    "何时不用"
+   ],
+   "lines": 65
+  },
+  {
+   "id": "seam-cut-the-curve",
+   "name_zh": "缝合（运动中对切）",
+   "category": "motion",
+   "role": "transition",
+   "energy": 3,
+   "duration": 0.66,
+   "layouts": [],
+   "seams": [
+    "cut-the-curve"
+   ],
+   "sound": [
+    "whoosh",
+    "swipe"
+   ],
+   "genres": [
+    "tech-deep",
+    "finance",
+    "neutral",
+    "career"
+   ],
+   "source": "eccom-ai-troubleshoot METHOD §6（v1→v2 实测标定）",
+   "verified": "measured",
+   "path": "motion/seam-cut-the-curve.md",
+   "has_when_not": true,
+   "sections": [
+    "意图",
+    "适用",
+    "数值（本项目标定，换题材需重标）",
+    "前提",
+    "换向需要许可证",
+    "参数表",
+    "HyperFrames 要点",
+    "声音",
+    "何时不用"
+   ],
+   "lines": 57
+  },
+  {
+   "id": "section-beat-density",
+   "name_zh": "结构拍点密度",
+   "category": "motion",
+   "role": "rhythm",
+   "energy": 4,
+   "duration": 0.0,
+   "layouts": [],
+   "seams": [
+    "cut-the-curve"
+   ],
+   "sound": [
+    "thud",
+    "whoosh"
+   ],
+   "genres": [
+    "tech-deep",
+    "career",
+    "neutral",
+    "news"
+   ],
+   "source": "实测：参考片 22 个强变化/102s（3.0s 一次）vs 本地四支片 3–12 个（5.2–11.5s 一次）",
+   "verified": "measured",
+   "path": "motion/section-beat-density.md",
+   "has_when_not": true,
+   "sections": [
+    "意图",
+    "适用",
+    "实测基准",
+    "怎么测（10 秒出结果）",
+    "怎么补（不靠加装饰）",
+    "参数表",
+    "何时不用"
+   ],
+   "lines": 65
+  },
+  {
+   "id": "world-pan-parallax",
+   "name_zh": "一镜一世界（横移 + 视差）",
+   "category": "motion",
+   "role": "camera",
+   "energy": 3,
+   "duration": 3.1,
+   "layouts": [
+    "one-shot-world"
+   ],
+   "seams": [
+    "cut-the-curve"
+   ],
+   "sound": [
+    "whoosh"
+   ],
+   "genres": [
+    "tech-deep",
+    "career",
+    "auto",
+    "neutral"
+   ],
+   "source": "eccom METHOD §5③ + §13.3（站间距 = 站宽；背景走前景 0.35×）",
+   "verified": "measured",
+   "path": "motion/world-pan-parallax.md",
+   "has_when_not": true,
+   "sections": [
+    "意图",
+    "适用",
+    "构图",
+    "时间表（3 站，3.1s）",
+    "视差规则",
+    "参数表",
+    "HyperFrames 要点",
+    "声音",
+    "何时不用"
+   ],
+   "lines": 57
+  },
+  {
+   "id": "beat-grid-snap",
+   "name_zh": "拍点吸附",
+   "category": "sound",
+   "role": "rhythm",
+   "energy": 3,
+   "duration": 0.0,
+   "layouts": [],
+   "seams": [],
+   "sound": [
+    "thud",
+    "whoosh"
+   ],
+   "genres": [
+    "tech-deep",
+    "career",
+    "gaming",
+    "sports"
+   ],
+   "source": "实测 ScreenRecording_10-26-2026 11-11-20：约 86 BPM，视觉变化间隔中位数 3.0s",
+   "verified": "measured",
+   "path": "sound/beat-grid-snap.md",
+   "has_when_not": true,
+   "sections": [
+    "意图",
+    "适用",
+    "实测参考",
+    "流程",
+    "规则",
+    "参数表",
+    "何时不用"
+   ],
+   "lines": 56
+  }
+ ]
+}

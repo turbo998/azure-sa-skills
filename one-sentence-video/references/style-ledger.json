@@ -1,0 +1,1369 @@
+{
+  "$schema": "style-ledger/1",
+  "purpose": "四轴风格账本：把「外观 × 构图 × 动效 × 声音」交叉命名成可寻址的 style 条目。Step 3 的方向比选从这里取候选，不再从模型记忆里取。本文件不新增视觉资产，只给已有资产（13 个 preset / 5 seam / 7 motif / style-map 题材包）编目录并绑定题材。",
+  "rules": {
+    "single_source_of_truth": "题材→外观 的唯一真值源是本文件；style-map.md 只保留识别关键词与题材禁忌，不再给配色。",
+    "dark_requires_choice": "任何 bg 明度 < 0.25 的条目都标 dark:true。dark 条目禁止作为题材默认，必须用户在方向比选里明确选中，且 design-spec.md 记 palette_source 时才可用。",
+    "atoms_are_sacred": "atoms 里的色值/字体来自 preset 或题材包，不得改写；要改就是新建条目。",
+    "one_style_per_film": "一支片只用一条 style 的 atoms；可以借邻近条目的 1 个 layout，不许借配色。"
+  },
+  "axes": {
+    "look": {
+      "note": "13 个 frame-preset 的真实调色板（全部为浅底）。preset 只定义原子，不定义构图与动效。",
+      "presets": {
+        "biennale-yellow": {
+          "bg": "#E9E5DB",
+          "ink": "#1B2566",
+          "accents": [
+            "#F1EE2E",
+            "#E26B4A"
+          ],
+          "dark": false,
+          "mood": "艺术年鉴，纸张与印章"
+        },
+        "blockframe": {
+          "bg": "#FFFDF5",
+          "ink": "#000000",
+          "accents": [
+            "#FE90E8",
+            "#C0F7FE",
+            "#99E885",
+            "#F7CB46"
+          ],
+          "dark": false,
+          "mood": "积木色块，儿童积木/潮玩"
+        },
+        "blue-professional": {
+          "bg": "#fdfae7",
+          "ink": "#111111",
+          "accents": [
+            "#1e2bfa"
+          ],
+          "dark": false,
+          "mood": "产品报告，克莱因蓝压奶油纸"
+        },
+        "bold-poster": {
+          "bg": "#FFFFFF",
+          "ink": "#1C1410",
+          "accents": [
+            "#D8000F"
+          ],
+          "dark": false,
+          "mood": "印刷宣言，反科技制服"
+        },
+        "broadside": {
+          "bg": "#F0ECE5",
+          "ink": "#111111",
+          "accents": [
+            "#E85D26"
+          ],
+          "dark": false,
+          "mood": "报刊头版，强冲击"
+        },
+        "capsule": {
+          "bg": "#F5F5F0",
+          "ink": "#1A1A1A",
+          "accents": [
+            "#E85D4E",
+            "#C4D94E",
+            "#C5B5E0",
+            "#8BB4F7"
+          ],
+          "dark": false,
+          "mood": "糖果几何，圆角胶囊"
+        },
+        "cartesian": {
+          "bg": "#EDE8E0",
+          "ink": "#1A1A1A",
+          "accents": [
+            "#8A8178"
+          ],
+          "dark": false,
+          "mood": "克制图录，低饱和"
+        },
+        "cobalt-grid": {
+          "bg": "#F0EBDE",
+          "ink": "#1F2BE0",
+          "accents": [
+            "#5560E5"
+          ],
+          "dark": false,
+          "mood": "蓝格索引（浅纸上的蓝网格，不是深蓝底）"
+        },
+        "code-editorial": {
+          "bg": "#FAF9F5",
+          "ink": "#141413",
+          "accents": [
+            "#CC785C"
+          ],
+          "dark": false,
+          "mood": "代码编辑导览，近黑墨配奶油"
+        },
+        "coral": {
+          "bg": "#F5F0E8",
+          "ink": "#1A1A1A",
+          "accents": [
+            "#E85D5D"
+          ],
+          "dark": false,
+          "mood": "珊瑚强对比"
+        },
+        "creative-mode": {
+          "bg": "#EFE9D9",
+          "ink": "#0F0F0F",
+          "accents": [
+            "#1F8A4C",
+            "#F06CA8"
+          ],
+          "dark": false,
+          "mood": "创作手记，绿粉双强调"
+        },
+        "daisy-days": {
+          "bg": "#F5F0E6",
+          "ink": "#1A1A1A",
+          "accents": [
+            "#7ECDC0",
+            "#F7C8D4",
+            "#FDE68A",
+            "#A8E6CF"
+          ],
+          "dark": false,
+          "mood": "柔彩手账，多色低饱和"
+        },
+        "editorial-forest": {
+          "bg": "#efe7d4",
+          "ink": "#1a1a17",
+          "accents": [
+            "#2e4a2a",
+            "#e89cb1"
+          ],
+          "dark": false,
+          "mood": "研究笔记，森林绿配奶油纸"
+        }
+      }
+    },
+    "layout": {
+      "note": "构图轴——13 个 preset 都没有覆盖这一轴，必须显式点名。取自 eccom METHOD §5 与参考片结构。registry 侧用 assets/layout-index.py 按此轴查现成块。",
+      "archetypes": {
+        "hero-plus-grid": "左/上 1 张主图 + 右/下 缩略图网格（当前项高亮描边）",
+        "numbered-sections": "巨大两位序号 + 标题 + 一行说明，章节化",
+        "two-column-corridor": "左栏候选 / 右栏结论 / 中间 ≥140px 走廊给收敛线",
+        "banded-three": "顶部 tag+标题 / 中部主体 / 底部数据带，三段留 40–60px",
+        "one-shot-world": "世界宽 = 站数 × 站宽，站间距 = 站宽，横移换站",
+        "poster-full-bleed": "满版巨字 + 硬边分隔，不设安全边距",
+        "editorial-grid": "多栏发丝线网格，内容按栏对齐",
+        "centered-hero": "单件居中 + 大留白（仅 hero / lockup 镜）",
+        "card-deck": "卡片扇形/堆叠/发牌，数量表达语义",
+        "data-dashboard": "仪表盘式：指标块 + 趋势线 + 状态色",
+        "timeline-rail": "竖线 + 刻痕，进度与内容合一（禁底部进度条）",
+        "split-compare": "左右等分对比，仅用于 2 个真实对象",
+        "ui-stage": "产品界面/设备居中成舞台，镜头绕它走（registry 里最多的一类）",
+        "code-panel": "代码编辑器/终端/差异面板占主区，行级动画",
+        "progressive-node-tree": "左上角章节编号胶囊 + 从左至右三次贝塞尔曲线分支节点树 + 右侧圆环痛点仪表盘 + 底部居中字幕条",
+        "funnel-stage-filter": "四阶水平/漏斗流水线 + 角色拟人标签 + 顶部全流程进度轨",
+        "gpu-matrix-ledger": "左上角直给观点大标题 + 中央 GPU 算力砖块矩阵 + 巨型倍率算式 + 左下角圆形讲者 PiP 锚点"
+      }
+    },
+    "motion": {
+      "note": "动效轴——每个条目点名 1 个 seam + 1 个镜内 route。数值配方见 METHOD §6（项目标定，换题材需重标）。",
+      "seams": {
+        "zoom-through": "推近穿过画面进入下一镜",
+        "inverse zoom-through": "拉远退出，反向",
+        "cut-the-curve": "两侧都在运动中切，partial travel ~12%",
+        "waterfall cut": "错峰瀑布式切入",
+        "rack-focus blur-cut": "焦外模糊切换",
+        "scale-through": "焦点节点缩放穿场进入下一层拓扑",
+        "whip-x": "横向高速甩镜切章（带横向动量衔接）"
+      },
+      "in_scene": {
+        "waterfall entry": "群组错峰到达，stagger 0.12–0.18s",
+        "nudge curve": "慢-快-慢三段位移",
+        "focus-spotlight": "焦点节点放大高亮 (scale: 1.08) + 非焦点分支自动降暗至 opacity: 0.25 + SVG 连线脉冲流光",
+        "packet-hop-break": "文档块沿轨道跳跃，错误切分在节点碎裂为红色残片，经 Rerank 漏斗低分淘汰、高分汇入 Prompt 槽位",
+        "counter-seek-safe": "巨型数字跳动 + GPU 网格逐列染色波浪 + 木桶效应短板阻塞条对比"
+      },
+      "routes": {
+        "分阶段揭示": "≥2 组内容依次落位",
+        "有意图的镜头": "一镜一个空间，镜头本身在走",
+        "界面自己的生命": "步骤条点亮 / 光标点击 / 落库提示",
+        "动画序列": "有因果的动作链（走→撞→变色）",
+        "光标驱动": "超大光标从画外进入"
+      }
+    },
+    "sound": {
+      "note": "声音轴——sfx-gen.py 的 7 个 motif + bgm-gen.py 的 4 个编曲风格。BGM 同时产出拍点网格（audio/beat-grid.json），用 beat-snap.py 校验剪辑点。",
+      "motifs": {
+        "flap": "翻牌 / 卡片落位",
+        "whoosh": "镜头横扫 / 穿场",
+        "swipe": "镜内群组滑移",
+        "tick": "打字机 / 计数 / 索引推进",
+        "chime": "hub / 规则 / 定版",
+        "thud": "撞击 / 到达",
+        "riser": "zoom 张力"
+      },
+      "bgm_styles": {
+        "paper": "轻刷 + 暖 pad，鼓很退（86–96 BPM）→ 纸感/编辑类",
+        "dry-tech": "干燥克制，鼓在 1/3，8 分 hat（96–104 BPM）→ 科技/报告类",
+        "pulse": "四拍底鼓 + 2/4 拍手 + offbeat bass + arp（110–128 BPM）→ promo/游戏类",
+        "soft": "无鼓，只有 pad 与偶发 chime（70–84 BPM）→ 情感/母婴/影院类"
+      }
+    }
+  },
+  "styles": [
+    {
+      "id": "paper-catalog",
+      "name_zh": "纸感目录",
+      "name_en": "Paper Catalog",
+      "atoms": {
+        "source": "preset:broadside",
+        "bg": "#F0ECE5",
+        "ink": "#111111",
+        "accent": "#E85D26",
+        "dark": false
+      },
+      "fonts": {
+        "display": "Songti SC",
+        "body": "PingFang SC",
+        "mono": "Menlo"
+      },
+      "layouts": [
+        "numbered-sections",
+        "hero-plus-grid",
+        "banded-three"
+      ],
+      "motion": {
+        "seam": "cut-the-curve",
+        "in_scene": "waterfall entry",
+        "velocity": "power4.in/power4.out",
+        "route": "分阶段揭示"
+      },
+      "sound": {
+        "motifs": [
+          "tick",
+          "flap"
+        ],
+        "bgm": "paper @ 86bpm"
+      },
+      "genres": [
+        "tech-deep",
+        "career",
+        "neutral",
+        "news"
+      ],
+      "mood": "印刷目录：米纸底、衬线大标题、mono 拉丁小标签、发丝线缩略图网格、单一橙红强调",
+      "cost": "必须有真实缩略图素材撑网格；纯文字会塌成 PPT",
+      "source": "参考片 ScreenRecording_10-26-2026 11-11-20（Claude 做视频的 8 个 skill）",
+      "preview": null
+    },
+    {
+      "id": "manifesto-poster",
+      "name_zh": "宣言海报",
+      "name_en": "Manifesto Poster",
+      "atoms": {
+        "source": "preset:bold-poster",
+        "bg": "#FFFFFF",
+        "ink": "#1C1410",
+        "accent": "#D8000F",
+        "dark": false
+      },
+      "fonts": {
+        "display": "Shrikhand",
+        "body": "Libre Baskerville",
+        "mono": "Space Grotesk"
+      },
+      "layouts": [
+        "poster-full-bleed",
+        "centered-hero"
+      ],
+      "motion": {
+        "seam": "zoom-through",
+        "in_scene": "nudge curve",
+        "velocity": "power4.in/power4.out",
+        "route": "有意图的镜头"
+      },
+      "sound": {
+        "motifs": [
+          "thud",
+          "whoosh"
+        ],
+        "bgm": "dry-tech @ 100bpm"
+      },
+      "genres": [
+        "tech-deep",
+        "gaming",
+        "food"
+      ],
+      "mood": "倾斜巨字 + 双线框 + 左红条卡，印刷宣言气质",
+      "cost": "字号极大，文案超 8 字就崩",
+      "source": "preset bold-poster",
+      "preview": null
+    },
+    {
+      "id": "research-note",
+      "name_zh": "研究笔记",
+      "name_en": "Research Note",
+      "atoms": {
+        "source": "preset:editorial-forest",
+        "bg": "#efe7d4",
+        "ink": "#1a1a17",
+        "accent": "#2e4a2a",
+        "aux": "#e89cb1",
+        "dark": false
+      },
+      "fonts": {
+        "display": "Songti SC",
+        "body": "PingFang SC",
+        "mono": "Menlo"
+      },
+      "layouts": [
+        "editorial-grid",
+        "two-column-corridor",
+        "banded-three"
+      ],
+      "motion": {
+        "seam": "rack-focus blur-cut",
+        "in_scene": "nudge curve",
+        "velocity": "power3.in/power3.out",
+        "route": "分阶段揭示"
+      },
+      "sound": {
+        "motifs": [
+          "tick",
+          "swipe"
+        ],
+        "bgm": "paper @ 92bpm"
+      },
+      "genres": [
+        "tech-deep",
+        "finance",
+        "guofeng",
+        "neutral"
+      ],
+      "mood": "杂志/论文：衬线大标题 + 等宽 chrome + 细发丝线，冷静可信",
+      "cost": "对比度容易不足，mono 小字要提到 #6e7d93 以上",
+      "source": "preset editorial-forest + eccom METHOD §2 L2/L3",
+      "preview": null
+    },
+    {
+      "id": "blueprint-report",
+      "name_zh": "产品报告",
+      "name_en": "Blueprint Report",
+      "atoms": {
+        "source": "preset:blue-professional",
+        "bg": "#fdfae7",
+        "ink": "#111111",
+        "accent": "#1e2bfa",
+        "dark": false
+      },
+      "fonts": {
+        "display": "PingFang SC 600",
+        "body": "PingFang SC",
+        "mono": "Menlo"
+      },
+      "layouts": [
+        "data-dashboard",
+        "ui-stage",
+        "banded-three",
+        "split-compare"
+      ],
+      "motion": {
+        "seam": "cut-the-curve",
+        "in_scene": "waterfall entry",
+        "velocity": "power2.in/power3.out",
+        "route": "分阶段揭示"
+      },
+      "sound": {
+        "motifs": [
+          "tick",
+          "chime"
+        ],
+        "bgm": "dry-tech @ 104bpm"
+      },
+      "genres": [
+        "finance",
+        "career",
+        "auto",
+        "tech-minimal"
+      ],
+      "mood": "克莱因蓝压奶油纸，指标块 + 趋势线，专业可信",
+      "cost": "蓝色是强强调，一屏只能出现一次",
+      "source": "preset blue-professional",
+      "preview": null
+    },
+    {
+      "id": "broadside-news",
+      "name_zh": "头版大字报",
+      "name_en": "Broadside News",
+      "atoms": {
+        "source": "preset:broadside",
+        "bg": "#F0ECE5",
+        "ink": "#111111",
+        "accent": "#E85D26",
+        "dark": false
+      },
+      "fonts": {
+        "display": "ZCOOL QingKe HuangYou",
+        "body": "PingFang SC",
+        "mono": "Menlo"
+      },
+      "layouts": [
+        "poster-full-bleed",
+        "banded-three"
+      ],
+      "motion": {
+        "seam": "waterfall cut",
+        "in_scene": "waterfall entry",
+        "velocity": "power4.in/power4.out",
+        "route": "动画序列"
+      },
+      "sound": {
+        "motifs": [
+          "thud",
+          "flap"
+        ],
+        "bgm": "pulse @ 118bpm"
+      },
+      "genres": [
+        "news",
+        "sports",
+        "gaming"
+      ],
+      "mood": "900 粗体巨字 + 等宽 chrome + 硬边分隔，报刊头版",
+      "cost": "冲击力强但不耐看，超过 30s 会疲劳",
+      "source": "preset broadside",
+      "preview": null
+    },
+    {
+      "id": "code-editorial-tour",
+      "name_zh": "代码编辑导览",
+      "name_en": "Code Editorial",
+      "atoms": {
+        "source": "preset:code-editorial",
+        "bg": "#FAF9F5",
+        "ink": "#141413",
+        "accent": "#CC785C",
+        "dark": false
+      },
+      "fonts": {
+        "display": "PingFang SC 600",
+        "body": "PingFang SC",
+        "mono": "JetBrains Mono"
+      },
+      "layouts": [
+        "one-shot-world",
+        "editorial-grid",
+        "code-panel"
+      ],
+      "motion": {
+        "seam": "zoom-through",
+        "in_scene": "nudge curve",
+        "velocity": "power4.in/power4.out",
+        "route": "有意图的镜头"
+      },
+      "sound": {
+        "motifs": [
+          "swipe",
+          "tick"
+        ],
+        "bgm": "dry-tech @ 104bpm"
+      },
+      "genres": [
+        "tech-deep",
+        "career"
+      ],
+      "mood": "近黑墨 + 奶油纸 + 陶土珊瑚，代码/产品界面导览",
+      "cost": "容易变成「截图平铺」，必须有镜头在走",
+      "source": "preset code-editorial",
+      "preview": null
+    },
+    {
+      "id": "cobalt-index",
+      "name_zh": "蓝格索引",
+      "name_en": "Cobalt Index",
+      "atoms": {
+        "source": "preset:cobalt-grid",
+        "bg": "#F0EBDE",
+        "ink": "#1F2BE0",
+        "accent": "#5560E5",
+        "dark": false
+      },
+      "fonts": {
+        "display": "PingFang SC 700",
+        "body": "PingFang SC",
+        "mono": "Menlo"
+      },
+      "layouts": [
+        "editorial-grid",
+        "numbered-sections"
+      ],
+      "motion": {
+        "seam": "cut-the-curve",
+        "in_scene": "waterfall entry",
+        "velocity": "power2.in/power3.out",
+        "route": "分阶段揭示"
+      },
+      "sound": {
+        "motifs": [
+          "tick"
+        ],
+        "bgm": "paper @ 96bpm"
+      },
+      "genres": [
+        "tech-deep",
+        "neutral"
+      ],
+      "mood": "浅纸上的蓝网格索引（注意：是浅底，不是深蓝底）",
+      "cost": "网格易被误用成装饰；网格必须承担对齐功能",
+      "source": "preset cobalt-grid",
+      "preview": null
+    },
+    {
+      "id": "cartesian-restraint",
+      "name_zh": "克制图录",
+      "name_en": "Cartesian Restraint",
+      "atoms": {
+        "source": "preset:cartesian",
+        "bg": "#EDE8E0",
+        "ink": "#1A1A1A",
+        "accent": "#8A8178",
+        "dark": false
+      },
+      "fonts": {
+        "display": "Songti SC",
+        "body": "PingFang SC",
+        "mono": "Menlo"
+      },
+      "layouts": [
+        "editorial-grid",
+        "split-compare"
+      ],
+      "motion": {
+        "seam": "rack-focus blur-cut",
+        "in_scene": "nudge curve",
+        "velocity": "power3.in/power3.out",
+        "route": "静止 + 背景缓推"
+      },
+      "sound": {
+        "motifs": [
+          "swipe"
+        ],
+        "bgm": "soft @ 76bpm"
+      },
+      "genres": [
+        "guofeng",
+        "finance",
+        "neutral"
+      ],
+      "mood": "低饱和灰褐，几乎无强调色，靠排版与留白",
+      "cost": "最考验构图；没有强内容会显得寡淡",
+      "source": "preset cartesian",
+      "preview": null
+    },
+    {
+      "id": "coral-contrast",
+      "name_zh": "珊瑚强对比",
+      "name_en": "Coral Contrast",
+      "atoms": {
+        "source": "preset:coral",
+        "bg": "#F5F0E8",
+        "ink": "#1A1A1A",
+        "accent": "#E85D5D",
+        "dark": false
+      },
+      "fonts": {
+        "display": "ZCOOL QingKe HuangYou",
+        "body": "PingFang SC",
+        "mono": "Menlo"
+      },
+      "layouts": [
+        "split-compare",
+        "poster-full-bleed"
+      ],
+      "motion": {
+        "seam": "waterfall cut",
+        "in_scene": "waterfall entry",
+        "velocity": "power4.in/power4.out",
+        "route": "动画序列"
+      },
+      "sound": {
+        "motifs": [
+          "thud",
+          "chime"
+        ],
+        "bgm": "pulse @ 112bpm"
+      },
+      "genres": [
+        "food",
+        "gaming",
+        "movie"
+      ],
+      "mood": "珊瑚红压米白，强对比但仍是浅底",
+      "cost": "红色面积一大就廉价",
+      "source": "preset coral",
+      "preview": null
+    },
+    {
+      "id": "capsule-candy",
+      "name_zh": "糖果几何",
+      "name_en": "Capsule Candy",
+      "atoms": {
+        "source": "preset:capsule",
+        "bg": "#F5F5F0",
+        "ink": "#1A1A1A",
+        "accent": "#E85D4E",
+        "aux": "#C4D94E",
+        "dark": false
+      },
+      "fonts": {
+        "display": "Yuanti SC",
+        "body": "PingFang SC",
+        "mono": "Menlo"
+      },
+      "layouts": [
+        "card-deck",
+        "centered-hero"
+      ],
+      "motion": {
+        "seam": "waterfall cut",
+        "in_scene": "nudge curve",
+        "velocity": "power2.in/power2.out",
+        "route": "分阶段揭示"
+      },
+      "sound": {
+        "motifs": [
+          "chime",
+          "flap"
+        ],
+        "bgm": "soft @ 84bpm"
+      },
+      "genres": [
+        "baby",
+        "emotional",
+        "food"
+      ],
+      "mood": "圆角胶囊 + 多色糖果，柔软",
+      "cost": "不适合硬核/财经题材",
+      "source": "preset capsule",
+      "preview": null
+    },
+    {
+      "id": "blockframe-blocks",
+      "name_zh": "积木色块",
+      "name_en": "Blockframe",
+      "atoms": {
+        "source": "preset:blockframe",
+        "bg": "#FFFDF5",
+        "ink": "#000000",
+        "accent": "#FE90E8",
+        "aux": "#99E885",
+        "dark": false
+      },
+      "fonts": {
+        "display": "PingFang SC 900",
+        "body": "PingFang SC",
+        "mono": "Menlo"
+      },
+      "layouts": [
+        "card-deck",
+        "poster-full-bleed"
+      ],
+      "motion": {
+        "seam": "waterfall cut",
+        "in_scene": "waterfall entry",
+        "velocity": "power3.in/power3.out",
+        "route": "动画序列"
+      },
+      "sound": {
+        "motifs": [
+          "thud",
+          "chime"
+        ],
+        "bgm": "pulse @ 120bpm"
+      },
+      "genres": [
+        "gaming",
+        "sports",
+        "baby"
+      ],
+      "mood": "硬边色块拼装，潮玩感",
+      "cost": "色多易花，一屏最多 3 色",
+      "source": "preset blockframe",
+      "preview": null
+    },
+    {
+      "id": "creative-journal",
+      "name_zh": "创作手记",
+      "name_en": "Creative Journal",
+      "atoms": {
+        "source": "preset:creative-mode",
+        "bg": "#EFE9D9",
+        "ink": "#0F0F0F",
+        "accent": "#1F8A4C",
+        "aux": "#F06CA8",
+        "dark": false
+      },
+      "fonts": {
+        "display": "Songti SC",
+        "body": "PingFang SC",
+        "mono": "Menlo"
+      },
+      "layouts": [
+        "editorial-grid",
+        "hero-plus-grid"
+      ],
+      "motion": {
+        "seam": "cut-the-curve",
+        "in_scene": "waterfall entry",
+        "velocity": "power2.in/power3.out",
+        "route": "分阶段揭示"
+      },
+      "sound": {
+        "motifs": [
+          "flap",
+          "tick"
+        ],
+        "bgm": "paper @ 92bpm"
+      },
+      "genres": [
+        "career",
+        "tech-deep",
+        "emotional"
+      ],
+      "mood": "绿粉双强调的手记本，温和但有信息密度",
+      "cost": "双强调色必须分主次，否则读不出层级",
+      "source": "preset creative-mode",
+      "preview": null
+    },
+    {
+      "id": "daisy-soft",
+      "name_zh": "柔彩手账",
+      "name_en": "Daisy Days",
+      "atoms": {
+        "source": "preset:daisy-days",
+        "bg": "#F5F0E6",
+        "ink": "#1A1A1A",
+        "accent": "#7ECDC0",
+        "aux": "#F7C8D4",
+        "dark": false
+      },
+      "fonts": {
+        "display": "Yuanti SC",
+        "body": "PingFang SC",
+        "mono": "Menlo"
+      },
+      "layouts": [
+        "card-deck",
+        "centered-hero"
+      ],
+      "motion": {
+        "seam": "rack-focus blur-cut",
+        "in_scene": "nudge curve",
+        "velocity": "power2.in/power2.out",
+        "route": "静止 + 背景缓推"
+      },
+      "sound": {
+        "motifs": [
+          "chime"
+        ],
+        "bgm": "soft @ 76bpm"
+      },
+      "genres": [
+        "baby",
+        "emotional",
+        "food"
+      ],
+      "mood": "柔彩多色手账，最软的浅底",
+      "cost": "对比度低，正文必须加大字号",
+      "source": "preset daisy-days",
+      "preview": null
+    },
+    {
+      "id": "biennale-artbook",
+      "name_zh": "艺术年鉴",
+      "name_en": "Biennale Artbook",
+      "atoms": {
+        "source": "preset:biennale-yellow",
+        "bg": "#E9E5DB",
+        "ink": "#1B2566",
+        "accent": "#F1EE2E",
+        "aux": "#E26B4A",
+        "dark": false
+      },
+      "fonts": {
+        "display": "Songti SC",
+        "body": "PingFang SC",
+        "mono": "Menlo"
+      },
+      "layouts": [
+        "poster-full-bleed",
+        "hero-plus-grid"
+      ],
+      "motion": {
+        "seam": "zoom-through",
+        "in_scene": "waterfall entry",
+        "velocity": "power4.in/power4.out",
+        "route": "有意图的镜头"
+      },
+      "sound": {
+        "motifs": [
+          "flap",
+          "chime"
+        ],
+        "bgm": "paper @ 88bpm"
+      },
+      "genres": [
+        "guofeng",
+        "movie",
+        "neutral"
+      ],
+      "mood": "纸感 + 荧光黄 + 墨蓝，年鉴/画册气质",
+      "cost": "荧光黄面积失控会刺眼",
+      "source": "preset biennale-yellow",
+      "preview": null
+    },
+    {
+      "id": "ink-scroll",
+      "name_zh": "水墨卷轴",
+      "name_en": "Ink Scroll",
+      "atoms": {
+        "source": "genre-pack:guofeng",
+        "bg": "#F5EFE0",
+        "ink": "#2B2B2B",
+        "accent": "#A63B2A",
+        "aux": "#4A6B8A",
+        "dark": false
+      },
+      "fonts": {
+        "display": "Ma Shan Zheng",
+        "body": "Songti SC",
+        "mono": "Songti SC"
+      },
+      "layouts": [
+        "one-shot-world",
+        "poster-full-bleed"
+      ],
+      "motion": {
+        "seam": "cut-the-curve",
+        "in_scene": "nudge curve",
+        "velocity": "power2.in/power2.out",
+        "route": "有意图的镜头"
+      },
+      "sound": {
+        "motifs": [
+          "swipe",
+          "chime"
+        ],
+        "bgm": "soft @ 72bpm"
+      },
+      "genres": [
+        "guofeng"
+      ],
+      "mood": "宣纸 + 松烟 + 朱砂，墨晕转场与卷轴横移",
+      "cost": "必须用手写体与竖排，否则读成「假国风」",
+      "source": "style-map genre-pack guofeng",
+      "preview": null
+    },
+    {
+      "id": "speed-board",
+      "name_zh": "记分牌",
+      "name_en": "Speed Board",
+      "atoms": {
+        "source": "genre-pack:sports",
+        "bg": "#101418",
+        "ink": "#F5F5F0",
+        "accent": "#FFD400",
+        "aux": "#E23D28",
+        "dark": true
+      },
+      "fonts": {
+        "display": "ZCOOL QingKe HuangYou",
+        "body": "PingFang SC",
+        "mono": "Menlo"
+      },
+      "layouts": [
+        "data-dashboard",
+        "banded-three"
+      ],
+      "motion": {
+        "seam": "waterfall cut",
+        "in_scene": "waterfall entry",
+        "velocity": "power4.in/power4.out",
+        "route": "动画序列"
+      },
+      "sound": {
+        "motifs": [
+          "thud",
+          "riser"
+        ],
+        "bgm": "pulse @ 124bpm"
+      },
+      "genres": [
+        "sports"
+      ],
+      "mood": "深炭底 + 荧光黄记分牌 + 速度拖影",
+      "cost": "深底，必须用户明确选择",
+      "source": "style-map genre-pack sports",
+      "preview": null
+    },
+    {
+      "id": "vault-gold",
+      "name_zh": "金库蓝",
+      "name_en": "Vault Gold",
+      "atoms": {
+        "source": "genre-pack:finance",
+        "bg": "#0E1B2C",
+        "ink": "#F2EDE4",
+        "accent": "#C9A227",
+        "aux": "#D64545",
+        "dark": true
+      },
+      "fonts": {
+        "display": "Songti SC",
+        "body": "PingFang SC",
+        "mono": "Menlo"
+      },
+      "layouts": [
+        "data-dashboard",
+        "two-column-corridor"
+      ],
+      "motion": {
+        "seam": "cut-the-curve",
+        "in_scene": "waterfall entry",
+        "velocity": "power2.in/power3.out",
+        "route": "分阶段揭示"
+      },
+      "sound": {
+        "motifs": [
+          "tick",
+          "thud"
+        ],
+        "bgm": "dry-tech @ 96bpm"
+      },
+      "genres": [
+        "finance"
+      ],
+      "mood": "深蓝金库 + 金箔描边 + 红涨绿跌（A股语义）",
+      "cost": "深底，必须用户明确选择；涨跌色不可反转",
+      "source": "style-map genre-pack finance",
+      "preview": null
+    },
+    {
+      "id": "night-cinema",
+      "name_zh": "夜场影院",
+      "name_en": "Night Cinema",
+      "atoms": {
+        "source": "genre-pack:movie",
+        "bg": "#0D0D0F",
+        "ink": "#EDE8DF",
+        "accent": "#D4AF37",
+        "aux": "#8A8A8A",
+        "dark": true
+      },
+      "fonts": {
+        "display": "Songti SC",
+        "body": "PingFang SC",
+        "mono": "PingFang SC"
+      },
+      "layouts": [
+        "poster-full-bleed",
+        "centered-hero"
+      ],
+      "motion": {
+        "seam": "zoom-through",
+        "in_scene": "nudge curve",
+        "velocity": "power3.in/power3.out",
+        "route": "有意图的镜头"
+      },
+      "sound": {
+        "motifs": [
+          "thud",
+          "riser"
+        ],
+        "bgm": "soft @ 70bpm"
+      },
+      "genres": [
+        "movie"
+      ],
+      "mood": "近黑 + 影院金 + letterbox 黑边收拢",
+      "cost": "深底，必须用户明确选择",
+      "source": "style-map genre-pack movie",
+      "preview": null
+    },
+    {
+      "id": "metal-spec",
+      "name_zh": "金属参数",
+      "name_en": "Metal Spec",
+      "atoms": {
+        "source": "genre-pack:auto",
+        "bg": "#14161A",
+        "ink": "#ECECEC",
+        "accent": "#FF6A00",
+        "aux": "#9BA3AD",
+        "dark": true
+      },
+      "fonts": {
+        "display": "PingFang SC 300",
+        "body": "PingFang SC",
+        "mono": "Menlo"
+      },
+      "layouts": [
+        "data-dashboard",
+        "one-shot-world"
+      ],
+      "motion": {
+        "seam": "cut-the-curve",
+        "in_scene": "nudge curve",
+        "velocity": "power2.in/power2.out",
+        "route": "有意图的镜头"
+      },
+      "sound": {
+        "motifs": [
+          "whoosh",
+          "thud"
+        ],
+        "bgm": "pulse @ 110bpm"
+      },
+      "genres": [
+        "auto"
+      ],
+      "mood": "深炭 + 橙 + 金属灰，参数标注引线",
+      "cost": "深底，必须用户明确选择",
+      "source": "style-map genre-pack auto",
+      "preview": null
+    },
+    {
+      "id": "cyber-hud",
+      "name_zh": "赛博 HUD",
+      "name_en": "Cyber HUD",
+      "atoms": {
+        "source": "genre-pack:gaming",
+        "bg": "#0A0A14",
+        "ink": "#F0F0FF",
+        "accent": "#FF2E88",
+        "aux": "#00F0FF",
+        "dark": true
+      },
+      "fonts": {
+        "display": "ZCOOL QingKe HuangYou",
+        "body": "PingFang SC",
+        "mono": "Menlo"
+      },
+      "layouts": [
+        "data-dashboard",
+        "poster-full-bleed"
+      ],
+      "motion": {
+        "seam": "waterfall cut",
+        "in_scene": "waterfall entry",
+        "velocity": "power4.in/power4.out",
+        "route": "动画序列"
+      },
+      "sound": {
+        "motifs": [
+          "riser",
+          "thud"
+        ],
+        "bgm": "pulse @ 128bpm"
+      },
+      "genres": [
+        "gaming"
+      ],
+      "mood": "深空 + 霓虹粉青 + glitch + 扫描线。**霓虹在此题材合法**",
+      "cost": "深底，必须用户明确选择；只许游戏/电竞用",
+      "source": "style-map genre-pack gaming",
+      "preview": null
+    },
+    {
+      "id": "xiaozhe-mcp-node-graph",
+      "name_zh": "分层拓扑树",
+      "name_en": "Xiaozhe MCP Node Graph",
+      "polarity": "dark",
+      "best_for": [
+        "agent architecture",
+        "protocol vs skill vs tool taxonomy",
+        "system topology explainer",
+        "progressive node-graph"
+      ],
+      "look": "画布背景 #050C0A → #081614 深黑曜石青绿微光，主字色 #F8FAFC，协议层薄荷绿 #4ADE80，方法层丁香紫 #A78BFA，执行层琥珀黄 #FBBF24，警示痛点珊瑚粉 #FB7185。",
+      "layout": "左上角章节编号胶囊 ([01] 核心问题) + 从左至右三次贝塞尔曲线分支节点树 (progressive-node-tree) + 右侧圆环痛点仪表盘 (90% 容易混淆) + 底部居中字幕条。",
+      "atoms": {
+        "source": "benchmark:xiaozhe-agent-mcp",
+        "bg": "#050C0A",
+        "bg_end": "#081614",
+        "ink": "#F8FAFC",
+        "accent": "#4ADE80",
+        "aux": "#A78BFA",
+        "exec": "#FBBF24",
+        "warn": "#FB7185",
+        "dark": true
+      },
+      "fonts": {
+        "display": "PingFang SC 700",
+        "body": "PingFang SC",
+        "mono": "JetBrains Mono"
+      },
+      "layouts": [
+        "progressive-node-tree",
+        "numbered-sections",
+        "data-dashboard"
+      ],
+      "motion": {
+        "seam": "scale-through",
+        "secondary_seam": "whip-x",
+        "in_scene": "focus-spotlight",
+        "velocity": "power3.in/power3.out",
+        "route": "分阶段揭示",
+        "detail": "焦点节点放大高亮 (scale: 1.08) 同时非焦点分支自动降暗至 opacity: 0.25，SVG 连线脉冲流光，接缝采用 scale-through 与 whip-x。"
+      },
+      "sound": {
+        "motifs": [
+          "tick",
+          "whoosh",
+          "chime"
+        ],
+        "bgm": "dry-tech @ 100bpm"
+      },
+      "genres": [
+        "tech-deep",
+        "career"
+      ],
+      "mood": "深黑曜石青绿微光底 + 协议绿/方法紫/执行黄三层贝塞尔节点树 + 焦点聚光灯缩放与流光连线",
+      "cost": "深底，必须用户明确选择（已加入 USER_APPROVED_DARK_STYLES 白名单）；单屏节点不超过 7 个",
+      "source": "小哲讲agent · MCP/Skill/本地Tools分层拓扑风",
+      "preview": null
+    },
+    {
+      "id": "xiaozhe-rag-pipeline-flow",
+      "name_zh": "RAG四层漏斗",
+      "name_en": "Xiaozhe RAG Pipeline Flow",
+      "polarity": "light",
+      "best_for": [
+        "RAG pipeline explainer",
+        "LLM data flow",
+        "multi-stage funnel",
+        "chunking recall rerank architecture"
+      ],
+      "look": "暖白编辑室画布 #F7F6F2，卡片 #FFFFFF (2px solid #0F172A)，切片钴蓝 #2563EB，向量召回青色 #0891B2，重排琥珀橙 #EA580C，生成翠绿 #16A34A，幻觉碎片警示红 #DC2626。",
+      "layout": "四阶水平/漏斗流水线 (funnel-stage-filter + two-column-corridor) + 角色拟人标签（超级实习生/短期便利贴/长期知识库）+ 顶部全流程进度轨 (notch-rail-progress)。",
+      "atoms": {
+        "source": "benchmark:xiaozhe-llm-rag",
+        "bg": "#F7F6F2",
+        "card": "#FFFFFF",
+        "ink": "#0F172A",
+        "accent": "#2563EB",
+        "aux": "#0891B2",
+        "rerank": "#EA580C",
+        "gen": "#16A34A",
+        "warn": "#DC2626",
+        "dark": false
+      },
+      "fonts": {
+        "display": "PingFang SC 700",
+        "body": "PingFang SC",
+        "mono": "JetBrains Mono"
+      },
+      "layouts": [
+        "funnel-stage-filter",
+        "two-column-corridor",
+        "timeline-rail"
+      ],
+      "motion": {
+        "seam": "cut-the-curve",
+        "in_scene": "packet-hop-break",
+        "velocity": "power2.in/power3.out",
+        "route": "动画序列",
+        "detail": "packet-hop-break（文档块沿轨道跳跃，错误切分时在节点碎裂为红色残片，经过 Rerank 漏斗时低分淘汰、高分汇入 Prompt 槽位）。"
+      },
+      "sound": {
+        "motifs": [
+          "tick",
+          "thud",
+          "swipe"
+        ],
+        "bgm": "paper @ 94bpm"
+      },
+      "genres": [
+        "tech-deep",
+        "career",
+        "neutral"
+      ],
+      "mood": "暖白编辑室画布 + 2px 墨黑描边白卡 + 切片蓝/召回青/重排橙/生成绿四阶漏斗流水线与错切碎裂对比",
+      "cost": "四阶漏斗同屏元素较多，需配合顶部进度轨分步高亮，避免四栏同时满载文字",
+      "source": "小哲讲大模型 · 一条视频彻底吃透RAG四层漏斗风",
+      "preview": null
+    },
+    {
+      "id": "chimp-deepseek-unit-economics",
+      "name_zh": "算力经济学",
+      "name_en": "Chimp DeepSeek Unit Economics",
+      "polarity": "light",
+      "best_for": [
+        "GPU unit economics",
+        "AI infrastructure throughput",
+        "quantitative token matrix",
+        "financial & systems breakdown"
+      ],
+      "look": "暖米白纸张背景 #FAF9F6，深墨黑标题 #0F172A，基准灰 #94A3B8，克莱因蓝 #2563EB，瓶颈活力橙 #F97316，命中率翡翠绿 #10B981，MoE 专家紫 #8B5CF6。",
+      "layout": "左上角直给观点大标题（如 先说 EP 和 DP、每一步，都得等最慢的那张卡算完）+ 中央 GPU 算力砖块矩阵 (gpu-matrix-ledger) + 巨型倍率算式 ($38 vs $5.7 ≈ 6.7x, 60K / 1.5M 省了25倍) + 左下角圆形讲者 PiP 锚点。",
+      "atoms": {
+        "source": "benchmark:chimp-deepseek-econ",
+        "bg": "#FAF9F6",
+        "ink": "#0F172A",
+        "accent": "#2563EB",
+        "aux": "#F97316",
+        "muted": "#94A3B8",
+        "hit": "#10B981",
+        "moe": "#8B5CF6",
+        "dark": false
+      },
+      "fonts": {
+        "display": "PingFang SC 800",
+        "body": "PingFang SC",
+        "mono": "JetBrains Mono"
+      },
+      "layouts": [
+        "gpu-matrix-ledger",
+        "data-dashboard",
+        "split-compare"
+      ],
+      "motion": {
+        "seam": "whip-x",
+        "in_scene": "counter-seek-safe",
+        "velocity": "power4.in/power4.out",
+        "route": "分阶段揭示",
+        "detail": "counter-seek-safe 巨型数字跳动 + GPU 网格逐列染色波浪 + 木桶效应短板阻塞条对比 + whip-x 高速切章。"
+      },
+      "sound": {
+        "motifs": [
+          "tick",
+          "thud",
+          "whoosh"
+        ],
+        "bgm": "dry-tech @ 104bpm"
+      },
+      "genres": [
+        "tech-deep",
+        "finance",
+        "career"
+      ],
+      "mood": "暖米白纸面 + 直给观点大标题 + GPU 算力砖块矩阵逐列染色 + 巨型倍率算式与木桶短板对比",
+      "cost": "强依赖真实算式与硬件吞吐数据支撑，纯概念空谈会让矩阵沦为装饰格",
+      "source": "第四种黑猩猩 · DeepSeek 单卡 $38 算力经济学风",
+      "preview": null
+    }
+  ],
+  "defaults_by_genre": {
+    "_note": "题材默认只允许浅底条目。深色条目一律不出现在默认列表里。",
+    "tech-deep": [
+      "paper-catalog",
+      "research-note",
+      "code-editorial-tour",
+      "manifesto-poster",
+      "cobalt-index",
+      "xiaozhe-rag-pipeline-flow",
+      "chimp-deepseek-unit-economics"
+    ],
+    "tech-minimal": [
+      "blueprint-report",
+      "cartesian-restraint",
+      "paper-catalog",
+      "creative-journal"
+    ],
+    "finance": [
+      "blueprint-report",
+      "research-note",
+      "cartesian-restraint",
+      "chimp-deepseek-unit-economics"
+    ],
+    "guofeng": [
+      "ink-scroll",
+      "biennale-artbook",
+      "cartesian-restraint",
+      "research-note"
+    ],
+    "emotional": [
+      "capsule-candy",
+      "daisy-soft",
+      "creative-journal"
+    ],
+    "food": [
+      "coral-contrast",
+      "capsule-candy",
+      "daisy-soft",
+      "manifesto-poster"
+    ],
+    "gaming": [
+      "blockframe-blocks",
+      "coral-contrast",
+      "broadside-news"
+    ],
+    "career": [
+      "paper-catalog",
+      "creative-journal",
+      "blueprint-report",
+      "code-editorial-tour"
+    ],
+    "sports": [
+      "broadside-news",
+      "blockframe-blocks",
+      "coral-contrast"
+    ],
+    "news": [
+      "broadside-news",
+      "paper-catalog",
+      "coral-contrast"
+    ],
+    "baby": [
+      "capsule-candy",
+      "daisy-soft",
+      "blockframe-blocks"
+    ],
+    "auto": [
+      "blueprint-report",
+      "cartesian-restraint",
+      "code-editorial-tour"
+    ],
+    "movie": [
+      "biennale-artbook",
+      "coral-contrast",
+      "cartesian-restraint"
+    ],
+    "neutral": [
+      "paper-catalog",
+      "cartesian-restraint",
+      "research-note",
+      "blueprint-report"
+    ]
+  },
+  "banned_palettes": {
+    "_note": "palette-audit.py 用。这些色值单独出现不报错，但作为 bg 且没有 palette_source 声明时 BLOCK。",
+    "dark_bg": [
+      "#0B1020",
+      "#0b1020",
+      "#0a0a1a",
+      "#0A0A1A",
+      "#05070c",
+      "#05070C",
+      "#0D0D0F",
+      "#0A0A14",
+      "#0E1B2C",
+      "#101418",
+      "#14161A",
+      "#050C0A",
+      "#081614"
+    ],
+    "neon_accent": [
+      "#00f0ff",
+      "#00F0FF",
+      "#38E1FF",
+      "#38e1ff",
+      "#ff006e",
+      "#FF006E",
+      "#a855f7",
+      "#A855F7",
+      "#39ff14",
+      "#39FF14"
+    ],
+    "rule": "深蓝 #0B1020 / 霓虹青 #38E1FF / 深空 #0a0a1a + #00f0ff 是历史 Neon Pulse 残留，不是任何题材的默认。只有 cyber-hud（gaming）允许 #00F0FF，且必须用户在方向比选里明确选中。"
+  }
+}
