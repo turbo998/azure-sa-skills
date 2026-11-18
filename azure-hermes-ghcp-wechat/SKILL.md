@@ -1,9 +1,9 @@
 ---
 name: azure-hermes-ghcp-wechat
-description: "Deploy Hermes Agent on an Azure VM, configure GitHub Copilot as the model provider, and connect Weixin/WeChat. Covers Azure VM sizing, SSH access, Hermes install, Copilot OAuth/device-code login, model switch to copilot/gpt-5.4, Weixin QR login, gateway startup, and validation. WHEN: \"deploy hermes on azure\", \"install hermes agent\", \"hermes ghcp\", \"hermes github copilot\", \"hermes wechat\", \"hermes weixin\", \"azure vm hermes wechat\"."
+description: Deploy NousResearch Hermes Agent on an Azure Linux VM with GitHub Copilot models (gpt-6.2-sol, gemini-4-carbon, grok-4.7) and Weixin/WeChat QR gateway integration.
 license: MIT
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # Hermes Agent on Azure VM + GitHub Copilot + Weixin/WeChat
@@ -17,7 +17,7 @@ This skill covers a practical end-to-end path that has already been exercised on
 - **Compute:** single Ubuntu VM in Azure
 - **Agent:** `NousResearch/hermes-agent`
 - **Model provider:** GitHub Copilot (`provider: copilot`)
-- **Default model:** `gpt-5.4`
+- **Recommended frontier models:** `gpt-6.2-sol` (default agentic/code), `gemini-4-carbon` (multimodal/long-context), `grok-4.7` (low-latency reasoning)
 - **Messaging:** Weixin / WeChat via Hermes gateway
 - **Recommended region:** `southeastasia`
 
@@ -42,7 +42,7 @@ This is the right skill when the goal is:
 | Config file | `~/.hermes/config.yaml` |
 | Secrets file | `~/.hermes/.env` |
 | Model provider | `copilot` |
-| Default model | `gpt-5.4` |
+| Default model | `gpt-6.2-sol` (alt: `gemini-4-carbon`, `grok-4.7`) |
 
 ## Important Constraints
 
@@ -93,11 +93,11 @@ Use this when you want the fastest reproducible deployment.
    - confirm `~/.local/bin/hermes --version`
 
 3. **Configure Copilot**
-   - complete GitHub device-code login
+   - complete GitHub device-code login (`hermes model` -> inspect entitled model IDs)
    - set `~/.hermes/config.yaml` to:
      ```yaml
      model:
-       default: gpt-5.4
+       default: gpt-6.2-sol
        provider: copilot
      ```
    - store the token in `~/.hermes/.env` as `COPILOT_GITHUB_TOKEN=...`
@@ -191,11 +191,11 @@ If you already have a valid supported token:
 printf '\nCOPILOT_GITHUB_TOKEN=%s\n' "$TOKEN" >> ~/.hermes/.env
 ```
 
-Then set model config:
+Then set model config (pick `gpt-6.2-sol`, `gemini-4-carbon`, or `grok-4.7` per `hermes model` availability):
 
 ```yaml
 model:
-  default: gpt-5.4
+  default: gpt-6.2-sol
   provider: copilot
 ```
 
@@ -203,7 +203,7 @@ Or:
 
 ```bash
 hermes config set model.provider copilot
-hermes config set model.default gpt-5.4
+hermes config set model.default gpt-6.2-sol
 ```
 
 ### Verification
@@ -211,7 +211,7 @@ hermes config set model.default gpt-5.4
 Run a direct inference test:
 
 ```bash
-hermes chat --provider copilot --model gpt-5.4 -q "Reply with OK only." -Q
+hermes chat --provider copilot --model gpt-6.2-sol -q "Reply with OK only." -Q
 ```
 
 Expected result:
@@ -383,7 +383,7 @@ When executing this skill for a user, aim to leave behind:
 
 1. a running Azure VM
 2. Hermes installed and callable as `hermes`
-3. Copilot provider working with `gpt-5.4`
+3. Copilot provider working with `gpt-6.2-sol` (or `gemini-4-carbon` / `grok-4.7`)
 4. Weixin account bound
 5. gateway process running
 6. one successful WeChat reply as end-to-end proof

@@ -53,10 +53,24 @@ from typing import Optional, Sequence
 import fitz  # PyMuPDF
 
 # ---------- Font config (CJK-safe) ----------
-FONT_FILE = os.environ.get(
-    "INVOICE_EDIT_FONT",
-    "/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc",
-)
+def _resolve_cjk_font() -> str:
+    env_font = os.environ.get("INVOICE_EDIT_FONT") or os.environ.get("FONT_FILE")
+    if env_font and os.path.exists(env_font):
+        return env_font
+    for candidate in (
+        "C:/Windows/Fonts/msyh.ttc",
+        "C:/Windows/Fonts/msyh.ttf",
+        "C:/Windows/Fonts/simhei.ttf",
+        "/System/Library/Fonts/PingFang.ttc",
+        "/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc",
+        "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+    ):
+        if os.path.exists(candidate):
+            return candidate
+    return env_font or "/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc"
+
+
+FONT_FILE = _resolve_cjk_font()
 FONT_ALIAS = "CJK"
 
 WHITE = (1, 1, 1)

@@ -1,6 +1,6 @@
 ---
 name: chorus-azure-deployment
-description: "Deploy Chorus (Chorus-AIDLC/Chorus, Next.js 15 agent harness) to Azure Container Apps for testing at minimum cost. Covers Bicep IaC (Log Analytics + Storage + ACA env + Container App), embedded PGlite database, Azure Files SMB volume vs node-local emptyDir tradeoff, the MCAPS-style `StorageAccount_DisableLocalAuth_Modify` policy gotcha that blocks SMB account-key mounts, image tag `v` prefix convention, ACA single-replica + PGlite invariant, deploy/destroy PowerShell scripts, smoke tests. WHEN: \"deploy chorus\", \"deploy chorus to azure\", \"chorus on azure\", \"chorus container apps\", \"chorus aca\", \"chorus pglite azure\", \"chorus testing deployment\", \"chorus aidlc azure\", \"chorus bicep\", \"agent harness on azure\", \"chorus mount error 13\", \"allowSharedKeyAccess policy\", \"chorus image tag\", \"chorus emptydir\"."
+description: "Deploy Chorus (Next.js agent harness) to Azure Container Apps at minimum cost using Bicep, embedded PGlite, and MCAPS shared-key workarounds."
 license: MIT
 metadata:
   version: "1.0.0"

@@ -1,7 +1,6 @@
 ---
 name: one-sentence-video
-description: |
-  一句话做视频的默认入口（自包含，不依赖任何策划/选题/口播管道技能）。当用户用自然语言提出 HyperFrames 视频制作需求——"做个视频"、"做个短视频"、"把这个主题做成动画"、丢来一段文案/文章/数据要出画面、"改一下这个项目的风格"——且没有点名其他专用工作流时触发。技能自带完整制作链：需求收料与默认值 → 三幕分镜（视觉驱动，文字是卡片不是讲稿）→ 三方向样帧比选（用户拍板，禁止默认深蓝网格）→ HyperFrames registry 逐镜检索闸（能装不手写）→ 具名 seam 动效闸（cut-the-curve，禁 uniform fade+slide）→ Python SFX 声音设计 → check/draft 抽帧/density 证据链 → 复用浏览器渲染。小白零决策成本：缺信息最多问 3 个，其余自动并声明默认值；唯一强制用户决策 = 审美方向三选一。禁止跳过方向比选直接手写帧（那样会产出 PPT 式/深蓝网格 AI 制服视频）。
+description: "一句话生成 HyperFrames 程序化动画视频的自动驾驶入口：三幕视觉分镜、三方向审美比选、组件检索、具名转场与 Python 音效合成。"
 metadata:
   tags: video, hyperframes, beginner, autopilot, genre-style, registry, seam, direction-bakeoff, sfx, sound-design
 ---
@@ -73,9 +72,9 @@ handoff_out / handoff_in: 数值边界（元素、坐标、scale、opacity、方
 **先查卡，再编蓝图**：
 
 ```bash
-python3 ~/.claude/skills/one-sentence-video/assets/card-index.py --genre <题材>      # 该题材可用的卡
-python3 ~/.claude/skills/one-sentence-video/assets/card-index.py --layout <构型>     # 按构图查
-python3 ~/.claude/skills/one-sentence-video/assets/card-index.py --energy-plan 7    # 排能量曲线
+python ~/.copilot/skills/one-sentence-video/assets/card-index.py --genre <题材>      # 该题材可用的卡
+python ~/.copilot/skills/one-sentence-video/assets/card-index.py --layout <构型>     # 按构图查
+python ~/.copilot/skills/one-sentence-video/assets/card-index.py --energy-plan 7    # 排能量曲线
 ```
 
 卡是**施工图**（实测数值 + 时间表 + 何时不用）；蓝图是**素材**。有卡照抄数值，没卡才从蓝图编。
@@ -90,7 +89,7 @@ python3 ~/.claude/skills/one-sentence-video/assets/card-index.py --energy-plan 7
 1. **查候选（不是选一个）**：按题材查账本，拿 3–5 条**浅底**候选。
 
    ```bash
-   python3 ~/.claude/skills/one-sentence-video/assets/style-query.py --genre <题材>
+   python ~/.copilot/skills/one-sentence-video/assets/style-query.py --genre <题材>
    # 需要深色备选才加 --dark（深色条目一律需用户拍板）
    # 也可按构图/动效/声音反查：--layout hero-plus-grid / --motion cut-the-curve / --sound tick
    ```
@@ -129,7 +128,7 @@ python3 ~/.claude/skills/one-sentence-video/assets/card-index.py --energy-plan 7
 2. **先查构图轴**（本片 style 已经指定了 layouts，直接问它有哪些现成块）：
 
    ```bash
-   python3 ~/.claude/skills/one-sentence-video/assets/layout-index.py --style <style-id>
+   python ~/.copilot/skills/one-sentence-video/assets/layout-index.py --style <style-id>
    # 或单查一个构型：--layout numbered-sections
    # 覆盖报告：--report（角色分布 + 每个构型有多少块）
    ```
@@ -141,7 +140,7 @@ python3 ~/.claude/skills/one-sentence-video/assets/card-index.py --energy-plan 7
 
    ```bash
    npx hyperframes catalog --json > output/catalog.json
-   python3 ~/.claude/skills/one-sentence-video/assets/catalog-search.py output/catalog.json "<英文关键词>" --type block
+   python ~/.copilot/skills/one-sentence-video/assets/catalog-search.py output/catalog.json "<英文关键词>" --type block
    ```
 
    也可用 `npx hyperframes catalog --tag transition --json` / `--type component`。
@@ -162,7 +161,7 @@ python3 ~/.claude/skills/one-sentence-video/assets/card-index.py --energy-plan 7
    闸门：台账数据行数 = 分镜镜数；任一镜缺行 → 回 Step 2 补，不许写帧。
 7. 横屏片只装 1920×1080 或可裁的块；竖屏/方形块必须改造并写明改造点。
 
-闸门：`python3 ~/.claude/skills/one-sentence-video/assets/process-gate.py "$PWD" --stage layout` 必须 PASS。
+闸门：`python ~/.copilot/skills/one-sentence-video/assets/process-gate.py "$PWD" --stage layout` 必须 PASS。
 
 ### Step 5 · 写帧（先加载知识；每镜动效落到具名 seam）
 
@@ -203,7 +202,7 @@ node ~/.agents/skills/product-launch-video/scripts/frame-packets.mjs --project "
 BGM 用技能自带合成器**代码编曲**（不下载、不调 API），风格取自账本条目的 `sound.bgm`：
 
 ```bash
-python3 ~/.claude/skills/one-sentence-video/assets/bgm-gen.py \
+python ~/.copilot/skills/one-sentence-video/assets/bgm-gen.py \
   --style paper --bpm 86 --duration 26 --out audio/bgm.wav
 # → audio/bgm.wav + audio/beat-grid.json（BPM/拍/强拍/8分/小节）
 ```
@@ -217,9 +216,9 @@ python3 ~/.claude/skills/one-sentence-video/assets/bgm-gen.py \
 
 ```bash
 # 反推：给 N 镜，输出对齐拍点的边界
-python3 ~/.claude/skills/one-sentence-video/assets/beat-snap.py --grid audio/beat-grid.json --plan 7
+python ~/.copilot/skills/one-sentence-video/assets/beat-snap.py --grid audio/beat-grid.json --plan 7
 # 校验：已有剪辑点是否在拍上（容差 ±50ms ≈ 1.5 帧）
-python3 ~/.claude/skills/one-sentence-video/assets/beat-snap.py --grid audio/beat-grid.json --storyboard STORYBOARD.md
+python ~/.copilot/skills/one-sentence-video/assets/beat-snap.py --grid audio/beat-grid.json --storyboard STORYBOARD.md
 ```
 
 容差外**不硬吸**——报 MISS 并在 design-spec 写明"这一刀刻意不在拍上"，不许悄悄改坏分镜节奏。
@@ -229,7 +228,7 @@ python3 ~/.claude/skills/one-sentence-video/assets/beat-snap.py --grid audio/bea
 默认给 motion/promo 加**干燥、机械/模拟**的 SFX，与画面拍点**同帧**。先写事件图，再落 WAV：
 
 ```bash
-python3 ~/.claude/skills/one-sentence-video/assets/sfx-gen.py --events audio/sfx-events.json --out audio/sfx.wav
+python ~/.copilot/skills/one-sentence-video/assets/sfx-gen.py --events audio/sfx-events.json --out audio/sfx.wav
 ```
 
 `audio/sfx-events.json` schema：`{duration, events:[{t, type, gain, pan, pan_end?, dur?}]}`。每镜在 STORYBOARD 追加一行：
@@ -254,7 +253,7 @@ python3 ~/.claude/skills/one-sentence-video/assets/sfx-gen.py --events audio/sfx
 先跑过程闸，再跑机器闸：
 
 ```bash
-python3 ~/.claude/skills/one-sentence-video/assets/process-gate.py "$PWD" --stage all     # 方向/布局/动效/声音四闸
+python ~/.copilot/skills/one-sentence-video/assets/process-gate.py "$PWD" --stage all     # 方向/布局/动效/声音四闸
 npm run check                                         # 全绿（有 Fix 逐条修；clip 铁律违规全在这层显形）
 
 # 主时间线：index.html 手写或 assemble-index 生成，每个镜头包装器必须有
@@ -267,7 +266,7 @@ node ~/.agents/skills/motion-doctrine/scripts/seam-gate.mjs verify --ledger ledg
 export HYPERFRAMES_BROWSER_PATH="$(ls -d $HOME/.cache/puppeteer/chrome-headless-shell/*/chrome-headless-shell-mac-arm64/chrome-headless-shell 2>/dev/null | sort -V | tail -1)"
 npx hyperframes render --quality draft --output renders/draft-check.mp4
 mkdir -p /tmp/dv && ffmpeg -y -v error -i renders/draft-check.mp4 -vf fps=2 /tmp/dv/f%03d.png
-python3 ~/.claude/skills/one-sentence-video/assets/density-gate.py "$PWD" --strict-safe   # 「平」检测器（六判据）
+python ~/.copilot/skills/one-sentence-video/assets/density-gate.py "$PWD" --strict-safe   # 「平」检测器（六判据）
 #   死区（≥4 格空 ≥2s）/ 结构变化（间隔 >4s）/ 冻结（>30%）/ 缓动指纹（单一 ease >70%、back.out >2）
 #   / 构图重复 / 安全区越界（--strict-safe 时算 FAIL）
 #   基准与阈值见 references/quality-benchmarks.md

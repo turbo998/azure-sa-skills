@@ -1,6 +1,6 @@
 ---
 name: azure-foundry-quota-tier
-description: Query Azure Foundry/OpenAI model quota tier (Tier 1-6) for a given Azure subscription. Use this skill when the user asks about their Azure OpenAI or Foundry model quota tier, quota level, or wants to know which tier their subscription is on.
+description: "Query and diagnose Azure AI Foundry / Azure OpenAI subscription quota tiers (Tier 1–6), TPM limits, and upgrade paths."
 ---
 
 # Azure Foundry Model Quota Tier 查询

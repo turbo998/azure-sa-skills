@@ -1,6 +1,6 @@
 ---
 name: ppt-template-strict-offering
-description: Create or revise a PowerPoint offering by strictly reusing an existing reference PPT template and replacing only text content while preserving the original slide count, shape count, and layout structure. Use this when the user provides a reference PPT and wants the output to follow it exactly.
+description: "Produce customer/partner PowerPoint decks by strictly replacing text slots inside an existing reference .pptx template with zero layout drift."
 ---
 
 # PPT Template Strict Offering
@@ -88,7 +88,7 @@ Pass a JSON file with this structure:
 ## Example command
 
 ```powershell
-python "C:\Users\user\.copilot\skills\ppt-template-strict-offering\replace_template_text.py" `
+python "$HOME\.copilot\skills\ppt-template-strict-offering\replace_template_text.py" `
   --template "C:\path\to\reference.pptx" `
   --output "C:\path\to\output.pptx" `
   --replacements "C:\path\to\replacements.json" `

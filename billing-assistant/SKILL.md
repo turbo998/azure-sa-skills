@@ -1,7 +1,7 @@
 ---
 name: billing-assistant
-description: Rewrite specific fields in a text-based PDF invoice (BILL TO / SHIP TO, summary rows like SUB TOTAL / EXTRA DISCOUNT / INVOICE TOTAL, dual-currency totals) without re-laying-out the whole page. Anchor-based — no hardcoded coordinates, works across templates. Use when a partner gives you a source invoice PDF plus modification instructions (often as PDF annotations) and asks for a polished output PDF. CJK-safe, no LLM, no API key.
-version: 2.0.0
+description: "Rewrite text-based PDF invoice fields (BILL TO, SHIP TO, dual-currency totals) via anchor-based PyMuPDF scripts while stripping annotations."
+version: 2.1.0
 author: fde
 license: MIT
 metadata:
@@ -34,7 +34,7 @@ Output is a new PDF visually identical to the source except for the edited field
 
 ```bash
 uv pip install -q pymupdf
-# CJK font (already on Hermes VM): /usr/share/fonts/truetype/wqy/wqy-zenhei.ttc
+# CJK font auto-resolves across Windows (msyh.ttc/simhei.ttf), macOS (PingFang.ttc), and Linux (wqy-zenhei.ttc).
 # Override with INVOICE_EDIT_FONT env var if needed.
 ```
 
@@ -45,7 +45,9 @@ uv pip install -q pymupdf
 Always start by extracting annotations so you know what the partner wants changed:
 
 ```python
-import sys; sys.path.insert(0, "/home/azureuser/.hermes/profiles/fde/skills/productivity/billing-assistant/scripts")
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path.home() / ".copilot" / "skills" / "billing-assistant" / "scripts"))
 from invoice_edit import Invoice
 
 inv = Invoice("source.pdf")
@@ -97,13 +99,17 @@ inv.save("out.pdf")
 
 ### Step 4 — Verify visually
 
-Render each edited page and (if a reference PDF exists) compare with `vision_analyze`:
+Render each edited page to PNG and inspect with the `view` tool (multimodal check via `gemini-4-carbon` / `gpt-6.2-sol`):
 
 ```python
-import fitz
+import fitz, tempfile
+from pathlib import Path
 d = fitz.open("out.pdf")
+out_dir = Path(tempfile.gettempdir())
 for pno in [0, -1]:
-    d[pno].get_pixmap(dpi=150).save(f"/tmp/check_p{pno}.png")
+    out_png = out_dir / f"check_p{pno}.png"
+    d[pno].get_pixmap(dpi=150).save(str(out_png))
+    print(out_png)
 ```
 
 Check for:

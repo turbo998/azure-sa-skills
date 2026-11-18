@@ -1,6 +1,6 @@
 ---
 name: azure-style-presentation
-description: Create Azure-style HTML slide presentations with Microsoft Azure visual language, cloud architecture sections, service badges, comparison tables, KPI cards, and keyboard-friendly navigation. Use this whenever the user wants to make a presentation, PPT, slides, technical sharing deck, Azure solution brief, architecture review, quota report, or product intro related to Azure.
+description: "Generate self-contained single-file HTML slide presentations using Microsoft Azure visual design language, KPI cards, and architecture layouts."
 license: MIT
 ---
 

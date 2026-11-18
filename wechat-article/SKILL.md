@@ -1,6 +1,6 @@
 ---
 name: wechat-article
-description: Generate WeChat public account (微信公众号) compatible HTML articles. Use when the user wants to write a WeChat article, create gzh content, or convert Markdown or notes into WeChat-compatible HTML.
+description: "Convert technical notes or Markdown into inline-styled HTML articles formatted specifically for WeChat Official Accounts (微信公众号)."
 license: MIT
 ---
 
