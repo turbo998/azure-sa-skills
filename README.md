@@ -39,6 +39,10 @@ Azure SA（Solution Architect）日常工作相关的 GitHub Copilot / Hermes sk
 
 > 轻量高吞吐后台探针或简单问答可搭配 `gemini-3.8-flash`。部署后建议通过 `openclaw models list` 或 `hermes model` 校验当前账号实时可用模型列表。
 
+### 备份 / Backup
+
+- [`onedrive-azure-backup/`](./onedrive-azure-backup/) — OneDrive 本地文件夹增量备份到 Azure Blob（AzCopy copy 首次全量 + sync 每月增量，排除微信实时缓存）。
+
 ---
 
 ## 用法
