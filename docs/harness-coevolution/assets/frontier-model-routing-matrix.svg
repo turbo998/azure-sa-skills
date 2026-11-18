@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="640" viewBox="0 0 1080 640" role="img" aria-label="2026 前沿模型 × Azure SA Skills 协同路由与多模型流水线图谱">
+<rect x="0" y="0" width="1080" height="640" rx="16" fill="#0d1117"/>
+<rect x="1" y="1" width="1078" height="638" rx="15" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<text x="40" y="36" fill="#58a6ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" letter-spacing="0.8">RULE 05 · 前沿模型分工与能力路由图谱</text>
+<text x="40" y="64" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="21" font-weight="700">2026 前沿模型 × Azure SA Skills 协同路由与多模型流水线图谱</text>
+<text x="40" y="88" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="12.5">拒绝单一模型硬编码：按推理深度、原生多模态与响应延迟动态编排 4 大模型层</text>
+<rect x="32" y="108" width="242" height="402" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<rect x="32" y="108" width="242" height="74" rx="12" fill="#101e33" stroke="#58a6ff" stroke-width="1.2"/>
+<text x="46" y="133" fill="#58a6ff" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700">gpt-6.2-sol</text>
+<text x="46" y="154" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="15" font-weight="700">GPT-6.2 Sol</text>
+<text x="46" y="172" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="10.8">深度工程 · IaC · 确定性执行主力</text>
+<text x="46" y="202" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5">low→max · default + long_ctx</text>
+<line x1="46" y1="212" x2="260" y2="212" stroke="#21262d" stroke-width="1"/>
+<text x="46" y="231" fill="#58a6ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700">核心优势 (Core Edge)</text>
+<circle cx="51" cy="247" r="2.5" fill="#58a6ff"/>
+<text x="59" y="251" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="10.6">多步工具编排与复杂 Bicep / ACA 架构</text>
+<circle cx="51" cy="269" r="2.5" fill="#58a6ff"/>
+<text x="59" y="273" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="10.6">严格 JSON / OData / PMX 合规校验</text>
+<circle cx="51" cy="291" r="2.5" fill="#58a6ff"/>
+<text x="59" y="295" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="10.6">PyMuPDF 锚点脚本与 PPT 零漂移槽位合成</text>
+<line x1="46" y1="314" x2="260" y2="314" stroke="#21262d" stroke-width="1"/>
+<text x="46" y="333" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700">推荐绑定 Skills / 负载</text>
+<rect x="46" y="344" width="214" height="21" rx="5" fill="#0d1117" stroke="#30363d" stroke-width="0.9"/>
+<text x="54" y="358.5" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5">openclaw-wechat-deployment</text>
+<rect x="46" y="370" width="214" height="21" rx="5" fill="#0d1117" stroke="#30363d" stroke-width="0.9"/>
+<text x="54" y="384.5" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5">azure-hermes-ghcp-wechat</text>
+<rect x="46" y="396" width="214" height="21" rx="5" fill="#0d1117" stroke="#30363d" stroke-width="0.9"/>
+<text x="54" y="410.5" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5">chorus-azure-deployment</text>
+<rect x="46" y="422" width="214" height="21" rx="5" fill="#0d1117" stroke="#30363d" stroke-width="0.9"/>
+<text x="54" y="436.5" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5">ppt-template-strict-offering</text>
+<rect x="46" y="448" width="214" height="21" rx="5" fill="#0d1117" stroke="#30363d" stroke-width="0.9"/>
+<text x="54" y="462.5" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5">billing-assistant (PyMuPDF)</text>
+<rect x="46" y="474" width="214" height="21" rx="5" fill="#0d1117" stroke="#30363d" stroke-width="0.9"/>
+<text x="54" y="488.5" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5">rpi-* / code-review / pmx-*</text>
+<rect x="290" y="108" width="242" height="402" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<rect x="290" y="108" width="242" height="74" rx="12" fill="#1e1533" stroke="#bc8cff" stroke-width="1.2"/>
+<text x="304" y="133" fill="#bc8cff" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700">gemini-4-carbon</text>
+<text x="304" y="154" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="15" font-weight="700">Gemini 4 Carbon</text>
+<text x="304" y="172" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="10.8">原生多模态视觉质检 · 超长上下文综合</text>
+<text x="304" y="202" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5">low→high · default + long_ctx</text>
+<line x1="304" y1="212" x2="518" y2="212" stroke="#21262d" stroke-width="1"/>
+<text x="304" y="231" fill="#bc8cff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700">核心优势 (Core Edge)</text>
+<circle cx="309" cy="247" r="2.5" fill="#bc8cff"/>
+<text x="317" y="251" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="10.6">渲染后 PDF/PPT/网页 PNG 像素级视觉复核</text>
+<circle cx="309" cy="269" r="2.5" fill="#bc8cff"/>
+<text x="317" y="273" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="10.6">SVG/HTML 空间几何排版与三方向审美比选</text>
+<circle cx="309" cy="291" r="2.5" fill="#bc8cff"/>
+<text x="317" y="295" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="10.6">海量架构文档综合与长文转公众号排版</text>
+<line x1="304" y1="314" x2="518" y2="314" stroke="#21262d" stroke-width="1"/>
+<text x="304" y="333" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700">推荐绑定 Skills / 负载</text>
+<rect x="304" y="344" width="214" height="21" rx="5" fill="#0d1117" stroke="#30363d" stroke-width="0.9"/>
+<text x="312" y="358.5" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5">billing-assistant (PNG QA)</text>
+<rect x="304" y="370" width="214" height="21" rx="5" fill="#0d1117" stroke="#30363d" stroke-width="0.9"/>
+<text x="312" y="384.5" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5">one-sentence-video (样帧质检)</text>
+<rect x="304" y="396" width="214" height="21" rx="5" fill="#0d1117" stroke="#30363d" stroke-width="0.9"/>
+<text x="312" y="410.5" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5">azure-style-presentation</text>
+<rect x="304" y="422" width="214" height="21" rx="5" fill="#0d1117" stroke="#30363d" stroke-width="0.9"/>
+<text x="312" y="436.5" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5">wechat-article</text>
+<rect x="304" y="448" width="214" height="21" rx="5" fill="#0d1117" stroke="#30363d" stroke-width="0.9"/>
+<text x="312" y="462.5" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5">anatomy / web-artifacts</text>
+<rect x="304" y="474" width="214" height="21" rx="5" fill="#0d1117" stroke="#30363d" stroke-width="0.9"/>
+<text x="312" y="488.5" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5">pptx / docx (render_slide)</text>
+<rect x="548" y="108" width="242" height="402" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<rect x="548" y="108" width="242" height="74" rx="12" fill="#291e0f" stroke="#d29922" stroke-width="1.2"/>
+<text x="562" y="133" fill="#d29922" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700">grok-4.7</text>
+<text x="562" y="154" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="15" font-weight="700">Grok 4.7</text>
+<text x="562" y="172" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="10.8">低延迟实时交互 · 配额快诊 · 红队复核</text>
+<text x="562" y="202" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5">low→xhigh · default + long_ctx</text>
+<line x1="562" y1="212" x2="776" y2="212" stroke="#21262d" stroke-width="1"/>
+<text x="562" y="231" fill="#d29922" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700">核心优势 (Core Edge)</text>
+<circle cx="567" cy="247" r="2.5" fill="#d29922"/>
+<text x="575" y="251" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="10.6">微信个人网关秒级对话响应与意图分流</text>
+<circle cx="567" cy="269" r="2.5" fill="#d29922"/>
+<text x="575" y="273" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="10.6">Azure 订阅配额 Tier 1–6 与线上故障速查</text>
+<circle cx="567" cy="291" r="2.5" fill="#d29922"/>
+<text x="575" y="295" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="10.6">Agent 架构安全红队审阅与独立二阶验证</text>
+<line x1="562" y1="314" x2="776" y2="314" stroke="#21262d" stroke-width="1"/>
+<text x="562" y="333" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700">推荐绑定 Skills / 负载</text>
+<rect x="562" y="344" width="214" height="21" rx="5" fill="#0d1117" stroke="#30363d" stroke-width="0.9"/>
+<text x="570" y="358.5" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5">azure-foundry-quota-tier</text>
+<rect x="562" y="370" width="214" height="21" rx="5" fill="#0d1117" stroke="#30363d" stroke-width="0.9"/>
+<text x="570" y="384.5" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5">WeChat Live Chat (OpenClaw)</text>
+<rect x="562" y="396" width="214" height="21" rx="5" fill="#0d1117" stroke="#30363d" stroke-width="0.9"/>
+<text x="570" y="410.5" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5">WeChat Live Chat (Hermes)</text>
+<rect x="562" y="422" width="214" height="21" rx="5" fill="#0d1117" stroke="#30363d" stroke-width="0.9"/>
+<text x="570" y="436.5" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5">azure-answer / diagnostics</text>
+<rect x="562" y="448" width="214" height="21" rx="5" fill="#0d1117" stroke="#30363d" stroke-width="0.9"/>
+<text x="570" y="462.5" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5">owasp-agentic</text>
+<rect x="562" y="474" width="214" height="21" rx="5" fill="#0d1117" stroke="#30363d" stroke-width="0.9"/>
+<text x="570" y="488.5" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5">rubber-duck (交叉审阅)</text>
+<rect x="806" y="108" width="242" height="402" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<rect x="806" y="108" width="242" height="74" rx="12" fill="#102419" stroke="#3fb950" stroke-width="1.2"/>
+<text x="820" y="133" fill="#3fb950" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700">gemini-3.8-flash</text>
+<text x="820" y="154" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="15" font-weight="700">Flash Tier (3.8 / MAI)</text>
+<text x="820" y="172" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="10.8">高吞吐并行探针 · 轻量只读子代理</text>
+<text x="820" y="202" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5">3.8-flash / mai-flash · long_ctx</text>
+<line x1="820" y1="212" x2="1034" y2="212" stroke="#21262d" stroke-width="1"/>
+<text x="820" y="231" fill="#3fb950" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700">核心优势 (Core Edge)</text>
+<circle cx="825" cy="247" r="2.5" fill="#3fb950"/>
+<text x="833" y="251" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="10.6">task(explore) 多路只读代码库并发检索</text>
+<circle cx="825" cy="269" r="2.5" fill="#3fb950"/>
+<text x="833" y="273" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="10.6">后台健康巡检、格式清洗与低成本问答</text>
+<circle cx="825" cy="291" r="2.5" fill="#3fb950"/>
+<text x="833" y="295" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="10.6">继承运行时 /subagents 偏好，免硬编码</text>
+<line x1="820" y1="314" x2="1034" y2="314" stroke="#21262d" stroke-width="1"/>
+<text x="820" y="333" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700">推荐绑定 Skills / 负载</text>
+<rect x="820" y="344" width="214" height="21" rx="5" fill="#0d1117" stroke="#30363d" stroke-width="0.9"/>
+<text x="828" y="358.5" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5">task(agent_type=&#x27;explore&#x27;)</text>
+<rect x="820" y="370" width="214" height="21" rx="5" fill="#0d1117" stroke="#30363d" stroke-width="0.9"/>
+<text x="828" y="384.5" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5">pmx-hygiene (只读预扫)</text>
+<rect x="820" y="396" width="214" height="21" rx="5" fill="#0d1117" stroke="#30363d" stroke-width="0.9"/>
+<text x="828" y="410.5" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5">OpenClaw fallback tier</text>
+<rect x="820" y="422" width="214" height="21" rx="5" fill="#0d1117" stroke="#30363d" stroke-width="0.9"/>
+<text x="828" y="436.5" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5">Hermes lightweight cron</text>
+<rect x="820" y="448" width="214" height="21" rx="5" fill="#0d1117" stroke="#30363d" stroke-width="0.9"/>
+<text x="828" y="462.5" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5">Batch metadata checks</text>
+<rect x="820" y="474" width="214" height="21" rx="5" fill="#0d1117" stroke="#30363d" stroke-width="0.9"/>
+<text x="828" y="488.5" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5">Fast doc indexing</text>
+<rect x="32" y="526" width="1016" height="90" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="52" y="550" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700">端到端多模型接力范式（以客户账单改写 &amp; 架构交付为例）：</text>
+<rect x="52" y="562" width="224" height="42" rx="8" fill="#0d1117" stroke="#d29922" stroke-width="1.2"/>
+<text x="64" y="580" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700">1. 意图分流与知识核验</text>
+<text x="64" y="596" fill="#d29922" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.2">grok-4.7 / Flash + azure-* MCP</text>
+<text x="287.0" y="588" text-anchor="middle" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="16" font-weight="700">→</text>
+<rect x="298" y="562" width="224" height="42" rx="8" fill="#0d1117" stroke="#58a6ff" stroke-width="1.2"/>
+<text x="310" y="580" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700">2. 确定性原语/IaC 执行</text>
+<text x="310" y="596" fill="#58a6ff" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.2">gpt-6.2-sol (PyMuPDF / Bicep)</text>
+<text x="533.0" y="588" text-anchor="middle" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="16" font-weight="700">→</text>
+<rect x="544" y="562" width="224" height="42" rx="8" fill="#0d1117" stroke="#bc8cff" stroke-width="1.2"/>
+<text x="556" y="580" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700">3. 渲染成图多模态质检</text>
+<text x="556" y="596" fill="#bc8cff" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.2">gemini-4-carbon (PNG/SVG view)</text>
+<text x="779.0" y="588" text-anchor="middle" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="16" font-weight="700">→</text>
+<rect x="790" y="562" width="224" height="42" rx="8" fill="#0d1117" stroke="#3fb950" stroke-width="1.2"/>
+<text x="802" y="580" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700">4. 原生画布交互交付</text>
+<text x="802" y="596" fill="#3fb950" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.2">Copilot PPTX/XLSX/Browser Canvas</text>
+</svg>

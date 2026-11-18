@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="610" viewBox="0 0 1080 610" role="img" aria-label="Agent Harness × Frontier Model Co-Evolution: 5 Governance Rules Comparison">
+<rect x="0" y="0" width="1080" height="610" rx="16" fill="#0d1117"/>
+<rect x="1" y="1" width="1078" height="608" rx="15" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<text x="40" y="36" fill="#58a6ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" letter-spacing="0.8">PARADIGM SHIFT · STATIC PROMPT HOARDING VS. CONTINUOUS HARNESS CO-EVOLUTION</text>
+<text x="40" y="64" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="21" font-weight="700">Agent Harness × Frontier Model Co-Evolution: 5 Governance Rules Comparison</text>
+<text x="40" y="88" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="12.5">As frontier models level up, subtract obsolete scaffolding and sharpen environment invariants &amp; deterministic boundaries</text>
+<rect x="32" y="106" width="134" height="34" rx="6" fill="#161b22" stroke="#30363d"/>
+<text x="99" y="128" text-anchor="middle" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700">Dimension</text>
+<rect x="176" y="106" width="336" height="34" rx="6" fill="#2d1215" stroke="#f85149" stroke-width="1"/>
+<text x="344" y="128" text-anchor="middle" fill="#ffa198" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700">✕ Pre-Audit Anti-Pattern (Static Harness)</text>
+<rect x="522" y="106" width="346" height="34" rx="6" fill="#12261e" stroke="#3fb950" stroke-width="1"/>
+<text x="695" y="128" text-anchor="middle" fill="#7ee787" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700">✓ Co-Evolved Frontier Harness Architecture</text>
+<rect x="878" y="106" width="170" height="34" rx="6" fill="#161b22" stroke="#58a6ff" stroke-width="1"/>
+<text x="963" y="128" text-anchor="middle" fill="#79c0ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700">Measured Gain</text>
+<rect x="32" y="150" width="134" height="74" rx="8" fill="#161b22" stroke="#30363d"/>
+<text x="99" y="181" text-anchor="middle" fill="#3fb950" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700">Rule 1</text>
+<text x="99" y="201" text-anchor="middle" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700">Router Budget</text>
+<rect x="176" y="150" width="336" height="74" rx="8" fill="#161b22" stroke="#3d1d20"/>
+<text x="190" y="181" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4">120 uncurated skills &amp; verbose YAML;</text>
+<text x="190" y="202" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4">38,600-char XML truncates 98.8% of skills</text>
+<rect x="522" y="150" width="346" height="74" rx="8" fill="#161b22" stroke="#1f4429"/>
+<text x="536" y="181" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4" font-weight="500">Curated 62 active skills (description ≤165 chars);</text>
+<text x="536" y="202" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4" font-weight="500">externalized matrix consumes 0 B prompt budget</text>
+<rect x="878" y="150" width="170" height="74" rx="8" fill="#0d1117" stroke="#3fb950" stroke-width="1"/>
+<text x="963" y="182" text-anchor="middle" fill="#3fb950" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.3" font-weight="700">1.2% → 100% Visible</text>
+<text x="963" y="202" text-anchor="middle" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11">-79.2% XML Chars</text>
+<rect x="32" y="236" width="134" height="74" rx="8" fill="#161b22" stroke="#30363d"/>
+<text x="99" y="267" text-anchor="middle" fill="#58a6ff" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700">Rule 2</text>
+<text x="99" y="287" text-anchor="middle" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700">Progressive Load</text>
+<rect x="176" y="236" width="336" height="74" rx="8" fill="#161b22" stroke="#3d1d20"/>
+<text x="190" y="267" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4">1,390-line monolithic SKILL.md dumps boilerplate,</text>
+<text x="190" y="288" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4">wasting context &amp; burying OS/cloud invariants</text>
+<rect x="522" y="236" width="346" height="74" rx="8" fill="#161b22" stroke="#1f4429"/>
+<text x="536" y="267" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4" font-weight="500">84-line SKILL.md spine keeps true invariants</text>
+<text x="536" y="288" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4" font-weight="500">(ssh.socket/dual-NSG); deep guides in references/</text>
+<rect x="878" y="236" width="170" height="74" rx="8" fill="#0d1117" stroke="#58a6ff" stroke-width="1"/>
+<text x="963" y="268" text-anchor="middle" fill="#58a6ff" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.3" font-weight="700">-94.0% Spine Lines</text>
+<text x="963" y="288" text-anchor="middle" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11">Lazy Branch Load</text>
+<rect x="32" y="322" width="134" height="74" rx="8" fill="#161b22" stroke="#30363d"/>
+<text x="99" y="353" text-anchor="middle" fill="#bc8cff" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700">Rule 3</text>
+<text x="99" y="373" text-anchor="middle" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700">Code + Vision QA</text>
+<rect x="176" y="322" width="336" height="74" rx="8" fill="#161b22" stroke="#3d1d20"/>
+<text x="190" y="353" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4">LLM raster PDF redraw risks layout drift &amp; fake totals;</text>
+<text x="190" y="374" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4">hardcoded Linux font breaks on Windows &amp; macOS</text>
+<rect x="522" y="322" width="346" height="74" rx="8" fill="#161b22" stroke="#1f4429"/>
+<text x="536" y="353" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4" font-weight="500">PyMuPDF text-anchor primitives + 3-OS CJK resolver,</text>
+<text x="536" y="374" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4" font-weight="500">verified via Gemini 4 Carbon rendered PNG view QA</text>
+<rect x="878" y="322" width="170" height="74" rx="8" fill="#0d1117" stroke="#bc8cff" stroke-width="1"/>
+<text x="963" y="354" text-anchor="middle" fill="#bc8cff" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.3" font-weight="700">0 Drift · 0 Hallucination</text>
+<text x="963" y="374" text-anchor="middle" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11">Win / macOS / Linux</text>
+<rect x="32" y="408" width="134" height="74" rx="8" fill="#161b22" stroke="#30363d"/>
+<text x="99" y="439" text-anchor="middle" fill="#d29922" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700">Rule 4</text>
+<text x="99" y="459" text-anchor="middle" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700">Canvas &amp; MCP</text>
+<rect x="176" y="408" width="336" height="74" rx="8" fill="#161b22" stroke="#3d1d20"/>
+<text x="190" y="439" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4">Legacy fake tool names (runSubagent) &amp; stale models;</text>
+<text x="190" y="460" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4">blind script regeneration loops without UI preview</text>
+<rect x="522" y="408" width="346" height="74" rx="8" fill="#161b22" stroke="#1f4429"/>
+<text x="536" y="439" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4" font-weight="500">Native task subagents (/subagents inheritance),</text>
+<text x="536" y="460" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4" font-weight="500">Office/Browser Canvases &amp; azure-* MCP-first lookup</text>
+<rect x="878" y="408" width="170" height="74" rx="8" fill="#0d1117" stroke="#d29922" stroke-width="1"/>
+<text x="963" y="440" text-anchor="middle" fill="#d29922" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.3" font-weight="700">0 Tool Hallucination</text>
+<text x="963" y="460" text-anchor="middle" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11">Live MCP Grounding</text>
+<rect x="32" y="494" width="134" height="74" rx="8" fill="#161b22" stroke="#30363d"/>
+<text x="99" y="525" text-anchor="middle" fill="#3fb950" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700">Rule 5</text>
+<text x="99" y="545" text-anchor="middle" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700">Portability &amp; Audit</text>
+<rect x="176" y="494" width="336" height="74" rx="8" fill="#161b22" stroke="#3d1d20"/>
+<text x="190" y="525" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4">Hardcoded OS user paths &amp; append-only prompt patches</text>
+<text x="190" y="546" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4">that bottleneck newer frontier models</text>
+<rect x="522" y="494" width="346" height="74" rx="8" fill="#161b22" stroke="#1f4429"/>
+<text x="536" y="525" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4" font-weight="500">Portable ~/.copilot/ &amp; Path.home() paths; run</text>
+<text x="536" y="546" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4" font-weight="500">scaffolding subtraction &amp; privacy audits per upgrade</text>
+<rect x="878" y="494" width="170" height="74" rx="8" fill="#0d1117" stroke="#3fb950" stroke-width="1"/>
+<text x="963" y="526" text-anchor="middle" fill="#3fb950" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.3" font-weight="700">-56.97 MB Reclaimed</text>
+<text x="963" y="546" text-anchor="middle" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11">Zero Path Leaks</text>
+</svg>

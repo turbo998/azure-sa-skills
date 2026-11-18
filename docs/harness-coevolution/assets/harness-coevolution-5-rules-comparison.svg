@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="610" viewBox="0 0 1080 610" role="img" aria-label="Agent Harness × 前沿模型协同演进：五条实战治理法则全景对比">
+<rect x="0" y="0" width="1080" height="610" rx="16" fill="#0d1117"/>
+<rect x="1" y="1" width="1078" height="608" rx="15" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<text x="40" y="36" fill="#58a6ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" letter-spacing="0.8">PARADIGM SHIFT · 静态堆积 vs 随模型升级持续演进</text>
+<text x="40" y="64" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="21" font-weight="700">Agent Harness × 前沿模型协同演进：五条实战治理法则全景对比</text>
+<text x="40" y="88" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="12.5">模型越强，越要减去过时脚手架（Subtract Scaffolding），收紧环境不变量与确定性边界</text>
+<rect x="32" y="106" width="134" height="34" rx="6" fill="#161b22" stroke="#30363d"/>
+<text x="99" y="128" text-anchor="middle" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700">治理维度</text>
+<rect x="176" y="106" width="336" height="34" rx="6" fill="#2d1215" stroke="#f85149" stroke-width="1"/>
+<text x="344" y="128" text-anchor="middle" fill="#ffa198" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700">✕ 演进前反模式 (Legacy Static Harness)</text>
+<rect x="522" y="106" width="346" height="34" rx="6" fill="#12261e" stroke="#3fb950" stroke-width="1"/>
+<text x="695" y="128" text-anchor="middle" fill="#7ee787" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700">✓ 协同演进后架构 (Co-Evolved Frontier Harness)</text>
+<rect x="878" y="106" width="170" height="34" rx="6" fill="#161b22" stroke="#58a6ff" stroke-width="1"/>
+<text x="963" y="128" text-anchor="middle" fill="#79c0ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700">实测收益</text>
+<rect x="32" y="150" width="134" height="74" rx="8" fill="#161b22" stroke="#30363d"/>
+<text x="99" y="181" text-anchor="middle" fill="#3fb950" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700">法则 1</text>
+<text x="99" y="201" text-anchor="middle" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700">路由预算门禁</text>
+<rect x="176" y="150" width="336" height="74" rx="8" fill="#161b22" stroke="#3d1d20"/>
+<text x="190" y="181" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4">120 个技能无序堆积，YAML 描述冗长；</text>
+<text x="190" y="202" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4">XML 达 38,600 chars，98.8% 被截断隐身</text>
+<rect x="522" y="150" width="346" height="74" rx="8" fill="#161b22" stroke="#1f4429"/>
+<text x="536" y="181" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4" font-weight="500">精简至 62 个活跃项，强制 description ≤165 chars；</text>
+<text x="536" y="202" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4" font-weight="500">MODEL-SKILL-MATRIX.md 外置占 0 B 提示词预算</text>
+<rect x="878" y="150" width="170" height="74" rx="8" fill="#0d1117" stroke="#3fb950" stroke-width="1"/>
+<text x="963" y="182" text-anchor="middle" fill="#3fb950" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.3" font-weight="700">可见率 1.2% → 100%</text>
+<text x="963" y="202" text-anchor="middle" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11">预算缩减 -79.2%</text>
+<rect x="32" y="236" width="134" height="74" rx="8" fill="#161b22" stroke="#30363d"/>
+<text x="99" y="267" text-anchor="middle" fill="#58a6ff" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700">法则 2</text>
+<text x="99" y="287" text-anchor="middle" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700">三层渐进披露</text>
+<rect x="176" y="236" width="336" height="74" rx="8" fill="#161b22" stroke="#3d1d20"/>
+<text x="190" y="267" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4">单体 1,390 行 SKILL.md 塞满通用语法，</text>
+<text x="190" y="288" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4">每次触发吞噬上下文并淹没环境真陷阱</text>
+<rect x="522" y="236" width="346" height="74" rx="8" fill="#161b22" stroke="#1f4429"/>
+<text x="536" y="267" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4" font-weight="500">SKILL.md 压至 84 行仅留主干与环境不变量，</text>
+<text x="536" y="288" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4" font-weight="500">AFD/WAF、微信保活与排障表按需拆入 references/</text>
+<rect x="878" y="236" width="170" height="74" rx="8" fill="#0d1117" stroke="#58a6ff" stroke-width="1"/>
+<text x="963" y="268" text-anchor="middle" fill="#58a6ff" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.3" font-weight="700">主干 -94.0% 行数</text>
+<text x="963" y="288" text-anchor="middle" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11">按分支精准懒加载</text>
+<rect x="32" y="322" width="134" height="74" rx="8" fill="#161b22" stroke="#30363d"/>
+<text x="99" y="353" text-anchor="middle" fill="#bc8cff" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700">法则 3</text>
+<text x="99" y="373" text-anchor="middle" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700">确定原语+视觉</text>
+<rect x="176" y="322" width="336" height="74" rx="8" fill="#161b22" stroke="#3d1d20"/>
+<text x="190" y="353" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4">用 LLM 光栅重绘财务 PDF 导致金额幻觉与版式漂移，</text>
+<text x="190" y="374" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4">且硬编码 Linux 字体路径在 Win/Mac 报错</text>
+<rect x="522" y="322" width="346" height="74" rx="8" fill="#161b22" stroke="#1f4429"/>
+<text x="536" y="353" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4" font-weight="500">PyMuPDF 文本锚点原语 + 三端中文字体自动解析，</text>
+<text x="536" y="374" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4" font-weight="500">再交由 Gemini 4 Carbon 渲染 PNG 逐页视觉核验</text>
+<rect x="878" y="322" width="170" height="74" rx="8" fill="#0d1117" stroke="#bc8cff" stroke-width="1"/>
+<text x="963" y="354" text-anchor="middle" fill="#bc8cff" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.3" font-weight="700">0 幻觉 · 0 硬编码坐标</text>
+<text x="963" y="374" text-anchor="middle" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11">Win/macOS/Linux</text>
+<rect x="32" y="408" width="134" height="74" rx="8" fill="#161b22" stroke="#30363d"/>
+<text x="99" y="439" text-anchor="middle" fill="#d29922" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700">法则 4</text>
+<text x="99" y="459" text-anchor="middle" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700">原生工具与MCP</text>
+<rect x="176" y="408" width="336" height="74" rx="8" fill="#161b22" stroke="#3d1d20"/>
+<text x="190" y="439" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4">残留旧版伪工具名 (runSubagent) 与过时模型锁死，</text>
+<text x="190" y="460" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4">盲写脚本反复猜 Office/网页排版效果</text>
+<rect x="522" y="408" width="346" height="74" rx="8" fill="#161b22" stroke="#1f4429"/>
+<text x="536" y="439" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4" font-weight="500">对齐原生 task 子代理 (继承 /subagents 偏好)，</text>
+<text x="536" y="460" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4" font-weight="500">优先调用 Office/Browser 画布与 azure-* MCP 核验</text>
+<rect x="878" y="408" width="170" height="74" rx="8" fill="#0d1117" stroke="#d29922" stroke-width="1"/>
+<text x="963" y="440" text-anchor="middle" fill="#d29922" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.3" font-weight="700">消除伪工具调用失败</text>
+<text x="963" y="460" text-anchor="middle" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11">实时事实核验可溯源</text>
+<rect x="32" y="494" width="134" height="74" rx="8" fill="#161b22" stroke="#30363d"/>
+<text x="99" y="525" text-anchor="middle" fill="#3fb950" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700">法则 5</text>
+<text x="99" y="545" text-anchor="middle" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700">可移植与减法</text>
+<rect x="176" y="494" width="336" height="74" rx="8" fill="#161b22" stroke="#3d1d20"/>
+<text x="190" y="525" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4">硬编码本地用户名路径，只增不减囤积旧补丁，</text>
+<text x="190" y="546" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4">模型升级后过时约束反而拉低推理上限</text>
+<rect x="522" y="494" width="346" height="74" rx="8" fill="#161b22" stroke="#1f4429"/>
+<text x="536" y="525" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4" font-weight="500">统一 ~/.copilot/ 与 Path.home() 跨平台路径，</text>
+<text x="536" y="546" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.4" font-weight="500">每轮模型换代执行「减法审计」并固化脱敏门禁</text>
+<rect x="878" y="494" width="170" height="74" rx="8" fill="#0d1117" stroke="#3fb950" stroke-width="1"/>
+<text x="963" y="526" text-anchor="middle" fill="#3fb950" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.3" font-weight="700">释放 -56.97 MB</text>
+<text x="963" y="546" text-anchor="middle" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11">零隐私路径泄露</text>
+</svg>

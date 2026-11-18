@@ -1,6 +1,6 @@
 # Azure SA Skills
 
-> [English Version (`README.en.md`)](./README.en.md)
+> [English Version (`README.en.md`)](./README.en.md) · **Harness 演进治理指南**: [中文 (`docs/harness-coevolution/README.md`)](./docs/harness-coevolution/README.md) | [English (`README.en.md`)](./docs/harness-coevolution/README.en.md) · [交互式图文报告 (Live Showcase)](https://turbo998.github.io/workshops/agent-harness-coevolution/index.html)
 
 Azure SA（Solution Architect）日常工作相关的 GitHub Copilot / Hermes skills 集合。每个子目录是一个独立 skill，含精简 frontmatter 的 `SKILL.md`、按需加载的 `references/` 以及可独立运行的脚本/模板。
 
@@ -38,6 +38,19 @@ Azure SA（Solution Architect）日常工作相关的 GitHub Copilot / Hermes sk
 | `grok-4.7` | 低延迟对话交互、快速推理与实时分流 | 微信网关日常即时问答（OpenClaw / Hermes）、`azure-foundry-quota-tier` 快速诊断、方案与代码二阶交叉审阅 |
 
 > 轻量高吞吐后台探针或简单问答可搭配 `gemini-3.8-flash`。部署后建议通过 `openclaw models list` 或 `hermes model` 校验当前账号实时可用模型列表。
+
+---
+
+## Skill & Agent Harness 随模型升级协同演进指南（Governance & Case Studies）
+
+随着前沿模型迭代至 `gpt-6.2-sol`、`gemini-4-carbon` 与 `grok-4.7`，Agent Harness 需要持续做**「减法与边界收敛」**，避免历史提示词堆积引发 `<available_skills>` 路由截断失明与上下文污染。我们在 [`docs/harness-coevolution/`](./docs/harness-coevolution/) 中沉淀了 **2026-11-18 全量实测审计与五条实战治理法则**（活跃 Skills `120 → 62`、`<available_skills>` 提示词预算 `-79.2%`、用户 Skill 路由可见率 `1.2% → 100%`、`openclaw-wechat-deployment` 主干 `-94%` 渐进式披露、确定性 PyMuPDF 锚点 + 多模态视觉质检）：
+
+![Skills 瘦身与系统提示词预算恢复效果](./docs/harness-coevolution/assets/skills-optimization-before-after.svg)
+
+- **实战治理指南（图文版）**：[中文指南 (`docs/harness-coevolution/README.md`)](./docs/harness-coevolution/README.md) | [English Guide (`docs/harness-coevolution/README.en.md`)](./docs/harness-coevolution/README.en.md)
+- **前沿模型 × SA Skills 路由矩阵与编写清单**：[`docs/harness-coevolution/MODEL-SKILL-MATRIX.md`](./docs/harness-coevolution/MODEL-SKILL-MATRIX.md)
+- **交互式技术宣讲演示页（Live Showcase）**：[中文版 (`index.html`)](https://turbo998.github.io/workshops/agent-harness-coevolution/index.html) | [English (`index.en.html`)](https://turbo998.github.io/workshops/agent-harness-coevolution/index.en.html)
+- **专题研究报告（Monograph）**：[`ai-research-public/docs/research/agent-harness-model-coevolution`](https://github.com/turbo998/ai-research-public/tree/main/docs/research/agent-harness-model-coevolution)
 
 ---
 

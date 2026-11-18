@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="620" viewBox="0 0 1080 620" role="img" aria-label="Skills 瘦身与系统提示词预算恢复效果（优化前后实测对比）">
+<rect x="0" y="0" width="1080" height="620" rx="16" fill="#0d1117"/>
+<rect x="1" y="1" width="1078" height="618" rx="15" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<text x="44" y="38" fill="#58a6ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" letter-spacing="0.8">2026-11-18 审计实测 · 真实遥测对比 (线性坐标 0–400)</text>
+<text x="44" y="68" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="21" font-weight="700">Skills 瘦身与系统提示词预算恢复效果（优化前后实测对比）</text>
+<text x="44" y="94" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="13">活跃 Skills 120 → 62 (-48.3%) · 释放磁盘 -56.97 MB · 外部化矩阵 0 B 提示词开销</text>
+<rect x="764" y="42" width="272" height="40" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<rect x="780" y="55" width="14" height="14" rx="3" fill="#0d74ff"/>
+<text x="801" y="67" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600">优化前 (Before)</text>
+<rect x="910" y="55" width="14" height="14" rx="3" fill="#9e5a16" stroke="#d29922" stroke-width="0.8"/>
+<text x="931" y="67" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600">优化后 (After)</text>
+<line x1="92" y1="462.0" x2="1036" y2="462.0" stroke="#30363d" stroke-width="1.5"/>
+<text x="78" y="466.0" text-anchor="end" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12">0</text>
+<line x1="92" y1="382.0" x2="1036" y2="382.0" stroke="#21262d" stroke-width="1"/>
+<text x="78" y="386.0" text-anchor="end" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12">100</text>
+<line x1="92" y1="302.0" x2="1036" y2="302.0" stroke="#21262d" stroke-width="1"/>
+<text x="78" y="306.0" text-anchor="end" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12">200</text>
+<line x1="92" y1="222.0" x2="1036" y2="222.0" stroke="#21262d" stroke-width="1"/>
+<text x="78" y="226.0" text-anchor="end" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12">300</text>
+<line x1="92" y1="142.0" x2="1036" y2="142.0" stroke="#21262d" stroke-width="1"/>
+<text x="78" y="146.0" text-anchor="end" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12">400</text>
+<rect x="112.0" y="142" width="196" height="320" rx="8" fill="#161b22" fill-opacity="0.45"/>
+<rect x="148.0" y="153.20" width="56.0" height="308.80" rx="4" fill="#0d74ff"/>
+<text x="176.0" y="145.2" text-anchor="middle" fill="#79c0ff" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700">386.0</text>
+<rect x="216.0" y="397.84" width="56.0" height="64.16" rx="4" fill="#9e5a16" stroke="#d29922" stroke-width="0.9"/>
+<text x="244.0" y="389.8" text-anchor="middle" fill="#f2cc60" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700">80.2</text>
+<text x="210.0" y="490" text-anchor="middle" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="13" font-weight="600">Prompt 描述预算 (百字符)</text>
+<rect x="134.0" y="503" width="152" height="24" rx="12" fill="#12261e" stroke="#3fb950" stroke-width="1"/>
+<text x="210.0" y="519" text-anchor="middle" fill="#3fb950" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700">-79.2%</text>
+<text x="210.0" y="546" text-anchor="middle" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.5">38,600 → 8,019 chars (&lt;12KB)</text>
+<rect x="348.0" y="142" width="196" height="320" rx="8" fill="#161b22" fill-opacity="0.45"/>
+<rect x="384.0" y="371.20" width="56.0" height="90.80" rx="4" fill="#0d74ff"/>
+<text x="412.0" y="363.2" text-anchor="middle" fill="#79c0ff" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700">113.5</text>
+<rect x="452.0" y="416.80" width="56.0" height="45.20" rx="4" fill="#9e5a16" stroke="#d29922" stroke-width="0.9"/>
+<text x="480.0" y="408.8" text-anchor="middle" fill="#f2cc60" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700">56.5</text>
+<text x="446.0" y="490" text-anchor="middle" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="13" font-weight="600">活跃目录体积 (MB)</text>
+<rect x="370.0" y="503" width="152" height="24" rx="12" fill="#11243e" stroke="#58a6ff" stroke-width="1"/>
+<text x="446.0" y="519" text-anchor="middle" fill="#58a6ff" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700">-50.2% (-56.97 MB)</text>
+<text x="446.0" y="546" text-anchor="middle" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.5">120 → 62 活跃 Skills</text>
+<rect x="584.0" y="142" width="196" height="320" rx="8" fill="#161b22" fill-opacity="0.45"/>
+<rect x="620.0" y="460.00" width="56.0" height="2.00" rx="4" fill="#0d74ff"/>
+<text x="648.0" y="452.0" text-anchor="middle" fill="#79c0ff" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700">1.2%</text>
+<rect x="688.0" y="382.00" width="56.0" height="80.00" rx="4" fill="#9e5a16" stroke="#d29922" stroke-width="0.9"/>
+<text x="716.0" y="374.0" text-anchor="middle" fill="#f2cc60" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700">100.0%</text>
+<text x="682.0" y="490" text-anchor="middle" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="13" font-weight="600">用户 Skill 描述可见率 (%)</text>
+<rect x="606.0" y="503" width="152" height="24" rx="12" fill="#2b2111" stroke="#d29922" stroke-width="1"/>
+<text x="682.0" y="519" text-anchor="middle" fill="#d29922" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700">83× (100% 可见)</text>
+<text x="682.0" y="546" text-anchor="middle" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.5">消除 98.8% 路由截断盲区</text>
+<rect x="820.0" y="142" width="196" height="320" rx="8" fill="#161b22" fill-opacity="0.45"/>
+<rect x="856.0" y="350.80" width="56.0" height="111.20" rx="4" fill="#0d74ff"/>
+<text x="884.0" y="342.8" text-anchor="middle" fill="#79c0ff" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700">139.0</text>
+<rect x="924.0" y="455.28" width="56.0" height="6.72" rx="4" fill="#9e5a16" stroke="#d29922" stroke-width="0.9"/>
+<text x="952.0" y="447.3" text-anchor="middle" fill="#f2cc60" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700">8.4</text>
+<text x="918.0" y="490" text-anchor="middle" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="13" font-weight="600">OpenClaw 主文件行数 (十行)</text>
+<rect x="842.0" y="503" width="152" height="24" rx="12" fill="#12261e" stroke="#3fb950" stroke-width="1"/>
+<text x="918.0" y="519" text-anchor="middle" fill="#3fb950" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700">-94.0%</text>
+<text x="918.0" y="546" text-anchor="middle" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="11.5">1,390 → 84 行 + references/</text>
+<line x1="122" y1="366.0" x2="314" y2="366.0" stroke="#f85149" stroke-width="1.6" stroke-dasharray="5,4"/>
+<rect x="206" y="342.0" width="114" height="19" rx="4" fill="#2d1215" stroke="#f85149" stroke-width="0.9"/>
+<text x="263" y="355.0" text-anchor="middle" fill="#ffa198" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700">~12KB 截断线 (120)</text>
+<rect x="36" y="568" width="1008" height="34" rx="8" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+<text x="540" y="589" text-anchor="middle" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', Helvetica, Arial, sans-serif" font-size="12">数据来源：2026-11-18 GitHub Copilot Desktop &amp; Azure SA Skills 实测审计 · 本仓 9 项公开 Skills 描述均 ≤165 字符 (71–163 chars)</text>
+</svg>

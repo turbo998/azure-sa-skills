@@ -1,6 +1,6 @@
 # Azure SA Skills
 
-> [中文版 (`README.md`)](./README.md)
+> [中文版 (`README.md`)](./README.md) · **Harness Co-Evolution Guide**: [English (`docs/harness-coevolution/README.en.md`)](./docs/harness-coevolution/README.en.md) | [中文 (`README.md`)](./docs/harness-coevolution/README.md) · [Interactive Visual Report](https://turbo998.github.io/workshops/agent-harness-coevolution/index.en.html)
 
 A collection of GitHub Copilot and Hermes skills for daily Azure Solution Architect (SA) workflows. Each subdirectory is a self-contained skill with a compact-frontmatter `SKILL.md`, progressive-disclosure `references/`, and standalone scripts or templates.
 
@@ -38,6 +38,19 @@ All skills in this repository are aligned with current frontier model registrati
 | `grok-4.7` | Low-latency conversational turnaround, fast triage & second-opinion reasoning | Interactive WeChat gateway chat (OpenClaw / Hermes), `azure-foundry-quota-tier` rapid diagnostics, cross-model plan/code verification |
 
 > For high-throughput background checks or lightweight Q&A, pair with `gemini-3.8-flash`. Always verify live account entitlement via `openclaw models list` or `hermes model`.
+
+---
+
+## Skill & Agent Harness Co-Evolution Governance Guide
+
+As frontier models advance to `gpt-6.2-sol`, `gemini-4-carbon`, and `grok-4.7`, an agent harness must continuously **subtract obsolete scaffolding and tighten deterministic invariants** to prevent `<available_skills>` router truncation and context pollution. Under [`docs/harness-coevolution/`](./docs/harness-coevolution/), we document the **5 practical co-evolution rules and case studies** proven in our 2026-11-18 audit (`120 → 62` active skills, `-79.2%` `<available_skills>` XML payload, `1.2% → 100%` router visibility, `-94%` progressive disclosure on `openclaw-wechat-deployment`, and deterministic PyMuPDF + multimodal vision QA):
+
+![Skills Consolidation & Prompt Budget Recovery](./docs/harness-coevolution/assets/skills-optimization-before-after.en.svg)
+
+- **Bilingual Governance Guide & Visual Case Studies**: [English (`docs/harness-coevolution/README.en.md`)](./docs/harness-coevolution/README.en.md) | [中文版 (`docs/harness-coevolution/README.md`)](./docs/harness-coevolution/README.md)
+- **2026 Frontier Model × SA Skill Routing Matrix & Checklist**: [`docs/harness-coevolution/MODEL-SKILL-MATRIX.md`](./docs/harness-coevolution/MODEL-SKILL-MATRIX.md)
+- **Live Interactive Presenter Showcase**: [English (`index.en.html`)](https://turbo998.github.io/workshops/agent-harness-coevolution/index.en.html) | [中文版 (`index.html`)](https://turbo998.github.io/workshops/agent-harness-coevolution/index.html)
+- **Full Research Monograph**: [`ai-research-public/docs/research/agent-harness-model-coevolution`](https://github.com/turbo998/ai-research-public/tree/main/docs/research/agent-harness-model-coevolution)
 
 ---
 
